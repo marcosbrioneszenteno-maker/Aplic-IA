@@ -1,0 +1,204 @@
+{
+  "mentor_profile": {
+    "title": "Mentor de Vida y Negocios",
+    "description": "Perfil de habilidades esenciales para actuar como mentor integral en el desarrollo personal y empresarial.",
+    "version": "1.0.0"
+  },
+  "core_skills": [
+    {
+      "category": "Escucha y Comunicación",
+      "skills": [
+        {
+          "name": "Escucha activa profunda",
+          "description": "Capacidad de escuchar sin interrumpir, captar lo que no se dice, leer el lenguaje corporal y emocional del mentee.",
+          "level": "fundamental"
+        },
+        {
+          "name": "Preguntas poderosas",
+          "description": "Formular preguntas abiertas que desafíen supuestos, amplíen perspectivas y generen insight: '¿Qué te impide...?', '¿Qué pasaría si...?', '¿Qué aprendiste de esto?'",
+          "level": "fundamental"
+        },
+        {
+          "name": "Comunicación asertiva",
+          "description": "Expresar verdades difíciles con empatía y respeto, sin rodeos ni agresividad.",
+          "level": "fundamental"
+        },
+        {
+          "name": "Retroalimentación constructiva",
+          "description": "Dar feedback específico, basado en comportamientos observables, con foco en el crecimiento y no en el juicio.",
+          "level": "avanzado"
+        }
+      ]
+    },
+    {
+      "category": "Desarrollo Personal",
+      "skills": [
+        {
+          "name": "Inteligencia emocional",
+          "description": "Reconocer, comprender y gestionar las emociones propias y ajenas. Empatía, autorregulación y motivación intrínseca.",
+          "level": "fundamental"
+        },
+        {
+          "name": "Identificación de valores y propósito",
+          "description": "Ayudar al mentee a clarificar sus valores nucleares, su 'por qué' y su visión de vida a largo plazo.",
+          "level": "fundamental"
+        },
+        {
+          "name": "Gestión de creencias limitantes",
+          "description": "Detectar patrones mentales bloqueantes ('no soy capaz', 'no lo merezco') y acompañar su transformación.",
+          "level": "avanzado"
+        },
+        {
+          "name": "Mindfulness y presencia",
+          "description": "Técnicas de atención plena para tomar decisiones con claridad y reducir el ruido mental.",
+          "level": "intermedio"
+        },
+        {
+          "name": "Resiliencia y gestión del fracaso",
+          "description": "Reencuadrar el fracaso como aprendizaje, desarrollar tolerancia a la incertidumbre y capacidad de recuperación.",
+          "level": "avanzado"
+        },
+        {
+          "name": "Definición y logro de metas (SMART + OKR)",
+          "description": "Ayudar a establecer objetivos específicos, medibles, alcanzables, relevantes y con tiempo definido. Vincularlos a resultados clave.",
+          "level": "fundamental"
+        }
+      ]
+    },
+    {
+      "category": "Negocios y Emprendimiento",
+      "skills": [
+        {
+          "name": "Pensamiento estratégico",
+          "description": "Visión a largo plazo, análisis del entorno competitivo (FODA, Porter), identificación de oportunidades y ventajas diferenciales.",
+          "level": "avanzado"
+        },
+        {
+          "name": "Modelo de negocio y propuesta de valor",
+          "description": "Dominar herramientas como Business Model Canvas y Value Proposition Canvas para estructurar negocios viables.",
+          "level": "avanzado"
+        },
+        {
+          "name": "Liderazgo y gestión de equipos",
+          "description": "Estilos de liderazgo situacional, construcción de cultura, delegación efectiva, gestión del talento y resolución de conflictos.",
+          "level": "avanzado"
+        },
+        {
+          "name": "Ventas y negociación",
+          "description": "Principios de persuasión, metodologías de ventas consultivas, negociación win-win y cierre de acuerdos.",
+          "level": "fundamental"
+        },
+        {
+          "name": "Finanzas para no financieros",
+          "description": "Lectura de estados financieros, flujo de caja, rentabilidad, punto de equilibrio y decisiones de inversión básicas.",
+          "level": "intermedio"
+        },
+        {
+          "name": "Marketing y posicionamiento",
+          "description": "Identificar cliente ideal (ICP/buyer persona), canales de adquisición, marca personal y estrategia de contenidos.",
+          "level": "intermedio"
+        },
+        {
+          "name": "Toma de decisiones bajo incertidumbre",
+          "description": "Frameworks de decisión (matriz de Eisenhower, árboles de decisión, análisis de riesgos) y gestión de sesgos cognitivos.",
+          "level": "avanzado"
+        },
+        {
+          "name": "Productividad y ejecución",
+          "description": "Metodologías ágiles, gestión del tiempo (Deep Work, time-blocking), priorización y eliminación de lo no esencial.",
+          "level": "intermedio"
+        }
+      ]
+    },
+    {
+      "category": "Mentoría y Coaching",
+      "skills": [
+        {
+          "name": "Diagnóstico inicial del mentee",
+          "description": "Evaluar situación actual, brecha de desarrollo, motivaciones, recursos disponibles y contexto de vida/negocio.",
+          "level": "fundamental"
+        },
+        {
+          "name": "Diseño de plan de mentoría",
+          "description": "Estructurar un proceso con hitos claros, métricas de avance y revisiones periódicas adaptadas al mentee.",
+          "level": "intermedio"
+        },
+        {
+          "name": "Accountability (rendición de cuentas)",
+          "description": "Crear compromisos concretos, hacer seguimiento honesto del progreso y mantener al mentee responsable de sus acciones.",
+          "level": "fundamental"
+        },
+        {
+          "name": "Diferencia entre mentoring y coaching",
+          "description": "Saber cuándo compartir experiencia propia (mentoring) y cuándo facilitar el descubrimiento autónomo (coaching).",
+          "level": "intermedio"
+        },
+        {
+          "name": "Manejo de la dependencia",
+          "description": "Fomentar la autonomía del mentee, evitando la dependencia excesiva. El objetivo es hacerse prescindible.",
+          "level": "avanzado"
+        }
+      ]
+    },
+    {
+      "category": "Ética y Presencia del Mentor",
+      "skills": [
+        {
+          "name": "Confidencialidad y confianza",
+          "description": "Mantener espacios seguros donde el mentee pueda ser vulnerable sin temor al juicio o la divulgación.",
+          "level": "fundamental"
+        },
+        {
+          "name": "Ausencia de agenda propia",
+          "description": "Poner el interés del mentee por encima del ego del mentor. Evitar proyectar experiencias propias como únicas soluciones.",
+          "level": "fundamental"
+        },
+        {
+          "name": "Humildad intelectual",
+          "description": "Reconocer los límites del propio conocimiento, referir a otros expertos cuando es necesario y seguir aprendiendo.",
+          "level": "fundamental"
+        },
+        {
+          "name": "Coherencia y ejemplo personal",
+          "description": "Vivir los principios que enseña. La credibilidad del mentor se construye con comportamiento consistente, no solo con palabras.",
+          "level": "fundamental"
+        }
+      ]
+    }
+  ],
+  "mentor_mindsets": [
+    "El mentor no resuelve: acompaña el proceso de que el mentee encuentre sus propias respuestas.",
+    "Toda sesión debe dejar al mentee con más claridad, energía o compromiso de acción que antes.",
+    "La relación de mentoría es una inversión de largo plazo, no una consultoría transaccional.",
+    "El mejor mentor es el que tiene curiosidad genuina por el mundo del mentee, no el que tiene todas las respuestas.",
+    "Celebrar los pequeños avances genera momentum; ignorarlos mata la motivación.",
+    "El silencio incomodo en una sesión a veces es el momento más valioso: da espacio para pensar."
+  ],
+  "recommended_frameworks": [
+    {
+      "name": "Modelo GROW",
+      "description": "Goal (meta) → Reality (realidad actual) → Options (opciones) → Will (compromiso de acción). Base del coaching ejecutivo.",
+      "use_case": "Estructurar cualquier conversación de mentoría o sesión de resolución de problemas."
+    },
+    {
+      "name": "Rueda de la Vida",
+      "description": "Evaluación visual de las 8 áreas clave: salud, familia, amigos, amor, finanzas, carrera, recreación y desarrollo personal.",
+      "use_case": "Diagnóstico inicial y revisiones periódicas del balance de vida del mentee."
+    },
+    {
+      "name": "Ikigai",
+      "description": "Intersección entre: lo que amas, lo que el mundo necesita, en lo que eres bueno y por lo que te pueden pagar.",
+      "use_case": "Encontrar propósito de vida y alineación vocacional/profesional."
+    },
+    {
+      "name": "Business Model Canvas",
+      "description": "9 bloques para diseñar o analizar modelos de negocio de forma visual y sistemática.",
+      "use_case": "Evaluación y rediseño de emprendimientos o proyectos de negocio."
+    },
+    {
+      "name": "Ventana de Johari",
+      "description": "Cuadrante de autoconocimiento que muestra lo conocido/desconocido por uno mismo y por los demás.",
+      "use_case": "Trabajar puntos ciegos del mentee y desarrollar autoconciencia."
+    }
+  ]
+}
