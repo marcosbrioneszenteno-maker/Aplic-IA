@@ -141,6 +141,256 @@
       ]
     },
     {
+      "category": "Fitness y Entrenamiento Físico",
+      "skills": [
+        {
+          "name": "Diseño de programas de entrenamiento",
+          "description": "Crear rutinas de entrenamiento personalizadas basadas en el nivel, objetivos, disponibilidad de tiempo y equipamiento del mentee. Incluye periodización lineal, ondulante y por bloques.",
+          "level": "avanzado"
+        },
+        {
+          "name": "Técnica de ejercicios compuestos",
+          "description": "Dominio de la ejecución correcta de sentadilla, peso muerto, press de banca, press militar, remo y dominadas. Corrección de patrones de movimiento y prevención de lesiones.",
+          "level": "fundamental"
+        },
+        {
+          "name": "Técnica de ejercicios de aislamiento",
+          "description": "Ejecución correcta de curl de bíceps, extensiones de tríceps, elevaciones laterales, aperturas, extensiones de pierna, curl femoral y otros ejercicios de aislamiento muscular.",
+          "level": "fundamental"
+        },
+        {
+          "name": "Periodización del entrenamiento",
+          "description": "Estructurar ciclos de entrenamiento (mesociclos, microciclos, macrociclos) para maximizar adaptaciones y evitar estancamiento. Incluye fases de acumulación, intensificación y descarga (deload).",
+          "level": "avanzado"
+        },
+        {
+          "name": "Sobrecarga progresiva",
+          "description": "Aplicar el principio fundamental de incrementar gradualmente volumen, intensidad o densidad del entrenamiento para generar adaptaciones continuas en fuerza e hipertrofia.",
+          "level": "fundamental"
+        },
+        {
+          "name": "Entrenamiento de hipertrofia",
+          "description": "Principios de hipertrofia muscular: tensión mecánica, estrés metabólico, rangos de repeticiones óptimos (6-20 reps), series efectivas, proximidad al fallo (RIR/RPE) y volumen semanal por grupo muscular.",
+          "level": "avanzado"
+        },
+        {
+          "name": "Entrenamiento de fuerza",
+          "description": "Programación orientada a fuerza máxima: rangos de 1-5 repeticiones, descansos largos, especificidad del movimiento, programas como 5/3/1, Starting Strength, StrongLifts y programación de powerlifting.",
+          "level": "avanzado"
+        },
+        {
+          "name": "Entrenamiento cardiovascular",
+          "description": "Diseño de programas de cardio: LISS (baja intensidad), HIIT (alta intensidad por intervalos), MISS (intensidad moderada). Zonas de frecuencia cardíaca y su impacto en composición corporal y salud.",
+          "level": "intermedio"
+        },
+        {
+          "name": "Entrenamiento funcional",
+          "description": "Ejercicios que mejoran patrones de movimiento cotidianos: empujar, jalar, sentadilla, bisagra de cadera, cargadas, rotación y anti-rotación. Incluye trabajo con kettlebells, bandas y peso corporal.",
+          "level": "intermedio"
+        },
+        {
+          "name": "Flexibilidad y movilidad",
+          "description": "Rutinas de estiramiento estático, dinámico y PNF. Trabajo de movilidad articular para mejorar rango de movimiento en cadera, hombros, tobillos y columna torácica.",
+          "level": "intermedio"
+        },
+        {
+          "name": "Calentamiento y enfriamiento",
+          "description": "Diseño de protocolos de calentamiento general y específico antes del entrenamiento, y rutinas de enfriamiento para optimizar recuperación y reducir riesgo de lesión.",
+          "level": "fundamental"
+        },
+        {
+          "name": "Selección de splits de entrenamiento",
+          "description": "Elegir la división de entrenamiento adecuada según frecuencia y nivel: full body, upper/lower, push/pull/legs, bro split, torso/pierna. Ventajas y desventajas de cada enfoque.",
+          "level": "intermedio"
+        }
+      ]
+    },
+    {
+      "category": "Construcción Muscular y Composición Corporal",
+      "skills": [
+        {
+          "name": "Fisiología de la hipertrofia",
+          "description": "Comprender los mecanismos de crecimiento muscular: síntesis proteica muscular, señalización mTOR, células satélite, daño muscular, tensión mecánica y estrés metabólico.",
+          "level": "avanzado"
+        },
+        {
+          "name": "Volumen de entrenamiento óptimo",
+          "description": "Determinar el volumen mínimo efectivo (MEV), volumen máximo adaptativo (MAV) y volumen máximo recuperable (MRV) por grupo muscular según nivel del practicante.",
+          "level": "avanzado"
+        },
+        {
+          "name": "Fases de volumen (bulk)",
+          "description": "Diseñar fases de ganancia muscular: superávit calórico controlado (200-500 kcal), ratio de ganancia de peso, duración óptima, lean bulk vs bulk agresivo, y cuándo terminar la fase.",
+          "level": "avanzado"
+        },
+        {
+          "name": "Fases de definición (cutting)",
+          "description": "Diseñar fases de pérdida de grasa preservando masa muscular: déficit calórico moderado, ingesta proteica elevada, ajuste de volumen de entrenamiento, refeeds, diet breaks y manejo del hambre.",
+          "level": "avanzado"
+        },
+        {
+          "name": "Recomposición corporal",
+          "description": "Estrategias para ganar músculo y perder grasa simultáneamente: a quiénes aplica (principiantes, personas con sobrepeso), manejo calórico y expectativas realistas.",
+          "level": "intermedio"
+        },
+        {
+          "name": "Evaluación de composición corporal",
+          "description": "Métodos para medir progreso: medidas corporales con cinta métrica, fotos de progreso, fuerza en el gimnasio, pliegues cutáneos, bioimpedancia y DEXA scan. Limitaciones de cada método.",
+          "level": "intermedio"
+        },
+        {
+          "name": "Conexión mente-músculo",
+          "description": "Técnicas para mejorar la activación muscular durante el ejercicio: enfoque intencional, tempo controlado, contracciones isométricas y visualización del músculo trabajando.",
+          "level": "intermedio"
+        },
+        {
+          "name": "Grupos musculares rezagados",
+          "description": "Identificación y corrección de puntos débiles musculares mediante priorización, volumen adicional, variación de ejercicios y ajustes en ángulos de trabajo.",
+          "level": "avanzado"
+        }
+      ]
+    },
+    {
+      "category": "Nutrición Deportiva y Alimentación",
+      "skills": [
+        {
+          "name": "Macronutrientes y calorías",
+          "description": "Cálculo de necesidades calóricas (TDEE), distribución de macronutrientes (proteínas, carbohidratos, grasas) según objetivo: hipertrofia, definición o mantenimiento. Usar fórmulas como Mifflin-St Jeor o Harris-Benedict.",
+          "level": "fundamental"
+        },
+        {
+          "name": "Ingesta proteica para hipertrofia",
+          "description": "Recomendaciones de proteína para maximizar síntesis proteica muscular: 1.6-2.2 g/kg de peso corporal, distribución en 3-5 comidas, fuentes completas e incompletas, leucina como aminoácido clave.",
+          "level": "fundamental"
+        },
+        {
+          "name": "Timing nutricional",
+          "description": "Nutrición pre-entrenamiento, intra-entrenamiento y post-entrenamiento. Ventana anabólica, distribución de comidas a lo largo del día y su impacto real en resultados.",
+          "level": "intermedio"
+        },
+        {
+          "name": "Conteo de macros y tracking",
+          "description": "Enseñar a usar aplicaciones como MyFitnessPal o FatSecret, pesar alimentos, leer etiquetas nutricionales y estimar porciones cuando no se puede pesar.",
+          "level": "fundamental"
+        },
+        {
+          "name": "Planificación de comidas (meal prep)",
+          "description": "Diseño de planes de alimentación semanales prácticos, preparación anticipada de comidas, lista de compras optimizada y estrategias para mantener adherencia.",
+          "level": "intermedio"
+        },
+        {
+          "name": "Nutrición para pérdida de grasa",
+          "description": "Estrategias de déficit calórico sostenible: alimentos de alta saciedad, volumen alimentario, manejo del hambre, refeeds semanales, diet breaks y reverse dieting post-dieta.",
+          "level": "avanzado"
+        },
+        {
+          "name": "Hidratación",
+          "description": "Importancia de la hidratación para rendimiento y recuperación: necesidades diarias de agua, electrolitos, impacto de la deshidratación en fuerza y resistencia.",
+          "level": "fundamental"
+        },
+        {
+          "name": "Suplementación deportiva",
+          "description": "Suplementos con evidencia científica: creatina monohidratada (5g/día), proteína whey/caseína, cafeína, beta-alanina, citrulina. Diferencia entre suplementos útiles y marketing sin respaldo.",
+          "level": "intermedio"
+        },
+        {
+          "name": "Micronutrientes esenciales",
+          "description": "Vitaminas y minerales clave para rendimiento deportivo: vitamina D, magnesio, zinc, hierro, omega-3. Identificación de deficiencias comunes y fuentes alimentarias.",
+          "level": "intermedio"
+        },
+        {
+          "name": "Alimentación intuitiva y relación con la comida",
+          "description": "Desarrollar una relación saludable con la alimentación: evitar restricción extrema, reconocer señales de hambre/saciedad, flexibilidad dietética y prevención de trastornos alimentarios.",
+          "level": "avanzado"
+        },
+        {
+          "name": "Dietas especializadas",
+          "description": "Conocimiento de enfoques dietéticos: dieta flexible (IIFYM), cetogénica, ayuno intermitente, dieta mediterránea, plant-based. Pros, contras y para quién aplica cada una.",
+          "level": "avanzado"
+        }
+      ]
+    },
+    {
+      "category": "Recuperación y Prevención de Lesiones",
+      "skills": [
+        {
+          "name": "Gestión del sueño",
+          "description": "Importancia del sueño para recuperación muscular y rendimiento: 7-9 horas, higiene del sueño, impacto de la falta de sueño en hormonas (testosterona, cortisol, hormona de crecimiento).",
+          "level": "fundamental"
+        },
+        {
+          "name": "Gestión del estrés y cortisol",
+          "description": "Impacto del estrés crónico en composición corporal y rendimiento. Estrategias de manejo: respiración, meditación, paseos, reducción de estímulos y carga alostática.",
+          "level": "intermedio"
+        },
+        {
+          "name": "Prevención de lesiones",
+          "description": "Identificar factores de riesgo: mala técnica, volumen excesivo, progresión demasiado rápida, desequilibrios musculares. Protocolos de prehab para hombros, rodillas y espalda baja.",
+          "level": "avanzado"
+        },
+        {
+          "name": "Recuperación activa",
+          "description": "Estrategias de recuperación entre sesiones: caminatas, foam rolling, movilidad, yoga, natación ligera. Diferencia entre recuperación activa y pasiva.",
+          "level": "intermedio"
+        },
+        {
+          "name": "Manejo de lesiones comunes",
+          "description": "Abordaje inicial de lesiones frecuentes en el gimnasio: tendinitis, dolor de espalda baja, impingement de hombro, dolor de rodilla. Cuándo modificar el entrenamiento y cuándo referir a un profesional de salud.",
+          "level": "avanzado"
+        },
+        {
+          "name": "Deload y semanas de descarga",
+          "description": "Cuándo y cómo implementar semanas de descarga: reducción de volumen/intensidad, señales de fatiga acumulada, frecuencia recomendada (cada 4-8 semanas según nivel).",
+          "level": "intermedio"
+        }
+      ]
+    },
+    {
+      "category": "Coaching Fitness y Motivación",
+      "skills": [
+        {
+          "name": "Evaluación inicial del cliente fitness",
+          "description": "Historial de entrenamiento, lesiones previas, objetivos, disponibilidad, preferencias alimentarias, nivel de actividad diaria, estado de salud general y expectativas realistas.",
+          "level": "fundamental"
+        },
+        {
+          "name": "Establecimiento de metas fitness",
+          "description": "Definir objetivos claros y medibles: kg de peso, porcentaje de grasa, repeticiones en un ejercicio, circunferencias corporales. Metas a corto (4 semanas), mediano (3 meses) y largo plazo (1 año).",
+          "level": "fundamental"
+        },
+        {
+          "name": "Adherencia y consistencia",
+          "description": "Estrategias para mantener la motivación a largo plazo: hábitos mínimos viables, identidad basada en comportamiento, entorno facilitador, tracking de progreso y manejo de recaídas.",
+          "level": "avanzado"
+        },
+        {
+          "name": "Psicología del cambio de hábitos",
+          "description": "Modelo transteórico del cambio, habit stacking, reducción de fricción, sistemas vs metas, entrevista motivacional aplicada al fitness y manejo de la motivación fluctuante.",
+          "level": "avanzado"
+        },
+        {
+          "name": "Manejo de expectativas y estancamientos",
+          "description": "Comunicar tasas realistas de progreso (0.5-1% de peso corporal/mes en volumen, 0.5-1% de pérdida/semana en definición). Qué hacer cuando el progreso se detiene: ajustes de volumen, calorías o descanso.",
+          "level": "intermedio"
+        },
+        {
+          "name": "Coaching de imagen corporal",
+          "description": "Ayudar al mentee a desarrollar una relación positiva con su cuerpo durante la transformación física. Evitar comparaciones tóxicas, dismorfía muscular y obsesión con métricas.",
+          "level": "avanzado"
+        },
+        {
+          "name": "Adaptación a restricciones",
+          "description": "Modificar programas para personas con limitaciones: horario reducido, acceso limitado a equipamiento, entrenamiento en casa, lesiones crónicas, embarazo, edad avanzada o condiciones médicas.",
+          "level": "avanzado"
+        },
+        {
+          "name": "Progresión por nivel",
+          "description": "Diferenciar las necesidades de principiantes (0-1 año), intermedios (1-3 años) y avanzados (3+ años): volumen, frecuencia, selección de ejercicios y tasa de progreso esperada.",
+          "level": "intermedio"
+        }
+      ]
+    },
+    {
       "category": "Ética y Presencia del Mentor",
       "skills": [
         {
@@ -174,6 +424,15 @@
     "Celebrar los pequeños avances genera momentum; ignorarlos mata la motivación.",
     "El silencio incomodo en una sesión a veces es el momento más valioso: da espacio para pensar."
   ],
+  "fitness_mindsets": [
+    "El mejor programa de entrenamiento es el que puedes seguir de forma consistente.",
+    "La nutrición es el 70% de los resultados en composición corporal; el entrenamiento es el estímulo, la comida es la respuesta.",
+    "No existen atajos: los resultados reales requieren meses y años de consistencia, no semanas.",
+    "Escuchar al cuerpo es tan importante como seguir el programa: fatiga, dolor y falta de sueño son señales, no debilidades.",
+    "Compararte con tu versión de ayer, no con la versión editada de alguien en redes sociales.",
+    "La perfección es enemiga del progreso: el 80% de adherencia sostenida supera al 100% por una semana.",
+    "El descanso no es pereza, es parte del entrenamiento. Los músculos crecen fuera del gimnasio."
+  ],
   "recommended_frameworks": [
     {
       "name": "Modelo GROW",
@@ -199,6 +458,36 @@
       "name": "Ventana de Johari",
       "description": "Cuadrante de autoconocimiento que muestra lo conocido/desconocido por uno mismo y por los demás.",
       "use_case": "Trabajar puntos ciegos del mentee y desarrollar autoconciencia."
+    },
+    {
+      "name": "Periodización Ondulante Diaria (DUP)",
+      "description": "Variar volumen e intensidad dentro de la semana (día de fuerza, día de hipertrofia, día de resistencia) para maximizar adaptaciones y evitar estancamiento.",
+      "use_case": "Programación de entrenamiento para intermedios y avanzados que buscan fuerza e hipertrofia."
+    },
+    {
+      "name": "RPE/RIR (Rate of Perceived Exertion / Reps in Reserve)",
+      "description": "Escala de autorregulación del esfuerzo: RPE 10 = fallo muscular, RPE 8 = 2 repeticiones en reserva. Permite ajustar la intensidad según el estado diario del atleta.",
+      "use_case": "Regular la intensidad del entrenamiento de forma flexible según fatiga, sueño y estrés del día."
+    },
+    {
+      "name": "TDEE + Distribución de Macros",
+      "description": "Calcular el gasto energético total diario y distribuir calorías en proteínas (1.6-2.2g/kg), carbohidratos y grasas según fase (volumen, definición, mantenimiento).",
+      "use_case": "Base de toda planificación nutricional para transformación corporal."
+    },
+    {
+      "name": "Modelo Transteórico del Cambio (Prochaska)",
+      "description": "5 etapas: precontemplación, contemplación, preparación, acción y mantenimiento. Permite adaptar la intervención al momento motivacional del mentee.",
+      "use_case": "Evaluar en qué etapa de cambio de hábitos está el mentee fitness y ajustar el coaching."
+    },
+    {
+      "name": "Progressive Overload Tracking",
+      "description": "Registro sistemático de peso, repeticiones, series y RPE por ejercicio para garantizar progresión medible sesión a sesión o semana a semana.",
+      "use_case": "Fundamento de cualquier programa de fuerza o hipertrofia para asegurar progreso continuo."
+    },
+    {
+      "name": "Reverse Pyramid Training (RPT)",
+      "description": "Comenzar con la serie más pesada (tras calentamiento) y reducir peso en series siguientes. Maximiza rendimiento en la serie principal.",
+      "use_case": "Entrenamiento eficiente para personas con tiempo limitado que buscan fuerza e hipertrofia."
     }
   ]
 }
