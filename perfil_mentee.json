@@ -1,0 +1,64 @@
+{
+  "perfil_mentee": {
+    "edad": 24,
+    "altura_cm": 175,
+    "peso_kg": "67-70",
+    "somatotipo": "ectomorfo",
+    "objetivo": "Ganar tamaño muscular",
+    "experiencia_entrenamiento": "10 años de pesas (desde los 14)",
+    "nivel": "avanzado con período de regreso (5 meses volviendo con parones)",
+    "historial_deportivo": [
+      "Rugby (7-19 años, 12 años)",
+      "Gimnasia acrobática (infancia)",
+      "Fútbol",
+      "Tenis",
+      "Básquet",
+      "Natación",
+      "Running",
+      "Muay Thai (8 meses)",
+      "Boxeo (3 meses)"
+    ],
+    "lesiones": {
+      "lumbar_baja_derecha": {
+        "descripcion": "Molestia crónica lado derecho de la lumbar baja",
+        "origen": "Golpe contra cama elástica y pileta haciendo gimnasia acrobática de niño",
+        "agravamiento": "2 lesiones posteriores haciendo peso muerto",
+        "estado_actual": "Molestia persistente, requiere precaución",
+        "impacto": "Limitó entrenamiento, tuvo que empezar de cero varias veces"
+      }
+    },
+    "numeros_actuales": {
+      "sentadilla": "80kg 3x5",
+      "banca": "90kg x1 rep fácil (sin buscar máximo)",
+      "press_militar": "~40kg (barra+10kg/lado) 3x7",
+      "peso_muerto": "EVITAR o con extrema precaución por lesión lumbar"
+    },
+    "numeros_historicos_prime_17_años": {
+      "banca_1RM": "80kg",
+      "sentadilla_1RM": "120kg"
+    },
+    "entrenamiento_actual": {
+      "dias": "5 (lunes a viernes)",
+      "split": "Upper/Lower combinado con PPL",
+      "equipamiento": "Gimnasio comercial + home gym"
+    },
+    "nutricion_actual": {
+      "comidas_solidas": 3,
+      "suplementos_comida": "1 mass gainer",
+      "cuarta_comida": "inconsistente",
+      "calorias_mantenimiento": 2900,
+      "calorias_consumo": "2700-3500 (inconsistente)",
+      "problema": "Come muy limpio, le cuesta llegar a calorías altas",
+      "restricciones": "Ninguna"
+    },
+    "suplementacion": {
+      "creatina": "se le terminó",
+      "mass_gainer": "activo",
+      "omega_3": "se le terminó",
+      "magnesio_glicinato": "activo",
+      "lions_mane": "activo",
+      "multivitaminico": "activo",
+      "citrulina_malato": "ocasional como pre-entreno"
+    }
+  }
+}
