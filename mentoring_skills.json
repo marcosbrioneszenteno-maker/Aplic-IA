@@ -466,6 +466,186 @@
       ]
     },
     {
+      "category": "Hardgainer y Somatotipo Ectomorfo",
+      "skills": [
+        {
+          "name": "Nutrición hipercalórica para ectomorfos",
+          "description": "Estrategias para alcanzar superávit calórico en personas con metabolismo acelerado y poco apetito: alimentos densos calóricamente (frutos secos, mantequilla de maní, aceite de oliva, avena, banana), batidos hipercalóricos caseros (avena + whey + banana + mantequilla de maní + leche = 800-1000 kcal), comer por horario no por hambre, 4-6 comidas diarias, aumento gradual de calorías (200 kcal/semana).",
+          "level": "avanzado"
+        },
+        {
+          "name": "Cálculo calórico para ectomorfos",
+          "description": "Los ectomorfos suelen necesitar 40-50 kcal/kg para ganar peso. Para 70kg = 2800-3500 kcal. Factor NEAT elevado (movimiento inconsciente). Ajustar según respuesta real: si no sube de peso en 2 semanas, sumar 200-300 kcal. Priorizar carbohidratos (50-60% de calorías) y proteínas (2g/kg).",
+          "level": "avanzado"
+        },
+        {
+          "name": "Entrenamiento para ectomorfos",
+          "description": "Principios de entrenamiento para maximizar hipertrofia en ectomorfos: priorizar compuestos pesados (sentadilla, peso muerto, press, remo), volumen moderado-alto (12-20 series/grupo/semana), frecuencia 2x/semana por grupo, minimizar cardio excesivo, sesiones de 45-75 min máx, descansos de 2-3 min en compuestos.",
+          "level": "avanzado"
+        },
+        {
+          "name": "Gestión del NEAT y gasto calórico",
+          "description": "Los ectomorfos tienden a compensar el superávit calórico con mayor movimiento inconsciente (NEAT). Estrategias: monitorear pasos diarios, reducir actividad extra innecesaria durante fases de volumen, no eliminar caminatas pero controlar gasto total.",
+          "level": "intermedio"
+        },
+        {
+          "name": "Batidos hipercalóricos y snacks densos",
+          "description": "Recetas prácticas de batidos para hardgainers: Batido 1: 500ml leche + 80g avena + 1 banana + 30g whey + 30g mantequilla de maní = ~900 kcal. Batido 2: 300ml leche + 50g avena + 100g frutos rojos + 30g whey + 15ml aceite de coco = ~700 kcal. Snacks: trail mix, dátiles con maní, granola, tostadas con aguacate.",
+          "level": "fundamental"
+        },
+        {
+          "name": "Progresión realista de peso corporal",
+          "description": "Tasas esperadas para ectomorfos: principiante 0.5-1kg/mes, intermedio 0.25-0.5kg/mes, avanzado 0.1-0.25kg/mes de masa muscular neta. Con 10 años de entrenamiento ya es avanzado: expectativa de 1-3kg de músculo por año máximo. Ser paciente y consistente.",
+          "level": "avanzado"
+        },
+        {
+          "name": "Sueño y recuperación para hardgainers",
+          "description": "El sueño es aún más crítico para ectomorfos: 8-9 horas mínimo, ya que el déficit de sueño aumenta cortisol y NEAT. Siestas de 20 min post-entrenamiento si es posible. Reducir estrés crónico que eleva el metabolismo y dificulta la ganancia de peso.",
+          "level": "intermedio"
+        },
+        {
+          "name": "Suplementación específica para ectomorfos",
+          "description": "Creatina monohidratada 5g/día (imprescindible: mejora fuerza, volumen celular y retención de agua intramuscular). Whey protein para completar proteína si no llega con comida. Maltodextrina o ciclodextrina peri-entrenamiento para calorías extra. Vitamina D y zinc si hay deficiencia.",
+          "level": "intermedio"
+        }
+      ]
+    },
+    {
+      "category": "Atleta Experimentado y Transición Deportiva",
+      "skills": [
+        {
+          "name": "Transición de deporte de equipo a hipertrofia",
+          "description": "Ex-atletas de rugby, fútbol o basket que pasan al gimnasio: capitalizar la base atlética (coordinación, potencia, resistencia), ajustar de entrenamiento de rendimiento a estética/hipertrofia, reducir volumen de cardio/condición, priorizar trabajo muscular aislado que los deportes no desarrollan (brazos, delts laterales, pecho).",
+          "level": "avanzado"
+        },
+        {
+          "name": "Evaluación de base atlética previa",
+          "description": "Un atleta con 10+ años de entrenamiento ya tiene: sistema nervioso eficiente, buena coordinación intermuscular, base cardiovascular sólida, estructura ósea y tendinosa adaptada. Lo que puede faltar: hipertrofia focalizada, trabajo de aislamiento, técnica de bodybuilding, nutrición estructurada.",
+          "level": "avanzado"
+        },
+        {
+          "name": "Capitalizar la memoria muscular",
+          "description": "Ex-atletas que dejaron de entrenar o cambiaron de enfoque recuperan músculo más rápido que alguien nuevo gracias a los mionúcleos permanentes. La memoria muscular permite resultados acelerados al retomar entrenamiento de hipertrofia incluso después de años.",
+          "level": "intermedio"
+        },
+        {
+          "name": "Programación para atleta avanzado",
+          "description": "Con 10 años de base, se necesita mayor volumen, variedad de estímulos y periodización sofisticada que un principiante. Bloques de 4-6 semanas con progresión de volumen, técnicas de intensificación en las últimas semanas, deload cada 4-6 semanas, y atención a fatiga acumulada y sistema nervioso central.",
+          "level": "avanzado"
+        },
+        {
+          "name": "Prevención de lesiones para ex-deportistas",
+          "description": "Atletas con historial de rugby/fútbol suelen tener: hombros con impacto, rodillas con desgaste, espalda baja cargada. Evaluación de limitaciones, prehab específico, ejercicios a evitar o modificar, trabajo de movilidad compensatorio y fortalecimiento de puntos débiles articulares.",
+          "level": "avanzado"
+        },
+        {
+          "name": "Gestión de la condición cardiovascular",
+          "description": "Ex-atletas de resistencia (rugby, fútbol, natación, running) tienen alta capacidad cardiovascular. En fase de hipertrofia: mantener 2-3 sesiones de cardio zona 2 (caminata rápida, bici) de 20-30 min para salud, pero no excederse para no quemar calorías del superávit.",
+          "level": "intermedio"
+        },
+        {
+          "name": "Fuerza relativa vs absoluta",
+          "description": "A 70kg con 1.75m el mentee tiene buen potencial de fuerza relativa. Benchmarks a apuntar: sentadilla 1.5-2x peso corporal, peso muerto 2-2.5x, press de banca 1.25-1.5x, press militar 0.75-1x. Estos números como guía de progreso, no como obsesión.",
+          "level": "intermedio"
+        },
+        {
+          "name": "Multideportista: ventajas ocultas",
+          "description": "Haber practicado múltiples deportes (rugby, fútbol, tenis, basket, natación, running) genera: sistema propioceptivo superior, coordinación excepcional, base aeróbica sólida, resiliencia mental competitiva, capacidad de aprender movimientos nuevos rápidamente. Estas ventajas se traducen en mejor técnica y control muscular en el gimnasio.",
+          "level": "intermedio"
+        }
+      ]
+    },
+    {
+      "category": "Planificación Nutricional Avanzada",
+      "skills": [
+        {
+          "name": "Diseño de dieta para volumen limpio",
+          "description": "Estructurar alimentación con superávit moderado (300-500 kcal) con alimentos de calidad. Distribución ejemplo para 70kg buscando volumen: 3000-3300 kcal, 140-154g proteína (2-2.2g/kg), 400-450g carbohidratos, 70-85g grasas. 5 comidas + 1 batido.",
+          "level": "avanzado"
+        },
+        {
+          "name": "Fuentes proteicas completas",
+          "description": "Ranking de fuentes proteicas por calidad y practicidad: pollo (31g/100g), huevo entero (13g/2 huevos), carne roja magra (26g/100g), pescado/atún (25g/100g), whey protein (24g/scoop), queso cottage (11g/100g), yogurt griego (10g/100g), legumbres + arroz (complemento aminoacídico).",
+          "level": "fundamental"
+        },
+        {
+          "name": "Fuentes de carbohidratos para rendimiento",
+          "description": "Carbohidratos complejos preferidos: arroz blanco/integral, avena, papa, boniato/batata, pasta, pan integral, quinoa, banana, frutas. Pre-entreno: carbos de rápida absorción (arroz blanco, banana, pan blanco). Post-entreno: carbos + proteína para repleción de glucógeno.",
+          "level": "fundamental"
+        },
+        {
+          "name": "Grasas saludables esenciales",
+          "description": "Fuentes de grasas prioritarias: aceite de oliva extra virgen, aguacate/palta, frutos secos (almendras, nueces, maní), mantequilla de maní natural, huevos enteros, pescado graso (salmón, sardinas), semillas de chía/lino. Mínimo 0.8-1g/kg para salud hormonal.",
+          "level": "fundamental"
+        },
+        {
+          "name": "Meal prep semanal para volumen",
+          "description": "Plan práctico de preparación: cocinar en batch 2x/semana, preparar arroz, pollo y verduras en grandes cantidades, tener batidos pre-hechos, tuppers organizados por comida. Lista de compras tipo para una semana de volumen a 3200 kcal.",
+          "level": "intermedio"
+        },
+        {
+          "name": "Nutrición peri-entrenamiento",
+          "description": "Pre-entreno (1-2h antes): 40-60g carbos + 25-30g proteína (ej: arroz + pollo, o avena + whey). Intra-entreno: agua + electrolitos, opcional: ciclodextrina si sesión >75min. Post-entreno (dentro de 2h): 40-60g carbos + 30-40g proteína (ej: batido + banana, o comida completa).",
+          "level": "intermedio"
+        },
+        {
+          "name": "Manejo del apetito en volumen",
+          "description": "Estrategias cuando cuesta comer: comidas más frecuentes y pequeñas, calorías líquidas (batidos), agregar aceite de oliva a comidas, frutos secos entre comidas, comer despacio o rápido según qué funcione, no beber mucha agua antes de comer, alimentos palatables.",
+          "level": "intermedio"
+        },
+        {
+          "name": "Ajustes nutricionales semana a semana",
+          "description": "Protocolo de ajuste: pesar diario en ayunas, calcular promedio semanal. Si peso sube 0.25-0.5kg/semana = bien. Si no sube = agregar 200 kcal (preferiblemente carbos). Si sube >0.5kg/semana = reducir 100-200 kcal. Revisar cada 2 semanas y ajustar.",
+          "level": "avanzado"
+        }
+      ]
+    },
+    {
+      "category": "Programación de Entrenamiento Avanzada",
+      "skills": [
+        {
+          "name": "Push Pull Legs para avanzados",
+          "description": "Split PPL 6 días/semana optimizado: Push (pecho, hombros, tríceps), Pull (espalda, bíceps, rear delts), Legs (cuádriceps, isquiotibiales, glúteos, pantorrillas). Cada grupo 2x/semana con 15-20 series semanales. Progresión de cargas + volumen por mesociclo.",
+          "level": "avanzado"
+        },
+        {
+          "name": "Upper Lower para avanzados",
+          "description": "Split UL 4-5 días/semana: Upper A (press horizontal + remo + accesorios), Lower A (sentadilla focus), Upper B (press vertical + dominadas + accesorios), Lower B (peso muerto focus). Ideal para combinar fuerza y hipertrofia en la misma semana.",
+          "level": "avanzado"
+        },
+        {
+          "name": "Selección de ejercicios por grupo muscular",
+          "description": "Ejercicios óptimos por músculo: Pecho (press plano/inclinado, aperturas), Espalda (dominadas, remo, jalón, pullover), Hombros (press militar, laterales, face pulls), Piernas (sentadilla, prensa, extensiones, curl femoral, RDL), Brazos (curl variaciones, extensiones de tríceps). Priorizar ejercicios donde se siente el músculo trabajar.",
+          "level": "avanzado"
+        },
+        {
+          "name": "Programación de series y repeticiones",
+          "description": "Distribución por objetivo: Compuestos principales 3-4 series x 6-10 reps (fuerza-hipertrofia). Compuestos secundarios 3-4 series x 8-12 reps. Aislamiento 2-3 series x 10-15 reps. Total 15-20 series/grupo/semana para avanzados. RPE 7-9 en series de trabajo.",
+          "level": "avanzado"
+        },
+        {
+          "name": "Mesociclo con progresión de volumen",
+          "description": "Estructura de mesociclo de 4-6 semanas: Semana 1 (introducción, 12 series/grupo), Semana 2-3 (aumento a 15-16 series), Semana 4-5 (pico 18-20 series), Semana 6 (deload 8-10 series). Cada semana intentar progresar en peso o reps dentro del rango objetivo.",
+          "level": "avanzado"
+        },
+        {
+          "name": "Grupos prioritarios para ectomorfos",
+          "description": "Para un ectomorfo de 1.75m/70kg buscando verse más grande: priorizar hombros laterales (ilusión de amplitud), espalda ancha (dorsales + redondo mayor), pecho superior (inclinado), trapecios y brazos. Piernas tienen buena base del rugby. Agregar volumen extra a prioridades.",
+          "level": "avanzado"
+        },
+        {
+          "name": "Diario de entrenamiento y tracking",
+          "description": "Registrar cada sesión: ejercicio, peso, series, reps, RPE. Apps recomendadas: Strong, Hevy, o planilla Excel. Revisar semanalmente para asegurar progresión. Sin registro no hay progresión verificable. Es la herramienta más infravalorada del gimnasio.",
+          "level": "fundamental"
+        },
+        {
+          "name": "Autoregulación del entrenamiento",
+          "description": "Ajustar la sesión según el estado del día: si HRV baja o mal descanso, reducir intensidad 5-10% y mantener volumen. Si día excepcional, empujar sets extra o peso. Usar RPE como brújula: las series de trabajo deben sentirse entre RPE 7-9, nunca fallo en compuestos.",
+          "level": "avanzado"
+        }
+      ]
+    },
+    {
       "category": "Bodybuilding y Transformación Física",
       "skills": [
         {
