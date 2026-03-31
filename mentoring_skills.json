@@ -391,6 +391,191 @@
       ]
     },
     {
+      "category": "Biohacking y Optimización Humana",
+      "skills": [
+        {
+          "name": "Optimización del sueño avanzada",
+          "description": "Protocolos avanzados de sueño: exposición a luz solar matutina, bloqueo de luz azul, temperatura óptima de la habitación (18-20°C), suplementación con magnesio glicinato/treonato, apigenina, L-teanina. Tracking con wearables (Oura Ring, Whoop).",
+          "level": "avanzado"
+        },
+        {
+          "name": "Exposición al frío (cold exposure)",
+          "description": "Protocolos de inmersión en agua fría y duchas frías: beneficios en norepinefrina, dopamina, reducción de inflamación, recuperación muscular. Protocolos Huberman (1-3 min a 10-15°C). Contraindicaciones y progresión segura.",
+          "level": "intermedio"
+        },
+        {
+          "name": "Exposición al calor (sauna)",
+          "description": "Uso de sauna finlandesa e infrarroja para salud cardiovascular, producción de proteínas de choque térmico (HSP), hormona de crecimiento, desintoxicación y recuperación. Protocolos: 4 sesiones/semana, 15-20 min a 80-100°C.",
+          "level": "intermedio"
+        },
+        {
+          "name": "Optimización hormonal natural",
+          "description": "Estrategias para maximizar testosterona, hormona de crecimiento y tiroides de forma natural: sueño profundo, entrenamiento de fuerza, manejo del estrés, zinc, vitamina D, colesterol dietario, reducción de disruptores endocrinos.",
+          "level": "avanzado"
+        },
+        {
+          "name": "Nootrópicos y rendimiento cognitivo",
+          "description": "Suplementos y compuestos para mejorar enfoque, memoria y claridad mental: cafeína + L-teanina, creatina para el cerebro, omega-3 (DHA), lion's mane, alfa-GPC, rhodiola rosea. Evidencia y dosis.",
+          "level": "avanzado"
+        },
+        {
+          "name": "Respiración consciente (breathwork)",
+          "description": "Técnicas de respiración para rendimiento y recuperación: respiración Wim Hof, respiración nasal vs bucal, box breathing (4-4-4-4), respiración diafragmática, hiperventilación controlada y coherencia cardíaca.",
+          "level": "intermedio"
+        },
+        {
+          "name": "Ayuno intermitente y ayuno prolongado",
+          "description": "Protocolos de ayuno: 16:8, 20:4, OMAD, ayuno de 24-72 horas. Autofagia, impacto en sensibilidad a la insulina, composición corporal, longevidad. Cuándo aplicar y cuándo evitar según el contexto del mentee.",
+          "level": "avanzado"
+        },
+        {
+          "name": "Gestión de luz y ritmo circadiano",
+          "description": "Sincronización del reloj biológico: exposición a luz brillante en la mañana (10,000 lux), reducción de luz artificial por la noche, uso de lentes blue-blockers, horarios regulares de comida y ejercicio alineados al ritmo circadiano.",
+          "level": "intermedio"
+        },
+        {
+          "name": "Tracking biométrico con wearables",
+          "description": "Uso de dispositivos para monitorear HRV (variabilidad de frecuencia cardíaca), calidad de sueño, pasos, calorías, temperatura corporal y estrés. Interpretación de datos de Oura, Whoop, Apple Watch, Garmin para tomar decisiones de entrenamiento y recuperación.",
+          "level": "intermedio"
+        },
+        {
+          "name": "Salud intestinal y microbioma",
+          "description": "Impacto del microbioma en rendimiento, estado de ánimo e inmunidad. Estrategias: alimentos fermentados (kéfir, kimchi, sauerkraut), fibra prebiótica, glutamina, evitar antibióticos innecesarios, diversidad dietaria.",
+          "level": "avanzado"
+        },
+        {
+          "name": "Grounding y exposición a la naturaleza",
+          "description": "Beneficios del contacto directo con la tierra (grounding/earthing) y la inmersión en naturaleza: reducción de cortisol, mejora del sueño, regulación del sistema nervioso. Protocolos prácticos de integración diaria.",
+          "level": "intermedio"
+        },
+        {
+          "name": "Reducción de toxinas ambientales",
+          "description": "Identificar y minimizar exposición a disruptores endocrinos: BPA en plásticos, pesticidas, metales pesados, flúor, cloro en agua. Filtros de agua, alimentos orgánicos, cuidado personal libre de tóxicos.",
+          "level": "avanzado"
+        },
+        {
+          "name": "Terapia de luz roja e infrarroja",
+          "description": "Uso de dispositivos de luz roja (660nm) e infrarroja cercana (850nm) para recuperación muscular, salud de la piel, reducción de inflamación, producción mitocondrial de ATP y mejora del sueño. Protocolos y dosis.",
+          "level": "avanzado"
+        },
+        {
+          "name": "Longevidad y anti-aging",
+          "description": "Estrategias basadas en evidencia para longevidad saludable: restricción calórica, activación de sirtuinas y AMPK, ejercicio de zona 2, VO2max, mantenimiento de masa muscular con la edad, marcadores de salud metabólica.",
+          "level": "avanzado"
+        }
+      ]
+    },
+    {
+      "category": "Bodybuilding y Transformación Física",
+      "skills": [
+        {
+          "name": "Principios del bodybuilding clásico",
+          "description": "Fundamentos del culturismo: simetría, proporciones, desarrollo balanceado, poses obligatorias, golden ratio (relación hombros-cintura 1.618), estética vs tamaño puro. Filosofía de Arnold, Zane, Mentzer.",
+          "level": "avanzado"
+        },
+        {
+          "name": "Técnicas avanzadas de intensidad",
+          "description": "Métodos para llevar el músculo más allá del fallo: drop sets, rest-pause, series gigantes, superseries, series mecánicas descendentes, negativas lentas (excéntricas), series de oclusión (BFR), cluster sets y myo-reps.",
+          "level": "avanzado"
+        },
+        {
+          "name": "Peak week y preparación de competencia",
+          "description": "Protocolo de la semana previa a una competencia o sesión de fotos: manipulación de agua, sodio, carbohidratos (carga y depleción), entrenamiento de depleción de glucógeno, bronceado y posing.",
+          "level": "avanzado"
+        },
+        {
+          "name": "Posing y presentación escénica",
+          "description": "Técnicas de poses obligatorias y libres en bodybuilding: doble bíceps frontal/posterior, lat spread, most muscular, abs and thighs. Práctica de transiciones, control muscular y expresión en tarima.",
+          "level": "avanzado"
+        },
+        {
+          "name": "Categorías de competencia",
+          "description": "Diferencias entre categorías: Men's Physique, Classic Physique, Bodybuilding, Bikini, Wellness, Figure, Women's Physique. Requisitos de cada categoría, estándares de jueces y cómo elegir la adecuada.",
+          "level": "intermedio"
+        },
+        {
+          "name": "Planificación de temporada offseason/prep",
+          "description": "Diseño de ciclos anuales de competencia: offseason (fase de crecimiento 6-8 meses), pre-contest prep (12-20 semanas de dieta), post-show recovery (reverse diet y descanso mental). Timing estratégico.",
+          "level": "avanzado"
+        },
+        {
+          "name": "Manipulación avanzada de carbohidratos",
+          "description": "Ciclado de carbohidratos para competencia y composición corporal: días altos/medios/bajos, carb cycling alineado al entrenamiento, carb backloading, refeeds estratégicos y carga de carbohidratos pre-competencia.",
+          "level": "avanzado"
+        },
+        {
+          "name": "Genética y potencial muscular",
+          "description": "Evaluación realista del potencial genético: modelo de McDonald, modelo de Berkhan, inserciones musculares, estructura ósea, respuesta al entrenamiento. Manejar expectativas sin limitar ambición.",
+          "level": "intermedio"
+        },
+        {
+          "name": "Simetría y proporciones corporales",
+          "description": "Evaluación de desequilibrios estéticos entre grupos musculares: ratio hombros-cintura, desarrollo de espalda vs pecho, piernas vs torso superior. Estrategias de priorización para una silueta proporcionada.",
+          "level": "intermedio"
+        },
+        {
+          "name": "Fotodocumentación de progreso",
+          "description": "Protocolos estandarizados de fotos de progreso: misma iluminación, hora, poses, ángulos. Frecuencia (cada 2-4 semanas), uso de fotos como herramienta motivacional y de evaluación objetiva.",
+          "level": "fundamental"
+        }
+      ]
+    },
+    {
+      "category": "Cambio Físico y Transformación Integral",
+      "skills": [
+        {
+          "name": "Diseño de transformación a 12 semanas",
+          "description": "Programa estructurado de transformación física: evaluación inicial, establecimiento de objetivos, plan de entrenamiento progresivo, plan nutricional por fases, checkpoints semanales, ajustes basados en datos y fotos de antes/después.",
+          "level": "avanzado"
+        },
+        {
+          "name": "Identidad y mentalidad de transformación",
+          "description": "Trabajo de identidad: pasar de 'quiero bajar de peso' a 'soy una persona que entrena y come bien'. Reprogramación de auto-imagen, visualización del yo futuro, journaling de transformación y eliminación de etiquetas limitantes.",
+          "level": "avanzado"
+        },
+        {
+          "name": "Manejo del entorno social",
+          "description": "Estrategias para mantener el cambio físico en contextos sociales: comer fuera, presión de amigos/familia, eventos sociales, viajes. Comunicación asertiva sobre el estilo de vida sin ser dogmático.",
+          "level": "intermedio"
+        },
+        {
+          "name": "Sistemas de hábitos para transformación",
+          "description": "Construcción de rutinas sostenibles: habit stacking (entrenar después de X), preparación del entorno (ropa lista, meal prep), reducción de fricción, rewards inmediatas, tracking visual de rachas y trigger planning.",
+          "level": "avanzado"
+        },
+        {
+          "name": "Plateau breaking (romper estancamientos)",
+          "description": "Diagnóstico y solución de estancamientos: ajuste de calorías, cambio de estímulo de entrenamiento, deload estratégico, revisión de sueño/estrés, recálculo de TDEE, diet break y paciencia activa.",
+          "level": "avanzado"
+        },
+        {
+          "name": "Mantenimiento post-transformación",
+          "description": "Estrategias para mantener resultados a largo plazo: reverse dieting, establecer nuevo set point, rutina de mantenimiento con volumen reducido, flexibilidad dietaria controlada y vigilancia de señales de retroceso.",
+          "level": "avanzado"
+        },
+        {
+          "name": "Transformación después de los 40",
+          "description": "Consideraciones especiales para cambio físico en personas mayores de 40: recuperación más lenta, cuidado articular, importancia de movilidad, ajustes hormonales naturales, entrenamiento inteligente vs agresivo.",
+          "level": "avanzado"
+        },
+        {
+          "name": "De sedentario a activo: primeros 90 días",
+          "description": "Protocolo progresivo para personas que empiezan de cero: semana 1-4 caminatas y movimiento básico, semana 5-8 introducción al gimnasio con máquinas, semana 9-12 transición a pesos libres. Manejo de dolor muscular inicial (DOMS) y motivación temprana.",
+          "level": "fundamental"
+        },
+        {
+          "name": "Documentación y métricas de transformación",
+          "description": "Sistema completo de tracking: peso diario (promedio semanal), medidas corporales quincenales, fotos mensuales, registros de fuerza, diario de energía/estado de ánimo, y cómo interpretar fluctuaciones sin entrar en pánico.",
+          "level": "intermedio"
+        },
+        {
+          "name": "Mindset de proceso vs resultado",
+          "description": "Enseñar al mentee a enfocarse en las acciones diarias (process goals) en lugar de obsesionarse con el número de la báscula (outcome goals). Celebrar consistencia, no solo resultados visibles.",
+          "level": "fundamental"
+        }
+      ]
+    },
+    {
       "category": "Ética y Presencia del Mentor",
       "skills": [
         {
@@ -423,6 +608,21 @@
     "El mejor mentor es el que tiene curiosidad genuina por el mundo del mentee, no el que tiene todas las respuestas.",
     "Celebrar los pequeños avances genera momentum; ignorarlos mata la motivación.",
     "El silencio incomodo en una sesión a veces es el momento más valioso: da espacio para pensar."
+  ],
+  "biohacking_mindsets": [
+    "Biohacking no es hackear atajos: es optimizar las señales que le das a tu cuerpo para que funcione como fue diseñado.",
+    "Los datos sin acción son ruido. Mide solo lo que vas a usar para tomar decisiones.",
+    "El cuerpo humano ya tiene los sistemas de reparación más avanzados; tu trabajo es dejar de sabotearlos.",
+    "La herramienta de biohacking más poderosa es gratis: luz solar en la mañana, oscuridad en la noche, movimiento durante el día.",
+    "Antes de buscar suplementos exóticos, domina los fundamentos: sueño, nutrición, ejercicio y manejo del estrés."
+  ],
+  "bodybuilding_mindsets": [
+    "El bodybuilding es una carrera contra ti mismo. La competencia real está en el espejo, no en la tarima.",
+    "La consistencia de años construye lo que la motivación de semanas nunca podrá.",
+    "Tu genética define tu techo, pero tu disciplina define qué tan cerca llegas de él.",
+    "Una transformación real cambia cómo te ves, pero sobre todo cambia cómo piensas sobre ti mismo.",
+    "El cuerpo que quieres vive al otro lado de los hábitos que no quieres hacer hoy.",
+    "Documenta todo. Los datos eliminan la emoción de las decisiones y te muestran la verdad."
   ],
   "fitness_mindsets": [
     "El mejor programa de entrenamiento es el que puedes seguir de forma consistente.",
