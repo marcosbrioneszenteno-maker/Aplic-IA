@@ -19,109 +19,145 @@
 
 ---
 
-## PLAN DE ENTRENAMIENTO: Upper/Lower 5 días
+## PLAN DE ENTRENAMIENTO: Upper/Lower (Fuerza) + PPL (Hipertrofia)
 
-### Por qué este split
-- PPL 6 días es mucho volumen para alguien que está volviendo con lesión lumbar
-- Upper/Lower te permite frecuencia 2x/semana por grupo con un día extra de enfoque
-- 5 días encaja perfecto con tu lunes a viernes
+### Filosofía del plan
+- **Lunes-Martes**: Upper/Lower de FUERZA - compuestos pesados, pocas reps, pocos ejercicios
+- **Miércoles-Jueves-Viernes**: PPL de HIPERTROFIA - más volumen, más reps, más aislamiento
+- **Cada sesión 45-60 min MÁXIMO** - si no te alcanza el tiempo, algo está mal
+- **Máximo 6 ejercicios por sesión** - así los hacés TODOS y no recortás por fatiga
+- **Lo importante va primero** - los accesorios que siempre salteabas ahora están integrados inteligentemente
 
 ### Estructura semanal
 
-| Día | Sesión | Enfoque |
-|-----|--------|---------|
-| **Lunes** | Upper A | Empuje horizontal + Jalón vertical |
-| **Martes** | Lower A | Cuádriceps dominante (SIN peso muerto convencional) |
-| **Miércoles** | Upper B | Empuje vertical + Jalón horizontal |
-| **Jueves** | Lower B | Posterior dominante + Glúteos |
-| **Viernes** | Upper C | Brazos + Hombros + Puntos débiles |
+| Día | Sesión | Enfoque | Duración |
+|-----|--------|---------|----------|
+| **Lunes** | Upper FUERZA | Compuestos pesados 3x5 | 45-50 min |
+| **Martes** | Lower FUERZA | Sentadilla pesada + accesorios | 45-50 min |
+| **Miércoles** | Push HIPERTROFIA | Pecho + hombros + tríceps | 50-60 min |
+| **Jueves** | Pull HIPERTROFIA | Espalda + bíceps + traps | 50-60 min |
+| **Viernes** | Legs HIPERTROFIA | Cuádriceps + isquios + pantorrillas | 50-60 min |
 
 ---
 
-### LUNES - Upper A (Empuje horizontal + Jalón vertical)
+### LUNES - Upper FUERZA (45-50 min)
+
+Filosofía: pesado, compuesto, pocas series, descansos largos. Entrar, mover peso, salir.
 
 | # | Ejercicio | Series x Reps | RPE | Descanso | Notas |
 |---|-----------|---------------|-----|----------|-------|
-| 1 | Press banca plano con barra | 4x6-8 | 7-8 | 3 min | Ejercicio principal. Progresión semanal. |
-| 2 | Dominadas/Pull-ups (lastre si es fácil) | 4x6-10 | 7-8 | 2-3 min | Si no llegás a 10, hacé las que puedas. |
-| 3 | Press inclinado mancuernas (30-45°) | 3x8-12 | 8 | 2 min | Pecho superior, zona clave para estética. |
-| 4 | Remo con mancuerna a 1 brazo | 3x10-12 | 8 | 90 seg | Apoyado en banco, protege la lumbar. |
-| 5 | Aperturas en máquina/poleas (pec deck) | 3x12-15 | 8-9 | 60 seg | Squeeze arriba, estiramiento abajo. |
-| 6 | Face pulls en polea | 3x15-20 | 7-8 | 60 seg | Salud de hombros + rear delts. |
-| 7 | Curl de bíceps mancuernas | 2x10-12 | 8 | 60 seg | Supinación completa arriba. |
+| 1 | Press banca plano con barra | 3x5 | 8 | 3 min | Progresión: +2.5kg cuando las 3x5 se sientan sólidas. |
+| 2 | Remo con barra o remo en máquina | 3x5 | 8 | 3 min | Si la lumbar molesta: remo en máquina con soporte de pecho. |
+| 3 | Press militar sentado | 3x5 | 8 | 2-3 min | SENTADO para proteger lumbar. |
+| 4 | Dominadas con lastre | 3x5 | 8 | 2-3 min | Si no podés con lastre: 3x max reps. |
+| 5 | Fondos en paralelas con lastre | 3x5 | 8 | 2 min | Pecho + tríceps pesado. |
+
+**5 ejercicios, 15 series, 45 min. Entrás, metés fuerza, te vas.** Sin accesorios, sin aislamientos. Eso es miércoles y jueves.
 
 ---
 
-### MARTES - Lower A (Cuádriceps dominante)
+### MARTES - Lower FUERZA (45-50 min)
 
-**IMPORTANTE: Cero peso muerto convencional. Todo diseñado para proteger tu lumbar.**
+**CERO peso muerto convencional. La sentadilla es tu lift principal de pierna.**
 
 | # | Ejercicio | Series x Reps | RPE | Descanso | Notas |
 |---|-----------|---------------|-----|----------|-------|
-| 1 | Sentadilla con barra (profundidad cómoda) | 4x5-8 | 7-8 | 3 min | Si la lumbar molesta: sentadilla goblet o hack squat. |
-| 2 | Prensa de piernas 45° | 3x10-12 | 8 | 2 min | Pies a media altura, cuádriceps focus. |
-| 3 | Extensiones de cuádriceps en máquina | 3x12-15 | 8-9 | 90 seg | Contracción arriba 1-2 seg. |
-| 4 | Zancadas búlgaras (split squat) | 3x8-10/pierna | 7-8 | 90 seg | Con mancuernas, más seguro para la espalda. |
-| 5 | Elevaciones de pantorrilla de pie | 4x12-15 | 8 | 60 seg | Estiramiento completo abajo, pausa arriba. |
-| 6 | Plancha abdominal | 3x30-60 seg | - | 60 seg | Core para estabilizar la lumbar. |
-| 7 | Bird dogs | 2x10/lado | - | 60 seg | Prehab lumbar, activación glúteo-lumbar controlada. |
+| 1 | Sentadilla con barra | 3x5 | 8 | 3 min | Ejercicio principal. Profundidad cómoda para tu lumbar. |
+| 2 | RDL con mancuernas | 3x8 | 7 | 2-3 min | LIVIANO. Patrón de bisagra seguro. Si molesta: hip thrust. |
+| 3 | Curl femoral sentado o acostado | 3x10 | 8 | 90 seg | **ISQUIOS - NO TE LO SALTÉS.** Va tercero para que llegues fresco. |
+| 4 | Pantorrilla de pie | 3x12 | 8 | 60 seg | Rango completo, pausa abajo y arriba. |
+| 5 | Bird dogs + Dead bugs | 2x8/lado cada uno | - | 60 seg | Prehab lumbar. 4 minutos y listo. |
+
+**5 ejercicios, ~14 series, 45 min.** Los isquios van TERCEROS, no últimos. Así llegás con energía y los hacés siempre.
 
 ---
 
-### MIÉRCOLES - Upper B (Empuje vertical + Jalón horizontal)
+### MIÉRCOLES - Push HIPERTROFIA (50-60 min)
 
 | # | Ejercicio | Series x Reps | RPE | Descanso | Notas |
 |---|-----------|---------------|-----|----------|-------|
-| 1 | Press militar sentado con barra o mancuernas | 4x6-10 | 7-8 | 2-3 min | SENTADO para proteger lumbar. |
-| 2 | Remo con barra (agarre prono) o remo en máquina | 4x8-10 | 7-8 | 2-3 min | Si la lumbar molesta: remo en máquina con soporte de pecho. |
-| 3 | Elevaciones laterales mancuernas | 4x12-15 | 8-9 | 60 seg | Hombros anchos = ilusión de tamaño. Clave para vos. |
-| 4 | Jalón al pecho agarre neutro/cerrado | 3x10-12 | 8 | 2 min | Espalda ancha, dorsales. |
-| 5 | Press Arnold o press mancuernas sentado | 3x10-12 | 8 | 90 seg | Variación para delts anteriores + laterales. |
-| 6 | Extensiones de tríceps en polea (cuerda) | 3x12-15 | 8-9 | 60 seg | Separar la cuerda abajo para contracción completa. |
-| 7 | Curl martillo mancuernas | 2x10-12 | 8 | 60 seg | Braquial + braquiorradial para brazos gruesos. |
+| 1 | Press inclinado mancuernas | 3x8-12 | 8 | 2 min | Pecho superior. Peso que controles bien. |
+| 2 | Elevaciones laterales mancuernas | 4x12-15 | 8-9 | 60 seg | **VA SEGUNDO, NO ÚLTIMO.** Hombro lateral = prioridad para ectomorfos. |
+| 3 | Press plano mancuernas o aperturas en máquina | 3x10-12 | 8 | 90 seg | Pecho medio. Squeeze arriba. |
+| 4 | Crossover en poleas o pec deck | 3x12-15 | 8-9 | 60 seg | Stretch + contracción. |
+| 5 | Extensión de tríceps con soga | 3x12-15 | 8-9 | 60 seg | Separar la soga abajo. |
+| 6 | Extensión de tríceps sobre cabeza (copa) | 3x10-12 | 8-9 | 60 seg | Cabeza larga del tríceps. |
+
+**6 ejercicios, 19 series, 55 min.** Laterales van SEGUNDAS para que no las recortes nunca.
 
 ---
 
-### JUEVES - Lower B (Posterior dominante)
+### JUEVES - Pull HIPERTROFIA (50-60 min)
 
 | # | Ejercicio | Series x Reps | RPE | Descanso | Notas |
 |---|-----------|---------------|-----|----------|-------|
-| 1 | RDL (peso muerto rumano) con mancuernas | 4x8-10 | 7 | 2-3 min | CON MANCUERNAS, no barra. Permite posición más neutral de lumbar. Si molesta: hip thrust. |
-| 2 | Curl femoral acostado o sentado | 4x10-12 | 8-9 | 90 seg | Isquiotibiales, squeeze arriba. |
-| 3 | Hip thrust con barra | 3x10-12 | 8 | 2 min | Glúteos. Pausa arriba 1-2 seg. |
-| 4 | Prensa de piernas (pies altos y anchos) | 3x10-12 | 8 | 2 min | Posterior + glúteos con pies arriba. |
-| 5 | Elevaciones de pantorrilla sentado | 4x15-20 | 8 | 60 seg | Sóleo, rango completo. |
-| 6 | Pallof press (anti-rotación) | 3x10/lado | 7 | 60 seg | Core estabilizador, protege la lumbar. |
-| 7 | Dead bug | 2x10/lado | - | 60 seg | Prehab lumbar, coordinación core. |
+| 1 | Dominadas o jalón al pecho | 3x8-12 | 8 | 2 min | Espalda ancha. Si el lunes hiciste dominadas pesadas, usá jalón. |
+| 2 | Remo con mancuerna 1 brazo | 3x10-12 | 8 | 90 seg | Apoyado en banco = cero estrés lumbar. |
+| 3 | Encogimientos de trapecios mancuernas | 3x10-12 | 8 | 60 seg | **TRAPECIOS VAN TERCEROS, no al final.** Así los hacés siempre. |
+| 4 | Face pulls | 3x15-20 | 8 | 60 seg | Rear delts + salud de hombros. |
+| 5 | Curl bíceps barra EZ | 3x10-12 | 8-9 | 60 seg | Curl clásico. |
+| 6 | Curl martillo o alternado | 3x10-12 | 8 | 60 seg | Braquial + antebrazos. |
+
+**6 ejercicios, 18 series, 50 min.** Trapecios en posición 3 = se hacen siempre.
 
 ---
 
-### VIERNES - Upper C (Brazos + Hombros + Puntos débiles)
+### VIERNES - Legs HIPERTROFIA (50-60 min)
 
 | # | Ejercicio | Series x Reps | RPE | Descanso | Notas |
 |---|-----------|---------------|-----|----------|-------|
-| 1 | Fondos en paralelas (lastre si es fácil) | 3x8-12 | 7-8 | 2 min | Pecho inferior + tríceps. |
-| 2 | Dominadas supinas (chin-ups) | 3x6-10 | 7-8 | 2 min | Bíceps + dorsal. |
-| 3 | Elevaciones laterales en polea (1 brazo) | 4x12-15 | 8-9 | 60 seg | Hombros anchos, tensión constante. |
-| 4 | Curl de bíceps barra EZ | 3x8-12 | 8-9 | 90 seg | Pico de bíceps. |
-| 5 | Extensiones de tríceps sobre cabeza (mancuerna o polea) | 3x10-12 | 8-9 | 90 seg | Cabeza larga del tríceps = brazo grande. |
-| 6 | Face pulls o rear delt fly | 3x15-20 | 8 | 60 seg | Rear delts + postura. |
-| 7 | Encogimientos de trapecios (mancuernas) | 3x12-15 | 8 | 60 seg | Traps = apariencia de tamaño y poder. |
-| 8 | Curl de muñeca + extensión de muñeca | 2x15-20 cada uno | 8 | 45 seg | Antebrazos, opcional si hay tiempo. |
+| 1 | Sentadilla frontal o hack squat o prensa | 3x8-12 | 8 | 2 min | Variación liviana de cuádriceps. NO sentadilla trasera pesada (ya fue el martes). |
+| 2 | Curl femoral sentado o acostado | 3x10-12 | 8-9 | 90 seg | **ISQUIOS DE NUEVO. Segunda frecuencia semanal.** |
+| 3 | Hip thrust | 3x10-12 | 8 | 90 seg | Glúteos. Pausa arriba 2 seg. |
+| 4 | Extensiones de cuádriceps 1 pierna | 3x12-15 | 8-9 | 60 seg | Unilateral para corregir desbalances. |
+| 5 | Pantorrilla sentado | 3x15-20 | 8 | 60 seg | Sóleo. Rango completo. |
+| 6 | Plancha + Pallof press | 2x30seg + 2x10/lado | - | 60 seg | Core y prehab lumbar. 4 min. |
+
+**6 ejercicios, ~17 series, 50 min.** Isquios van SEGUNDOS. No hay chance de saltearlos.
+
+---
+
+## RESUMEN DE VOLUMEN SEMANAL POR GRUPO
+
+| Grupo muscular | Series/semana | Frecuencia | ¿Suficiente? |
+|---------------|---------------|------------|--------------|
+| Pecho | 12 (lun 3 + mié 9) | 2x | Si |
+| Espalda | 12 (lun 6 + jue 6) | 2x | Si |
+| Hombro lateral | 4 (mié 4) | 1x | Mínimo. Podés agregar 2 series el viernes si querés. |
+| Hombro frontal | 6 (lun 3 + mié 3 indirecto) | 2x | Si (se trabaja con presses) |
+| Rear delts | 3 (jue 3) | 1x | Ok con face pulls |
+| Trapecios | 3 (jue 3) | 1x | Ok para empezar |
+| Bíceps | 6 (jue 6) | 1x + dominadas | Si |
+| Tríceps | 9 (lun 3 + mié 6) | 2x | Si |
+| Cuádriceps | 9 (mar 3 + vie 6) | 2x | Si |
+| Isquiotibiales | 9 (mar 6 + vie 3) | 2x | Si - ahora los hacés |
+| Glúteos | 3-6 (mar indirecto + vie 3) | 2x | Si |
+| Pantorrillas | 6 (mar 3 + vie 3) | 2x | Si |
+| Core/Prehab | 4 sesiones/semana integradas | Diario | Si |
 
 ---
 
 ## PROGRESIÓN (Mesociclo de 5 semanas)
 
-| Semana | Volumen | Intensidad | Nota |
-|--------|---------|------------|------|
-| 1 | Base (como está escrito arriba) | RPE 7 | Aprender la rutina, encontrar pesos |
-| 2 | Mismo volumen | RPE 7-8 | Subir peso donde se pueda (2.5kg en compuestos) |
-| 3 | +1 serie en ejercicios 1-2 de cada día | RPE 8 | Pico de volumen |
-| 4 | +1 serie en ejercicios 1-3 | RPE 8-9 | Semana más dura |
-| 5 | **DELOAD**: reducir a 2 series por ejercicio, -20% peso | RPE 5-6 | Recuperación total |
+### Días de FUERZA (Lunes/Martes)
+| Semana | Series | Peso | RPE |
+|--------|--------|------|-----|
+| 1 | 3x5 como está escrito | Peso cómodo | 7 |
+| 2 | 3x5 | +2.5kg en compuestos principales | 7-8 |
+| 3 | 3x5 | +2.5kg más si la semana 2 fue bien | 8 |
+| 4 | 3x5 | Intentar mantener o +2.5kg | 8-9 |
+| 5 | **DELOAD**: 3x5 con -20% de peso | 5-6 |
 
-Después de semana 5: repetir el ciclo con pesos más altos.
+### Días de HIPERTROFIA (Miércoles/Jueves/Viernes)
+| Semana | Volumen | Estrategia | RPE |
+|--------|---------|------------|-----|
+| 1 | Como está escrito | Encontrar pesos, sentir el músculo | 7 |
+| 2 | Mismo volumen | Subir 1-2 reps donde se pueda | 7-8 |
+| 3 | +1 serie en ejercicio 1 y 2 de cada día | Pico de volumen | 8 |
+| 4 | Mantener volumen de semana 3 | Semana más dura | 8-9 |
+| 5 | **DELOAD**: quitar 1 serie de cada ejercicio, -15% peso | 5-6 |
+
+Después de semana 5: nuevo mesociclo con pesos base más altos.
 
 ---
 
