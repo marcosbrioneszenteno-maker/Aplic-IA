@@ -40,19 +40,20 @@
 
 ---
 
-### LUNES - Upper FUERZA (45-50 min)
+### LUNES - Upper FUERZA (50 min)
 
-Filosofía: pesado, compuesto, pocas series, descansos largos. Entrar, mover peso, salir.
+Filosofía: pesado, compuesto, pocas series, descansos largos + laterales para frecuencia extra.
 
 | # | Ejercicio | Series x Reps | RPE | Descanso | Notas |
 |---|-----------|---------------|-----|----------|-------|
 | 1 | Press banca plano con barra | 3x5 | 8 | 3 min | Progresión: +2.5kg cuando las 3x5 se sientan sólidas. |
-| 2 | Remo con barra o remo en máquina | 3x5 | 8 | 3 min | Si la lumbar molesta: remo en máquina con soporte de pecho. |
-| 3 | Press militar sentado | 3x5 | 8 | 2-3 min | SENTADO para proteger lumbar. |
-| 4 | Dominadas con lastre | 3x5 | 8 | 2-3 min | Si no podés con lastre: 3x max reps. |
+| 2 | Remo mancuerna 1 brazo | 3x5 | 8 | 2-3 min | Apoyado en banco. Cero estrés lumbar. Pesado. |
+| 3 | Press militar SENTADO | 3x5 | 8 | 2-3 min | SENTADO para proteger lumbar. |
+| 4 | Dominadas con lastre | 3x5 | 8 | 2-3 min | Espalda ancha. Lastre progresivo. |
 | 5 | Fondos en paralelas con lastre | 3x5 | 8 | 2 min | Pecho + tríceps pesado. |
+| 6 | Elevaciones laterales rápidas | 3x15-20 | 8 | 45 seg | Frecuencia extra de hombro lateral. Poco descanso, liviano, pump. |
 
-**5 ejercicios, 15 series, 45 min. Entrás, metés fuerza, te vas.** Sin accesorios, sin aislamientos. Eso es miércoles y jueves.
+**6 ejercicios, 18 series, 50 min. Las laterales al final son livianas y rápidas, no agregan fatiga real pero sí volumen al deltoides lateral.**
 
 ---
 
@@ -76,64 +77,64 @@ Filosofía: pesado, compuesto, pocas series, descansos largos. Entrar, mover pes
 
 | # | Ejercicio | Series x Reps | RPE | Descanso | Notas |
 |---|-----------|---------------|-----|----------|-------|
-| 1 | Press inclinado mancuernas | 3x8-12 | 8 | 2 min | Pecho superior. Peso que controles bien. |
-| 2 | Elevaciones laterales mancuernas | 4x12-15 | 8-9 | 60 seg | **VA SEGUNDO, NO ÚLTIMO.** Hombro lateral = prioridad para ectomorfos. |
-| 3 | Press plano mancuernas o aperturas en máquina | 3x10-12 | 8 | 90 seg | Pecho medio. Squeeze arriba. |
-| 4 | Crossover en poleas o pec deck | 3x12-15 | 8-9 | 60 seg | Stretch + contracción. |
+| 1 | Press inclinado mancuernas | 3x8-12 | 8 | 2 min | **PECHO SUPERIOR = prioridad visual.** Ángulo 30-45°. |
+| 2 | Elevaciones laterales máquina o mancuernas | 4x12-15 | 8-9 | 60 seg | **HOMBRO LATERAL = prioridad #1 visual.** Va segundo, no último. |
+| 3 | Crossover en poleas o pec deck | 3x12-15 | 8-9 | 60 seg | Pecho. Stretch abajo, squeeze arriba. |
+| 4 | Press plano mancuernas | 3x10-12 | 8 | 90 seg | Pecho medio. |
 | 5 | Extensión de tríceps con soga | 3x12-15 | 8-9 | 60 seg | Separar la soga abajo. |
-| 6 | Extensión de tríceps sobre cabeza (copa) | 3x10-12 | 8-9 | 60 seg | Cabeza larga del tríceps. |
+| 6 | Extensión de tríceps sobre cabeza (copa) | 3x10-12 | 8-9 | 60 seg | Cabeza larga del tríceps = brazo grande de costado. |
 
 **6 ejercicios, 19 series, 55 min.** Laterales van SEGUNDAS para que no las recortes nunca.
 
 ---
 
-### JUEVES - Pull HIPERTROFIA (50-60 min)
+### JUEVES - Pull HIPERTROFIA (55-60 min)
 
 | # | Ejercicio | Series x Reps | RPE | Descanso | Notas |
 |---|-----------|---------------|-----|----------|-------|
-| 1 | Dominadas o jalón al pecho | 3x8-12 | 8 | 2 min | Espalda ancha. Si el lunes hiciste dominadas pesadas, usá jalón. |
-| 2 | Remo con mancuerna 1 brazo | 3x10-12 | 8 | 90 seg | Apoyado en banco = cero estrés lumbar. |
-| 3 | Encogimientos de trapecios mancuernas | 3x10-12 | 8 | 60 seg | **TRAPECIOS VAN TERCEROS, no al final.** Así los hacés siempre. |
+| 1 | Jalón al pecho agarre amplio | 4x8-12 | 8 | 2 min | **DORSALES ANCHOS = prioridad visual.** Agarre ancho, llevar al pecho, squeeze. |
+| 2 | Remo con mancuerna 1 brazo | 3x10-12 | 8 | 90 seg | Apoyado en banco = cero estrés lumbar. Espalda gruesa. |
+| 3 | Encogimientos trapecios mancuernas | 4x10-12 | 8-9 | 60 seg | **TRAPECIOS = prioridad visual.** Subieron a 4 series. Van terceros, no al final. |
 | 4 | Face pulls | 3x15-20 | 8 | 60 seg | Rear delts + salud de hombros. |
-| 5 | Curl bíceps barra EZ | 3x10-12 | 8-9 | 60 seg | Curl clásico. |
-| 6 | Curl martillo o alternado | 3x10-12 | 8 | 60 seg | Braquial + antebrazos. |
+| 5 | Curl bíceps barra EZ | 3x10-12 | 8-9 | 60 seg | Pico de bíceps. |
+| 6 | Curl martillo | 3x10-12 | 8 | 60 seg | Braquial = brazo grueso de costado. |
 
-**6 ejercicios, 18 series, 50 min.** Trapecios en posición 3 = se hacen siempre.
+**6 ejercicios, 20 series, 55 min.** Dorsales 4 series, trapecios 4 series. Lo que se ve.
 
 ---
 
-### VIERNES - Legs HIPERTROFIA (50-60 min)
+### VIERNES - Legs HIPERTROFIA + Laterales (55-60 min)
 
 | # | Ejercicio | Series x Reps | RPE | Descanso | Notas |
 |---|-----------|---------------|-----|----------|-------|
-| 1 | Sentadilla frontal o hack squat o prensa | 3x8-12 | 8 | 2 min | Variación liviana de cuádriceps. NO sentadilla trasera pesada (ya fue el martes). |
+| 1 | Hack squat o prensa | 3x8-12 | 8 | 2 min | Cuádriceps. NO sentadilla trasera pesada (ya fue el martes). |
 | 2 | Curl femoral sentado o acostado | 3x10-12 | 8-9 | 90 seg | **ISQUIOS DE NUEVO. Segunda frecuencia semanal.** |
 | 3 | Hip thrust | 3x10-12 | 8 | 90 seg | Glúteos. Pausa arriba 2 seg. |
-| 4 | Extensiones de cuádriceps 1 pierna | 3x12-15 | 8-9 | 60 seg | Unilateral para corregir desbalances. |
-| 5 | Pantorrilla sentado | 3x15-20 | 8 | 60 seg | Sóleo. Rango completo. |
-| 6 | Plancha + Pallof press | 2x30seg + 2x10/lado | - | 60 seg | Core y prehab lumbar. 4 min. |
+| 4 | Extensiones de cuádriceps | 3x12-15 | 8-9 | 60 seg | Contracción arriba. |
+| 5 | Elevaciones laterales (polea o máquina) | 4x12-15 | 8-9 | 60 seg | **3ra frecuencia semanal de hombro lateral. Clave.** |
+| 6 | Pantorrilla sentado | 3x15-20 | 8 | 60 seg | Sóleo. Rango completo. |
+| 7 | Bird dogs + Plancha | 2x8/lado + 2x30seg | - | 60 seg | Prehab lumbar. 4 min. |
 
-**6 ejercicios, ~17 series, 50 min.** Isquios van SEGUNDOS. No hay chance de saltearlos.
+**7 ejercicios, ~21 series, 55 min.** Isquios van SEGUNDOS. Laterales 3ra frecuencia semanal.
 
 ---
 
-## RESUMEN DE VOLUMEN SEMANAL POR GRUPO
+## RESUMEN DE VOLUMEN SEMANAL POR GRUPO (OPTIMIZADO PARA IMPACTO VISUAL)
 
-| Grupo muscular | Series/semana | Frecuencia | ¿Suficiente? |
-|---------------|---------------|------------|--------------|
-| Pecho | 12 (lun 3 + mié 9) | 2x | Si |
-| Espalda | 12 (lun 6 + jue 6) | 2x | Si |
-| Hombro lateral | 4 (mié 4) | 1x | Mínimo. Podés agregar 2 series el viernes si querés. |
-| Hombro frontal | 6 (lun 3 + mié 3 indirecto) | 2x | Si (se trabaja con presses) |
+| Grupo muscular | Series/semana | Frecuencia | Prioridad visual |
+|---------------|---------------|------------|-----------------|
+| **Hombro lateral** | **11** (lun 3 + mié 4 + vie 4) | **3x** | **#1 - MÁXIMA** |
+| **Espalda (dorsal)** | **13** (lun 3 + jue 7 + mar indirecto) | **2x** | **#2 - MÁXIMA** |
+| **Trapecios** | **4** (jue 4) | **1x** | **#3 - ALTA** |
+| **Brazos total** | **12** (jue 6 bíceps + mié 6 tríceps) | **1-2x** | **#4 - ALTA** |
+| **Pecho** | **12** (lun 3 + mié 9) | **2x** | **#5 - ALTA** |
+| Hombro frontal | 6 (lun 3 + mié indirecto) | 2x | Cubierto con presses |
 | Rear delts | 3 (jue 3) | 1x | Ok con face pulls |
-| Trapecios | 3 (jue 3) | 1x | Ok para empezar |
-| Bíceps | 6 (jue 6) | 1x + dominadas | Si |
-| Tríceps | 9 (lun 3 + mié 6) | 2x | Si |
-| Cuádriceps | 9 (mar 3 + vie 6) | 2x | Si |
-| Isquiotibiales | 9 (mar 6 + vie 3) | 2x | Si - ahora los hacés |
-| Glúteos | 3-6 (mar indirecto + vie 3) | 2x | Si |
-| Pantorrillas | 6 (mar 3 + vie 3) | 2x | Si |
-| Core/Prehab | 4 sesiones/semana integradas | Diario | Si |
+| Cuádriceps | 9 (mar 3 + vie 6) | 2x | Base del rugby |
+| Isquiotibiales | 9 (mar 6 + vie 3) | 2x | Protección lumbar |
+| Glúteos | 3-6 (mar indirecto + vie 3) | 2x | Ok |
+| Pantorrillas | 6 (mar 3 + vie 3) | 2x | Ok |
+| Core/Prehab | Integrado en mar y vie | 4x | Protección lumbar |
 
 ---
 
