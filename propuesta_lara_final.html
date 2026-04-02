@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Propuesta Comercial — Aplica IA para Contable Remoto</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #f8f9fa;
+      color: #1a1a2e;
+      font-size: 14px;
+      line-height: 1.6;
+    }
+
+    .page {
+      max-width: 780px;
+      margin: 40px auto;
+      background: white;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 40px rgba(0,0,0,0.08);
+    }
+
+    /* HEADER */
+    .header {
+      background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+      padding: 48px 56px 40px;
+      color: white;
+    }
+
+    .header-meta {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 32px;
+    }
+
+    .logo {
+      font-size: 18px;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+      color: white;
+    }
+
+    .logo span {
+      color: #7c6af5;
+    }
+
+    .doc-info {
+      text-align: right;
+      font-size: 12px;
+      color: rgba(255,255,255,0.55);
+      line-height: 1.8;
+    }
+
+    .header h1 {
+      font-size: 28px;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+      margin-bottom: 6px;
+    }
+
+    .header p {
+      font-size: 14px;
+      color: rgba(255,255,255,0.65);
+      font-weight: 300;
+    }
+
+    .header-divider {
+      width: 48px;
+      height: 3px;
+      background: #7c6af5;
+      margin: 20px 0;
+      border-radius: 2px;
+    }
+
+    /* BODY */
+    .body {
+      padding: 48px 56px;
+    }
+
+    /* SECTION */
+    .section {
+      margin-bottom: 40px;
+    }
+
+    .section-label {
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #7c6af5;
+      margin-bottom: 10px;
+    }
+
+    .section h2 {
+      font-size: 18px;
+      font-weight: 600;
+      color: #1a1a2e;
+      margin-bottom: 12px;
+    }
+
+    .section p {
+      color: #555;
+      font-size: 13.5px;
+      line-height: 1.75;
+    }
+
+    /* HIGHLIGHT BOX */
+    .highlight {
+      background: #f3f1ff;
+      border-left: 3px solid #7c6af5;
+      padding: 16px 20px;
+      border-radius: 0 8px 8px 0;
+      margin: 16px 0;
+      font-size: 13.5px;
+      color: #333;
+      line-height: 1.7;
+    }
+
+    /* FEATURES GRID */
+    .features {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px;
+      margin-top: 14px;
+    }
+
+    .feature-card {
+      background: #fafafa;
+      border: 1px solid #ebebeb;
+      border-radius: 8px;
+      padding: 16px 18px;
+    }
+
+    .feature-card .icon {
+      font-size: 18px;
+      margin-bottom: 6px;
+    }
+
+    .feature-card h4 {
+      font-size: 12.5px;
+      font-weight: 600;
+      color: #1a1a2e;
+      margin-bottom: 4px;
+    }
+
+    .feature-card p {
+      font-size: 12px;
+      color: #777;
+      line-height: 1.5;
+    }
+
+    .star-card {
+      background: linear-gradient(135deg, #f3f1ff, #ede9fe);
+      border: 1px solid #d4ccf5;
+    }
+
+    /* MODELO */
+    .steps {
+      margin-top: 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+
+    .step {
+      display: flex;
+      gap: 16px;
+      align-items: flex-start;
+    }
+
+    .step-num {
+      width: 28px;
+      height: 28px;
+      background: #7c6af5;
+      color: white;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 12px;
+      font-weight: 700;
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+
+    .step-num.future {
+      background: #e5e5e5;
+      color: #999;
+    }
+
+    .step-content h4 {
+      font-size: 13.5px;
+      font-weight: 600;
+      color: #1a1a2e;
+      margin-bottom: 3px;
+    }
+
+    .step-content p {
+      font-size: 12.5px;
+      color: #666;
+    }
+
+    /* PRICING */
+    .pricing-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px;
+      margin-top: 16px;
+    }
+
+    .price-card {
+      border: 1.5px solid #ebebeb;
+      border-radius: 10px;
+      padding: 20px 22px;
+    }
+
+    .price-card.featured {
+      border-color: #7c6af5;
+      background: #faf9ff;
+    }
+
+    .price-card .badge {
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      color: #7c6af5;
+      margin-bottom: 8px;
+    }
+
+    .price-card .amount {
+      font-size: 26px;
+      font-weight: 700;
+      color: #1a1a2e;
+      line-height: 1;
+      margin-bottom: 4px;
+    }
+
+    .price-card .amount span {
+      font-size: 13px;
+      font-weight: 400;
+      color: #999;
+    }
+
+    .price-card .desc {
+      font-size: 12px;
+      color: #777;
+      margin-top: 8px;
+      line-height: 1.5;
+    }
+
+    .price-card ul {
+      margin-top: 10px;
+      padding-left: 0;
+      list-style: none;
+    }
+
+    .price-card ul li {
+      font-size: 12px;
+      color: #555;
+      padding: 3px 0;
+      padding-left: 14px;
+      position: relative;
+    }
+
+    .price-card ul li::before {
+      content: '→';
+      position: absolute;
+      left: 0;
+      color: #7c6af5;
+      font-size: 11px;
+    }
+
+    /* TERMS */
+    .terms-list {
+      margin-top: 14px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .term-item {
+      display: flex;
+      gap: 10px;
+      align-items: flex-start;
+      font-size: 12.5px;
+      color: #555;
+    }
+
+    .term-dot {
+      width: 6px;
+      height: 6px;
+      background: #7c6af5;
+      border-radius: 50%;
+      flex-shrink: 0;
+      margin-top: 6px;
+    }
+
+    /* CTA */
+    .cta {
+      background: linear-gradient(135deg, #0f0c29, #302b63);
+      border-radius: 10px;
+      padding: 28px 32px;
+      color: white;
+      margin-top: 40px;
+    }
+
+    .cta h3 {
+      font-size: 16px;
+      font-weight: 600;
+      margin-bottom: 8px;
+    }
+
+    .cta p {
+      font-size: 13px;
+      color: rgba(255,255,255,0.65);
+      margin-bottom: 20px;
+      line-height: 1.6;
+    }
+
+    .cta-items {
+      display: flex;
+      gap: 12px;
+    }
+
+    .cta-item {
+      flex: 1;
+      background: rgba(255,255,255,0.07);
+      border: 1px solid rgba(255,255,255,0.12);
+      border-radius: 8px;
+      padding: 14px 16px;
+      font-size: 12.5px;
+      color: rgba(255,255,255,0.85);
+    }
+
+    .cta-item strong {
+      display: block;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: #7c6af5;
+      margin-bottom: 4px;
+    }
+
+    /* FOOTER */
+    .footer {
+      padding: 24px 56px;
+      border-top: 1px solid #f0f0f0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .footer-contact {
+      font-size: 12px;
+      color: #999;
+      line-height: 1.7;
+    }
+
+    .footer-contact strong {
+      color: #333;
+      font-weight: 600;
+    }
+
+    .footer-valid {
+      font-size: 11px;
+      color: #bbb;
+      text-align: right;
+    }
+
+    hr.divider {
+      border: none;
+      border-top: 1px solid #f0f0f0;
+      margin: 36px 0;
+    }
+
+    @media print {
+      body { background: white; }
+      .page { margin: 0; border-radius: 0; box-shadow: none; }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+
+    <!-- HEADER -->
+    <div class="header">
+      <div class="header-meta">
+        <div class="logo">Aplica<span>IA</span></div>
+        <div class="doc-info">
+          Preparada para: Lara — Contable Remoto<br>
+          Fecha: 1 de abril de 2025<br>
+          Válida hasta: 15 de abril de 2025
+        </div>
+      </div>
+      <h1>Propuesta Comercial</h1>
+      <p>Agéntico × Contable Remoto — Alianza estratégica</p>
+      <div class="header-divider"></div>
+    </div>
+
+    <!-- BODY -->
+    <div class="body">
+
+      <!-- PUNTO DE PARTIDA -->
+      <div class="section">
+        <div class="section-label">Contexto</div>
+        <h2>Lo que entendimos en nuestras reuniones</h2>
+        <p>
+          Contable Remoto lleva 5 años ofreciendo back office contable a asesorías en España con un modelo probado, clientes reales y 25 años de expertise detrás. El modelo funciona — pero escala con personas, no con tecnología.
+        </p>
+        <div class="highlight">
+          Con Agéntico, el servicio que hoy vendés por horas pasa a venderse por resultados. El mismo equipo puede gestionar el triple de clientes. Tu oferta se diferencia de cualquier back office que compita por precio.
+        </div>
+      </div>
+
+      <hr class="divider">
+
+      <!-- QUÉ ES AGÉNTICO -->
+      <div class="section">
+        <div class="section-label">El producto</div>
+        <h2>Qué es Agéntico</h2>
+        <p>Una capa de inteligencia artificial que potencia el software contable que ya usan tus clientes — A3, SAGE, Holded, ContaSol, Alegra — sin reemplazarlo.</p>
+
+        <div class="features">
+          <div class="feature-card">
+            <div class="icon">⚡</div>
+            <h4>Procesamiento automático</h4>
+            <p>Facturas por email, WhatsApp o Drive. De 3 minutos por factura a segundos.</p>
+          </div>
+          <div class="feature-card">
+            <div class="icon">🏦</div>
+            <h4>Conciliación bancaria</h4>
+            <p>Cruza extractos contra comprobantes de forma automática y editable.</p>
+          </div>
+          <div class="feature-card">
+            <div class="icon">📊</div>
+            <h4>Dashboard multi-cliente</h4>
+            <p>Panel centralizado con KPIs, alertas y acceso desde cualquier lugar.</p>
+          </div>
+          <div class="feature-card star-card">
+            <div class="icon">✦</div>
+            <h4>Creación de herramientas propias</h4>
+            <p>El contador crea sus propias automatizaciones con IA. Nadie más ofrece esto.</p>
+          </div>
+        </div>
+      </div>
+
+      <hr class="divider">
+
+      <!-- MODELO DE TRABAJO -->
+      <div class="section">
+        <div class="section-label">Cómo trabajamos juntos</div>
+        <h2>El modelo propuesto</h2>
+
+        <div class="steps">
+          <div class="step">
+            <div class="step-num">1</div>
+            <div class="step-content">
+              <h4>Piloto con un cliente real</h4>
+              <p>Cuando Contable Remoto tenga un cliente interesado, nos reunimos los tres. Aplica IA hace la implementación y el soporte técnico. El cliente paga el piloto. Vos operás y validás el resultado en 15 días.</p>
+            </div>
+          </div>
+          <div class="step">
+            <div class="step-num">2</div>
+            <div class="step-content">
+              <h4>Servicio completo</h4>
+              <p>Si el piloto valida el impacto, activamos el servicio mensual. El contrato es entre Aplica IA y el cliente final. Contable Remoto define su precio y se queda con el margen.</p>
+            </div>
+          </div>
+          <div class="step">
+            <div class="step-num future">3</div>
+            <div class="step-content">
+              <h4>White label — Fase 2</h4>
+              <p>Una vez activos 3 clientes, abrimos la conversación de marca blanca "Contable Remoto". Eso te da el producto propio para escalar a nuevos mercados con tu nombre.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr class="divider">
+
+      <!-- PRICING -->
+      <div class="section">
+        <div class="section-label">Inversión</div>
+        <h2>Estructura de precios</h2>
+
+        <div class="pricing-grid">
+          <div class="price-card featured">
+            <div class="badge">Piloto — 15 días</div>
+            <div class="amount">$200 <span>USD único</span></div>
+            <ul>
+              <li>Implementación en 5 días hábiles</li>
+              <li>Configuración al software del cliente</li>
+              <li>Soporte técnico directo</li>
+              <li>Reporte de resultados al cierre</li>
+            </ul>
+          </div>
+          <div class="price-card">
+            <div class="badge">Servicio completo</div>
+            <div class="amount">$800 <span>/ mes por cliente</span></div>
+            <ul>
+              <li>$500 implementación (único)</li>
+              <li>Compromiso mínimo 3 meses</li>
+              <li>Soporte y actualizaciones incluidas</li>
+              <li>Tu margen: lo que cobrés por encima</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <hr class="divider">
+
+      <!-- CONDICIONES -->
+      <div class="section">
+        <div class="section-label">Condiciones</div>
+        <h2>Términos del acuerdo</h2>
+        <div class="terms-list">
+          <div class="term-item">
+            <div class="term-dot"></div>
+            <span>El contrato de servicio es entre <strong>Aplica IA y el cliente final</strong>. Contable Remoto no carga con la responsabilidad técnica.</span>
+          </div>
+          <div class="term-item">
+            <div class="term-dot"></div>
+            <span><strong>Propiedad intelectual</strong>: Agéntico y toda su tecnología pertenece a Aplica IA. Contable Remoto no adquiere derechos sobre el producto en esta etapa.</span>
+          </div>
+          <div class="term-item">
+            <div class="term-dot"></div>
+            <span><strong>Precio mínimo al cliente final</strong>: $1.200 USD/mes para proteger el posicionamiento del producto.</span>
+          </div>
+          <div class="term-item">
+            <div class="term-dot"></div>
+            <span><strong>Confidencialidad bilateral</strong>: ninguna parte puede revelar términos comerciales ni información técnica a terceros.</span>
+          </div>
+          <div class="term-item">
+            <div class="term-dot"></div>
+            <span>Acuerdo inicial de <strong>6 meses</strong> con renovación automática salvo notificación de 30 días.</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- CTA -->
+      <div class="cta">
+        <h3>Próximo paso</h3>
+        <p>Para arrancar, solo necesitamos saber con qué cliente querés hacer el piloto. Con eso definimos la implementación y la fecha de inicio.</p>
+        <div class="cta-items">
+          <div class="cta-item">
+            <strong>Tu acción</strong>
+            Nombre del cliente y software contable que usa
+          </div>
+          <div class="cta-item">
+            <strong>Nuestra acción</strong>
+            Implementación lista en 5 días hábiles desde la confirmación
+          </div>
+          <div class="cta-item">
+            <strong>Resultado en 15 días</strong>
+            Datos reales de impacto para tomar la decisión de escalar
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- FOOTER -->
+    <div class="footer">
+      <div class="footer-contact">
+        <strong>Marcos Briones</strong><br>
+        Fundador — Aplica IA<br>
+        [email] · [WhatsApp] · [LinkedIn]
+      </div>
+      <div class="footer-valid">
+        Propuesta válida hasta<br>15 de abril de 2025
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>
