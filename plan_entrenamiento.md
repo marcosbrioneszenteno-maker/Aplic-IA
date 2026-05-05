@@ -162,7 +162,125 @@ Después de semana 5: nuevo mesociclo con pesos base más altos.
 
 ---
 
-## PLAN DE NUTRICIÓN: 3200-3300 KCAL
+## PLAN BUENOS AIRES: 20 DÍAS SOLO (6-26)
+
+### Reglas de supervivencia nutricional
+
+1. **Cocinás 2 veces por semana** (domingo y miércoles). El resto solo calentás.
+2. **Mismas comidas todos los días.** Aburrido pero efectivo. No pensás, solo comés.
+3. **Objetivo: 3250 kcal / 150g proteína mínimo TODOS los días.**
+4. **Lista de compras simple, barata y argentina.**
+
+---
+
+### Lista de compras semanal (Argentina)
+
+#### Proteína
+- 2kg pechuga de pollo (rinde 7 días)
+- 1 maple de huevos (30 unidades)
+- 1 kg carne picada magra o bifes baratos
+
+#### Carbohidratos
+- 2kg arroz blanco
+- 1kg avena
+- 1 bolsa de pan lactal integral o francés
+- Bananas (1 por día = 7)
+- 1kg papa o batata
+
+#### Grasas
+- 1 botella aceite de oliva
+- 1 frasco mantequilla de maní (sin azúcar agregada)
+- 1 paquete frutos secos (maní, almendras, lo que sea más barato)
+
+#### Lácteos
+- 3 litros de leche entera
+- 1 kg queso cremoso o port salut (opcional)
+
+#### Otros
+- Sal, condimentos básicos
+- Verduras baratas (zapallito, cebolla, morrón, tomate)
+- Dulce de leche (sos argentino, usalo a favor)
+
+#### Suplementos (COMPRÁ ANTES DE IRTE)
+- Creatina monohidratada
+- Omega 3
+- Llevá tu magnesio y lion's mane
+- Mass gainer o whey (lo que tengas)
+
+---
+
+### Día tipo: 5 comidas, sin pensar
+
+#### Comida 1 - Desayuno (~800 kcal)
+- 80g avena + 250ml leche + 1 banana + 1 cucharada mantequilla de maní + miel
+- 3 huevos revueltos
+- Creatina 5g
+
+#### Comida 2 - Almuerzo (~800 kcal)
+- 200g pollo o carne (cocinado en batch)
+- 200g arroz blanco (cocinado en batch)
+- Verduras con aceite de oliva
+- 1 fruta
+
+#### Comida 3 - Merienda (~600 kcal)
+- 2 scoops mass gainer o batido casero (leche + avena + whey + banana + maní)
+
+#### Comida 4 - Cena (~700 kcal)
+- 200g pollo o 3-4 huevos
+- Papa o batata o arroz
+- Verdura
+- Aceite de oliva
+
+#### Comida 5 - Antes de dormir (~350 kcal)
+- 2 tostadas con mantequilla de maní + dulce de leche
+- 1 vaso de leche
+- Magnesio 4 tabletas
+
+**Total: ~3250 kcal / ~155g proteína**
+
+---
+
+### Meal prep: cocinar 2 veces por semana (30-40 min)
+
+#### Domingo (para lun-mié)
+1. Poné a hacer arroz (500g crudo = te rinde 3 días)
+2. Mientras el arroz se cocina, hacé 600g de pollo a la plancha cortado en tiras con sal y condimentos
+3. Si querés variedad: hacé carne picada con cebolla y morrón (como un salteado)
+4. Guardá todo en tuppers en la heladera
+
+#### Miércoles (para jue-dom)
+- Repetí lo mismo
+
+**Eso es todo.** Cada día sacás un tupper, calentás, comés. No hay excusa para no comer.
+
+---
+
+### Compras para los 20 días (estimado Argentina)
+
+| Item | Cantidad total | Nota |
+|------|---------------|------|
+| Pechuga pollo | ~6kg | Comprá congelada en oferta |
+| Huevos | 2-3 maples (60-90) | Baratos en dietéticas o mayoristas |
+| Arroz | 4-5kg | El más barato sirve |
+| Avena | 2kg | Instantánea o regular |
+| Bananas | ~20 | Comprá maduras y verdes para que duren |
+| Leche entera | ~10 litros | |
+| Aceite de oliva | 1 botella grande | |
+| Mantequilla de maní | 1 frasco grande | |
+| Frutos secos | 500g-1kg | Maní pelado es el más barato |
+| Pan | Comprá semanal | |
+| Papa/batata | 3-4kg | |
+| Verduras | Semanal | Las más baratas |
+| Dulce de leche | 1 pote | |
+
+---
+
+### Gym en Buenos Aires
+
+- Buscá un gym cerca de donde te quedes. Cadenas como Megatlon tienen pase diario o semanal.
+- Si te sale caro, buscá gyms de barrio. Son más baratos y tienen todo lo que necesitás.
+- **Llevá la rutina anotada en el celu.** No improvises.
+- Entrenás lunes a viernes igual que ahora.
 
 ### Macros objetivo diarios
 
