@@ -1,0 +1,64 @@
+/* Tokens del sistema de diseño. Fuente de verdad: DESIGN.md en la raíz. */
+:root {
+  /* Color */
+  --ink: #1a1d21;
+  --ink-2: #4a5560;
+  --line: #d9dee3;
+  --surface: #ffffff;
+  --canvas: #f3f5f7;
+  --deep: #10212e;
+  --deep-2: #1b3345;
+  --primary: #0e5a72;
+  --primary-hover: #0b4759;
+  --primary-soft: #e3f0f4;
+  --accent: #f5a524;
+  --accent-ink: #7a4b00;
+  --success: #1e8e5a;
+  --warning: #b7791f;
+  --error: #c53030;
+  --on-deep: #e6edf2;
+  --on-deep-2: #a9b8c4;
+
+  /* Tipografía */
+  --font: "Archivo", "Helvetica Neue", Arial, sans-serif;
+  --t-xs: 0.8125rem;
+  --t-sm: 0.9375rem;
+  --t-md: 1.0625rem;
+  --t-lg: 1.25rem;
+  --t-xl: 1.625rem;
+  --t-2xl: 2.125rem;
+  --t-3xl: 2.75rem;
+  --t-4xl: 3.75rem;
+  --measure: 66ch;
+
+  /* Espaciado */
+  --s-1: 4px;
+  --s-2: 8px;
+  --s-3: 12px;
+  --s-4: 16px;
+  --s-5: 24px;
+  --s-6: 32px;
+  --s-7: 48px;
+  --s-8: 64px;
+  --s-9: 96px;
+  --section: var(--s-8);
+  --gutter: var(--s-4);
+  --content: 1200px;
+
+  /* Forma y profundidad */
+  --r-sm: 6px;
+  --r-md: 12px;
+  --r-pill: 999px;
+  --shadow: 0 12px 32px rgba(16, 33, 46, 0.14);
+  --focus: 0 0 0 3px var(--accent);
+
+  /* Controles */
+  --control-h: 48px;
+}
+
+@media (min-width: 768px) {
+  :root {
+    --section: var(--s-9);
+    --gutter: var(--s-6);
+  }
+}
