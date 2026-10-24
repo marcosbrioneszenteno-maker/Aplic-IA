@@ -1,35 +1,36 @@
 /* Tokens del sistema de diseño. Fuente de verdad: DESIGN.md en la raíz. */
 :root {
   /* Color */
-  --ink: #1a1d21;
-  --ink-2: #4a5560;
-  --line: #d9dee3;
+  --ink: #1b2430;
+  --ink-2: #536070;
+  --line: #dde3e9;
   --surface: #ffffff;
-  --canvas: #f3f5f7;
-  --deep: #10212e;
-  --deep-2: #1b3345;
-  --primary: #0e5a72;
-  --primary-hover: #0b4759;
-  --primary-soft: #e3f0f4;
+  --canvas: #f4f7f9;
+  --tint: #e6f3f6;
+  --deep: #12303d;
+  --primary: #0f6f82;
+  --primary-hover: #0b5968;
+  --primary-soft: #d9eef2;
   --accent: #f5a524;
+  --accent-soft: #fff1d6;
   --accent-ink: #7a4b00;
   --success: #1e8e5a;
   --warning: #b7791f;
   --error: #c53030;
-  --on-deep: #e6edf2;
-  --on-deep-2: #a9b8c4;
+  --on-deep: #e8eef2;
+  --on-deep-2: #a9b9c6;
 
   /* Tipografía */
-  --font: "Archivo", "Helvetica Neue", Arial, sans-serif;
+  --font: "Nunito", "Segoe UI", Arial, sans-serif;
   --t-xs: 0.8125rem;
   --t-sm: 0.9375rem;
   --t-md: 1.0625rem;
   --t-lg: 1.25rem;
-  --t-xl: 1.625rem;
-  --t-2xl: 2.125rem;
-  --t-3xl: 2.75rem;
-  --t-4xl: 3.75rem;
-  --measure: 66ch;
+  --t-xl: 1.5rem;
+  --t-2xl: 2rem;
+  --t-3xl: 2.5rem;
+  --t-4xl: 3.25rem;
+  --measure: 62ch;
 
   /* Espaciado */
   --s-1: 4px;
@@ -41,24 +42,26 @@
   --s-7: 48px;
   --s-8: 64px;
   --s-9: 96px;
-  --section: var(--s-8);
+  --section: var(--s-7);
   --gutter: var(--s-4);
-  --content: 1200px;
+  --content: 1160px;
 
   /* Forma y profundidad */
-  --r-sm: 6px;
-  --r-md: 12px;
+  --r-sm: 10px;
+  --r-md: 16px;
+  --r-lg: 24px;
   --r-pill: 999px;
-  --shadow: 0 12px 32px rgba(16, 33, 46, 0.14);
+  --shadow: 0 10px 30px rgba(18, 48, 61, 0.12);
+  --shadow-sm: 0 2px 8px rgba(18, 48, 61, 0.06);
   --focus: 0 0 0 3px var(--accent);
 
   /* Controles */
-  --control-h: 48px;
+  --control-h: 50px;
 }
 
 @media (min-width: 768px) {
   :root {
-    --section: var(--s-9);
+    --section: var(--s-8);
     --gutter: var(--s-6);
   }
 }

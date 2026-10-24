@@ -4,30 +4,45 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Transporte de cargas con seguimiento online | Nombre de la empresa</title>
-  <meta name="description" content="Transporte de cargas a todo el país con depósitos propios, retiro y entrega, y seguimiento online de cada envío. Consultá si llegamos a tu localidad y pedí tu cotización por WhatsApp.">
+  <meta name="description" content="Llevamos tu carga a todo el país, con depósitos propios, retiro y entrega, y seguimiento online. Consultá si llegamos a tu localidad y cotizá por WhatsApp.">
   <meta property="og:title" content="Transporte de cargas con seguimiento online">
   <meta property="og:description" content="Consultá cobertura por provincia y localidad, seguí tu envío y cotizá por WhatsApp.">
   <meta property="og:type" content="website">
   <meta property="og:image" content="assets/og.png">
-  <meta name="theme-color" content="#10212e">
+  <meta name="theme-color" content="#0f6f82">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@100,400..700;112,600..800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles/tokens.css">
   <link rel="stylesheet" href="styles/site.css">
 </head>
 <body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-truck" viewBox="0 0 24 24"><path d="M3 7h10v9H3zM13 10h4l3 3v3h-7z"/><circle cx="7" cy="17.5" r="1.8"/><circle cx="17" cy="17.5" r="1.8"/></symbol>
+  <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4.5 4.5"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s-6.5-5.6-6.5-11a6.5 6.5 0 0 1 13 0c0 5.4-6.5 11-6.5 11z"/><circle cx="12" cy="10" r="2.3"/></symbol>
+  <symbol id="i-chat" viewBox="0 0 24 24"><path d="M12 3a9 9 0 0 0-7.8 13.5L3 21l4.6-1.2A9 9 0 1 0 12 3z"/><path d="M8.5 11h7M8.5 14h4"/></symbol>
+  <symbol id="i-box" viewBox="0 0 24 24"><path d="M12 3 4 7v10l8 4 8-4V7z"/><path d="M4 7l8 4 8-4M12 11v10"/></symbol>
+  <symbol id="i-forklift" viewBox="0 0 24 24"><path d="M3 15V9h6l2 6zM3 15h8v2H3zM14 4v13h6"/><circle cx="6" cy="19" r="1.8"/><circle cx="11" cy="19" r="1.8"/></symbol>
+  <symbol id="i-home" viewBox="0 0 24 24"><path d="M4 11 12 4l8 7v9H4z"/><path d="M10 20v-6h4v6"/></symbol>
+  <symbol id="i-warehouse" viewBox="0 0 24 24"><path d="M3 20V9l9-5 9 5v11z"/><path d="M7 20v-7h10v7M7 16.5h10"/></symbol>
+  <symbol id="i-phone" viewBox="0 0 24 24"><rect x="7" y="2.5" width="10" height="19" rx="2"/><path d="M11 18h2"/><path d="m10 10 1.5 1.5L14 8.5"/></symbol>
+  <symbol id="i-ban" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="m6 6 12 12"/></symbol>
+  <symbol id="i-doc" viewBox="0 0 24 24"><path d="M7 3h7l4 4v14H7z"/><path d="M14 3v4h4M10 12h5M10 16h5"/></symbol>
+  <symbol id="i-wa" viewBox="0 0 24 24"><path fill="currentColor" stroke="none" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2m0 2a8 8 0 1 1-4.1 14.9l-.3-.2-3 .8.8-2.9-.2-.3A8 8 0 0 1 12 4m-3 4.3c-.2 0-.5 0-.7.3-.3.3-1 1-1 2.4s1 2.8 1.2 3c.1.2 2 3.2 5 4.4 2.4 1 2.9.8 3.4.7.5 0 1.7-.7 1.9-1.4.3-.7.3-1.2.2-1.4l-.5-.3-1.9-.9c-.2-.1-.4-.2-.6.1l-.9 1.1c-.2.2-.3.2-.6.1a6.6 6.6 0 0 1-3.3-2.9c-.2-.4.2-.4.6-1.1.1-.2 0-.4 0-.5l-.9-2c-.2-.5-.4-.5-.6-.5z"/></symbol>
+</svg>
+
 <a class="skip" href="#principal">Ir al contenido</a>
 
 <div class="borrador" id="aviso-borrador" hidden>
-  Vista previa con datos de ejemplo. Lo que tiene <span class="ph">borde punteado</span> se completa con la información de la empresa.
+  Vista previa con datos de ejemplo. Lo marcado con <span class="ph">borde punteado</span> se completa con la información de la empresa.
 </div>
 
 <header class="nav" id="arriba">
   <div class="wrap nav__in">
     <a class="brand" href="#arriba" aria-label="Inicio">
-      <svg class="brand__mark" width="36" height="36" viewBox="0 0 36 36" aria-hidden="true"><rect x="2" y="9" width="20" height="14" rx="2" fill="currentColor"/><path d="M22 13h6l5 5v5h-11z" fill="currentColor" opacity=".7"/><circle cx="9" cy="26" r="3.2" fill="#f5a524"/><circle cx="27" cy="26" r="3.2" fill="#f5a524"/></svg>
+      <span class="brand__mark"><svg class="ico" aria-hidden="true"><use href="#i-truck"/></svg></span>
       <span class="brand__name ph" data-empresa>Nombre de la empresa</span>
     </a>
     <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="menu" id="nav-toggle">
@@ -39,38 +54,39 @@
       <a href="#cobertura">Cobertura</a>
       <a href="#servicios">Servicios</a>
       <a href="#contacto">Contacto</a>
-      <a class="btn btn--primary btn--sm" href="#cotizar">Cotizar por WhatsApp</a>
+      <a class="btn btn--primary btn--sm" href="#cotizar">Cotizar</a>
     </nav>
   </div>
 </header>
 
 <main id="principal">
 
-  <!-- 1. Hero: rastrear o verificar cobertura -->
+  <!-- 1. Hero -->
   <section class="hero" id="seguimiento" aria-labelledby="hero-titulo">
     <div class="wrap hero__in">
       <div class="hero__copy">
-        <h1 id="hero-titulo">Transporte de cargas a <span class="num" data-n-provincias>6</span> provincias, con seguimiento online de cada envío.</h1>
-        <p class="hero__sub">Depósitos propios, retiro y entrega, y un número para saber dónde está tu carga sin preguntar por chat.</p>
+        <h1 id="hero-titulo">Llevamos tu carga a todo el país.</h1>
+        <p class="hero__sub">Depósitos propios, retiro y entrega, y seguimiento online de cada envío.</p>
 
         <div class="panel" id="panel">
           <div class="tabs" role="tablist" aria-label="Qué querés hacer">
-            <button class="tab" role="tab" id="tab-seguir" aria-selected="true" aria-controls="pane-seguir" type="button">Seguir un envío</button>
-            <button class="tab" role="tab" id="tab-llegamos" aria-selected="false" aria-controls="pane-llegamos" tabindex="-1" type="button">¿Llegamos a tu localidad?</button>
+            <button class="tab" role="tab" id="tab-seguir" aria-selected="true" aria-controls="pane-seguir" type="button">
+              <svg class="ico" aria-hidden="true"><use href="#i-search"/></svg>Seguir envío
+            </button>
+            <button class="tab" role="tab" id="tab-llegamos" aria-selected="false" aria-controls="pane-llegamos" tabindex="-1" type="button">
+              <svg class="ico" aria-hidden="true"><use href="#i-pin"/></svg>¿Llegamos?
+            </button>
           </div>
-
           <form class="pane" id="pane-seguir" role="tabpanel" aria-labelledby="tab-seguir" novalidate>
-            <label class="label" for="nro-seguimiento">Ingresá tu <span data-seg-etiqueta>número de remito o guía</span></label>
+            <label class="label" for="nro-seguimiento">Tu <span data-seg-etiqueta>número de remito o guía</span></label>
             <div class="field-row">
               <input class="input" id="nro-seguimiento" name="numero" type="text" inputmode="numeric" autocomplete="off" placeholder="Ej.: 0001-00012345" required>
               <button class="btn btn--primary" type="submit">Ver estado</button>
             </div>
-            <p class="help" id="seg-ayuda">Lo encontrás en el remito o en el mensaje que te mandamos al despachar.</p>
             <p class="msg" id="seg-msg" role="status" aria-live="polite"></p>
           </form>
-
           <form class="pane" id="pane-llegamos" role="tabpanel" aria-labelledby="tab-llegamos" hidden novalidate>
-            <label class="label" for="buscar-localidad">Escribí tu localidad o provincia</label>
+            <label class="label" for="buscar-localidad">Tu localidad</label>
             <div class="field-row">
               <input class="input" id="buscar-localidad" name="localidad" type="search" autocomplete="off" placeholder="Ej.: Villa María" list="lista-localidades">
               <button class="btn btn--primary" type="submit">Consultar</button>
@@ -82,7 +98,8 @@
       </div>
 
       <figure class="hero__map" id="mapa-hero" aria-label="Provincias donde operamos">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1655 3450" role="img" aria-labelledby="mapa-titulo">
+        <div class="map-card">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1655 3450" role="img" aria-labelledby="mapa-titulo">
 <title id="mapa-titulo">Mapa de Argentina por provincias</title>
 <path id="prov-06" data-nombre="Buenos Aires" d="M1084,1177 1100,1195 1117,1202 1119,1210 1130,1212 1133,1219 1141,1213 1147,1222 1163,1222 1163,1231 1168,1231 1172,1235 1183,1234 1184,1237 1190,1239 1193,1245 1201,1245 1209,1254 1224,1250 1234,1254 1233,1272 1226,1280 1224,1293 1220,1294 1225,1303 1221,1305 1219,1315 1224,1321 1227,1316 1234,1313 1247,1324 1260,1328 1265,1333 1271,1333 1280,1341 1300,1352 1322,1377 1330,1395 1311,1424 1309,1447 1318,1464 1331,1478 1342,1483 1354,1483 1357,1482 1357,1479 1360,1481 1363,1491 1366,1538 1330,1599 1301,1633 1297,1647 1297,1655 1299,1654 1297,1660 1272,1680 1235,1698 1173,1720 1115,1734 1036,1748 977,1750 969,1747 961,1749 940,1743 933,1731 927,1729 922,1729 919,1731 914,1730 915,1734 920,1734 918,1736 920,1740 918,1745 922,1749 921,1755 918,1760 920,1762 918,1761 919,1766 923,1773 927,1775 922,1775 921,1777 935,1779 945,1787 943,1789 939,1789 931,1780 923,1780 925,1785 930,1785 927,1786 930,1788 929,1790 934,1788 933,1790 942,1795 936,1816 938,1818 936,1821 937,1835 934,1837 931,1835 924,1837 924,1835 923,1838 920,1837 918,1857 919,1869 907,1880 913,1896 920,1900 923,1907 926,1908 926,1906 921,1903 931,1908 932,1913 927,1919 921,1937 890,1954 883,1952 870,1932 852,1922 844,1923 838,1919 837,1921 836,1289 968,1289 1030,1215 1033,1207 1039,1204 1042,1208 1049,1209 1059,1215 1066,1214 1067,1208 1071,1205 1071,1197 1077,1191 1082,1176 1084,1177ZM946,1759 946,1763 946,1759 948,1761 948,1759 951,1760 950,1761 952,1760 950,1765 953,1766 955,1760 955,1770 956,1766 957,1769 956,1774 950,1768 941,1766 942,1761 944,1762 944,1759 946,1759Z"><title>Buenos Aires</title></path>
 <path id="prov-10" data-nombre="Catamarca" d="M433,367 483,374 561,374 586,380 583,386 588,387 590,394 586,412 583,413 579,421 567,420 563,422 562,427 564,430 564,448 573,458 578,458 578,461 584,466 588,485 594,486 600,492 607,473 613,464 617,463 623,472 621,488 618,490 617,497 617,513 627,510 644,524 638,536 642,543 619,576 633,583 632,599 636,615 641,619 644,635 647,628 650,627 654,631 657,647 661,647 664,651 670,642 680,635 696,645 700,669 702,697 699,711 695,710 694,712 698,715 699,722 708,724 717,734 721,770 726,777 723,778 722,783 726,791 723,797 723,807 712,810 714,835 697,855 676,862 653,791 650,777 645,777 645,768 623,744 599,736 598,731 603,722 591,712 591,703 589,703 590,697 585,679 550,675 546,677 539,688 522,688 497,681 485,687 485,682 478,667 480,661 471,662 464,667 462,660 453,657 451,660 450,653 446,654 442,650 437,652 438,637 432,634 430,621 427,632 423,629 416,632 416,629 410,626 387,630 387,622 391,620 390,612 396,606 395,602 399,603 396,593 399,594 399,591 403,590 404,582 409,580 404,576 406,566 409,565 411,560 420,560 423,566 427,568 429,562 435,563 435,556 437,560 445,553 450,554 448,548 452,542 426,499 429,479 443,468 435,420 430,413 432,407 426,395 426,391 432,388 430,376 433,373 433,367Z"><title>Catamarca</title></path>
@@ -109,6 +126,12 @@
 <path id="prov-94" data-nombre="Tierra del Fuego" d="M700,3315 694,3320 693,3328 688,3330 691,3333 679,3344 676,3344 675,3339 672,3339 669,3343 653,3347 651,3341 632,3340 633,3347 622,3349 604,3350 601,3351 601,3354 595,3356 579,3353 570,3346 530,3339 530,3337 519,3339 516,3337 512,3337 512,3335 496,3339 470,3335 453,3330 448,3331 452,3334 448,3335 447,3333 438,3336 428,3334 433,3337 425,3339 425,3116 450,3145 457,3164 452,3152 444,3152 430,3164 430,3175 442,3181 457,3181 462,3183 474,3208 498,3230 491,3234 498,3229 509,3234 506,3237 509,3243 539,3262 573,3276 576,3278 578,3284 588,3290 587,3292 594,3298 646,3315 666,3315 668,3318 669,3316 675,3314 675,3316 678,3314 691,3312 689,3316 691,3314 700,3315ZM804,3323 800,3329 797,3328 792,3331 792,3327 785,3330 783,3328 779,3333 779,3331 772,3333 771,3336 770,3328 767,3330 764,3329 762,3333 757,3333 753,3338 749,3336 753,3334 751,3332 746,3339 740,3341 733,3342 737,3339 734,3336 736,3335 730,3336 728,3334 730,3330 735,3330 734,3328 737,3328 742,3332 748,3330 745,3323 756,3328 755,3325 757,3325 759,3331 758,3325 761,3321 762,3324 771,3323 777,3327 776,3323 779,3324 779,3326 784,3323 785,3328 789,3324 798,3322 799,3323 798,3326 804,3323ZM1036,3029 1032,3038 1035,3039 1031,3040 1035,3042 1030,3044 1033,3045 1025,3049 1020,3047 1021,3046 1019,3044 1021,3043 1017,3043 1016,3040 1014,3040 1014,3036 1017,3035 1011,3035 1016,3031 1015,3034 1017,3032 1021,3035 1019,3033 1022,3032 1022,3028 1026,3028 1025,3031 1029,3030 1029,3032 1022,3036 1020,3039 1028,3037 1031,3033 1032,3036 1034,3031 1031,3029 1032,3026 1035,3026 1036,3029ZM1100,2984 1093,2990 1095,2990 1082,2991 1078,2989 1082,2990 1081,2987 1085,2984 1089,2990 1093,2989 1094,2986 1081,2980 1078,2976 1089,2982 1096,2980 1098,2982 1096,2983 1100,2984ZM1148,2983 1144,2980 1146,2985 1136,2984 1133,2981 1125,2980 1116,2976 1122,2975 1127,2977 1134,2976 1136,2981 1139,2980 1139,2978 1143,2977 1148,2983ZM1167,2990 1159,2993 1161,2995 1159,2996 1166,2994 1156,3003 1156,2999 1153,2999 1154,3001 1143,3002 1154,3001 1150,3004 1153,3003 1151,3005 1155,3003 1151,3011 1144,3013 1147,3009 1140,3015 1142,3010 1135,3016 1134,3019 1139,3015 1134,3023 1130,3024 1133,3024 1125,3031 1122,3031 1114,3046 1103,3051 1102,3047 1103,3047 1097,3046 1099,3044 1097,3044 1096,3046 1094,3047 1096,3047 1095,3051 1084,3052 1091,3046 1086,3049 1084,3049 1087,3046 1081,3049 1080,3052 1077,3048 1075,3051 1077,3049 1081,3052 1081,3058 1084,3052 1082,3059 1075,3066 1073,3062 1077,3060 1071,3059 1073,3061 1072,3064 1067,3060 1063,3061 1071,3062 1073,3068 1071,3064 1066,3068 1066,3065 1063,3066 1060,3061 1057,3063 1059,3064 1058,3066 1060,3064 1061,3067 1065,3068 1060,3068 1064,3070 1056,3075 1054,3073 1055,3076 1052,3076 1048,3071 1053,3071 1051,3069 1054,3068 1050,3069 1048,3068 1051,3065 1048,3067 1048,3064 1047,3066 1044,3064 1051,3064 1047,3060 1044,3062 1039,3060 1036,3061 1047,3068 1040,3069 1036,3062 1030,3062 1023,3054 1023,3058 1021,3057 1021,3051 1018,3051 1023,3051 1026,3055 1033,3054 1031,3057 1034,3057 1031,3058 1036,3059 1040,3056 1035,3057 1033,3053 1035,3054 1044,3052 1041,3049 1038,3050 1037,3045 1044,3046 1044,3048 1048,3046 1046,3051 1049,3050 1049,3047 1049,3055 1053,3054 1050,3053 1052,3052 1050,3048 1052,3047 1054,3048 1053,3050 1054,3048 1058,3049 1055,3053 1057,3051 1059,3053 1058,3049 1061,3050 1060,3053 1061,3051 1063,3052 1058,3048 1069,3047 1072,3043 1060,3045 1052,3043 1063,3044 1068,3038 1066,3037 1068,3035 1066,3033 1067,3029 1070,3027 1070,3029 1074,3026 1070,3032 1072,3030 1075,3032 1070,3037 1075,3035 1074,3039 1077,3037 1077,3032 1081,3033 1077,3030 1080,3028 1077,3028 1078,3026 1082,3025 1081,3027 1086,3029 1089,3021 1084,3020 1080,3022 1078,3020 1073,3022 1075,3026 1071,3025 1066,3027 1062,3026 1060,3028 1060,3030 1062,3029 1061,3031 1058,3030 1059,3027 1057,3028 1053,3023 1052,3017 1062,3021 1085,3016 1096,3022 1105,3024 1096,3021 1101,3020 1096,3020 1097,3016 1093,3018 1083,3013 1085,3011 1079,3010 1083,3006 1078,3008 1080,3005 1077,3003 1076,3004 1079,3006 1077,3008 1072,3007 1072,3004 1071,3006 1064,3004 1063,3000 1073,3000 1073,2999 1067,2994 1062,2995 1052,2991 1053,2988 1051,2986 1055,2986 1051,2984 1062,2987 1084,2999 1090,2998 1093,3001 1105,2998 1095,2994 1098,2992 1097,2991 1101,2992 1099,2989 1103,2988 1105,2989 1102,2990 1103,2992 1112,2988 1114,2989 1111,2990 1113,2990 1110,2990 1111,2992 1117,2990 1113,2991 1124,2992 1121,2995 1121,2993 1116,2994 1118,2996 1132,2994 1133,2997 1133,2993 1143,2990 1144,2991 1139,2994 1134,2994 1141,2998 1139,2994 1145,2996 1152,2994 1144,2990 1148,2989 1147,2985 1151,2987 1149,2984 1167,2990ZM1224,2981 1234,2985 1235,2989 1231,2989 1234,2989 1236,2993 1233,2993 1235,2994 1232,2997 1232,2993 1225,2996 1223,2990 1220,2992 1221,2988 1214,2994 1220,2993 1211,2997 1220,2993 1218,2994 1221,2994 1221,2995 1217,2998 1220,2998 1219,3001 1222,2997 1224,2999 1227,2997 1228,3003 1225,3005 1228,3006 1229,3003 1231,3003 1231,3007 1235,3007 1235,3004 1239,3006 1240,3009 1237,3012 1239,3010 1241,3011 1239,3016 1242,3015 1241,3012 1244,3016 1245,3016 1243,3014 1247,3014 1244,3014 1241,3008 1249,3011 1240,3005 1245,3002 1237,3003 1237,2999 1235,3002 1231,3001 1233,2999 1230,2998 1235,2998 1239,2989 1265,2986 1273,2991 1271,2993 1274,2998 1281,3001 1272,3000 1273,2997 1269,3000 1276,3001 1279,3004 1264,3004 1256,2999 1259,3004 1252,3001 1253,3003 1248,3005 1252,3006 1249,3007 1252,3009 1255,3008 1252,3007 1254,3006 1256,3009 1270,3010 1283,3014 1276,3015 1272,3018 1264,3015 1274,3018 1267,3019 1283,3018 1275,3022 1261,3023 1270,3025 1258,3026 1257,3024 1254,3024 1257,3025 1256,3027 1248,3027 1249,3024 1246,3027 1237,3025 1242,3026 1245,3028 1243,3028 1252,3029 1242,3029 1237,3032 1230,3032 1236,3034 1239,3031 1248,3032 1242,3033 1243,3037 1241,3037 1243,3034 1239,3035 1236,3037 1239,3038 1231,3039 1229,3042 1224,3042 1224,3041 1229,3040 1221,3040 1216,3033 1214,3033 1220,3039 1214,3039 1217,3041 1207,3040 1211,3038 1204,3037 1206,3039 1199,3040 1193,3036 1197,3036 1187,3034 1188,3031 1186,3029 1183,3036 1175,3036 1173,3034 1175,3035 1171,3038 1181,3035 1180,3039 1184,3035 1201,3044 1198,3044 1189,3040 1191,3041 1190,3043 1194,3043 1193,3045 1195,3043 1197,3046 1200,3046 1200,3049 1202,3045 1206,3045 1206,3047 1211,3047 1213,3049 1211,3051 1215,3052 1207,3052 1211,3055 1209,3055 1210,3061 1209,3064 1206,3062 1208,3060 1205,3057 1203,3058 1203,3055 1196,3052 1197,3056 1190,3053 1193,3058 1191,3057 1188,3062 1186,3056 1183,3060 1182,3055 1183,3055 1181,3054 1181,3052 1177,3054 1176,3052 1173,3052 1171,3048 1170,3050 1167,3047 1169,3051 1160,3049 1160,3051 1157,3051 1167,3053 1163,3055 1166,3055 1165,3058 1171,3053 1171,3056 1174,3058 1168,3060 1177,3060 1168,3065 1171,3064 1170,3066 1173,3064 1173,3067 1176,3064 1180,3064 1174,3070 1175,3071 1180,3070 1178,3074 1181,3076 1166,3070 1164,3073 1161,3066 1156,3068 1159,3064 1154,3066 1153,3061 1153,3064 1150,3062 1152,3066 1149,3066 1146,3062 1148,3065 1143,3067 1151,3068 1145,3070 1149,3069 1146,3072 1150,3070 1148,3074 1152,3071 1156,3071 1151,3073 1155,3075 1149,3078 1155,3077 1152,3082 1156,3085 1158,3083 1158,3085 1153,3086 1151,3085 1153,3083 1148,3083 1149,3081 1143,3081 1144,3078 1142,3077 1142,3074 1136,3076 1138,3070 1132,3071 1134,3069 1131,3068 1133,3067 1124,3062 1126,3060 1129,3060 1128,3062 1134,3062 1132,3058 1134,3059 1139,3057 1130,3051 1139,3051 1131,3047 1135,3049 1141,3047 1134,3045 1134,3042 1135,3040 1141,3044 1145,3043 1140,3038 1147,3039 1144,3038 1146,3037 1141,3036 1143,3034 1147,3032 1146,3035 1150,3031 1149,3034 1151,3033 1152,3036 1154,3029 1156,3031 1161,3030 1158,3026 1161,3024 1162,3027 1165,3022 1165,3026 1166,3022 1169,3024 1170,3021 1172,3020 1178,3019 1178,3025 1180,3027 1176,3028 1180,3031 1178,3033 1180,3033 1186,3027 1182,3027 1181,3021 1180,3023 1179,3020 1179,3018 1182,3019 1180,3017 1182,3018 1178,3015 1184,3017 1168,3008 1173,3003 1172,3000 1175,3003 1176,3009 1181,3011 1178,3007 1180,3006 1177,3002 1178,3000 1188,3002 1187,3005 1194,3002 1188,3003 1171,2996 1174,2991 1185,2994 1184,2992 1180,2992 1182,2989 1192,2988 1193,2985 1184,2973 1190,2978 1202,2982 1203,2985 1203,2981 1210,2982 1212,2985 1216,2986 1216,2982 1212,2985 1211,2981 1219,2979 1224,2981Z"><title>Tierra del Fuego</title></path>
 <path id="prov-90" data-nombre="Tucumán" d="M681,456 686,458 688,467 706,473 706,479 711,477 713,481 726,472 735,474 749,472 750,481 746,491 749,517 742,516 739,530 735,529 735,532 732,532 721,582 714,586 711,585 709,598 712,601 712,605 707,609 710,624 707,625 706,638 701,639 697,638 696,645 680,635 670,642 664,651 661,647 657,647 654,631 650,627 646,629 644,635 641,619 636,615 633,602 633,583 619,576 642,543 638,536 644,524 627,510 617,513 616,497 618,490 621,488 623,472 653,485 655,462 661,462 666,459 676,461 681,456Z"><title>Tucumán</title></path>
 </svg>
+          <div class="map-stats">
+            <span class="stat"><strong data-n-provincias>6</strong> provincias</span>
+            <span class="stat"><strong data-n-depositos>3</strong> depósitos</span>
+            <span class="stat"><strong data-n-localidades>38</strong> localidades</span>
+          </div>
+        </div>
         <figcaption class="map-legend">
           <span><i class="dot dot--dep"></i> Con depósito</span>
           <span><i class="dot dot--cov"></i> Llegamos</span>
@@ -117,104 +140,83 @@
     </div>
   </section>
 
-  <!-- 2. Cobertura -->
+  <!-- 2. Accesos rápidos -->
+  <nav class="quick" aria-label="Accesos rápidos">
+    <div class="wrap quick__in">
+      <a class="quick__item" href="#seguimiento"><svg class="ico ico--lg" aria-hidden="true"><use href="#i-search"/></svg><span>Seguir mi envío</span></a>
+      <a class="quick__item" href="#cobertura"><svg class="ico ico--lg" aria-hidden="true"><use href="#i-pin"/></svg><span>Ver localidades</span></a>
+      <a class="quick__item" href="#depositos"><svg class="ico ico--lg" aria-hidden="true"><use href="#i-warehouse"/></svg><span>Nuestros depósitos</span></a>
+      <a class="quick__item" href="#cotizar"><svg class="ico ico--lg" aria-hidden="true"><use href="#i-chat"/></svg><span>Cotizar por WhatsApp</span></a>
+    </div>
+  </nav>
+
+  <!-- 3. Cobertura -->
   <section class="section" id="cobertura" aria-labelledby="cob-titulo">
     <div class="wrap">
-      <div class="section__head">
-        <h2 id="cob-titulo">Dónde llegamos</h2>
-        <p class="lead">Elegí una provincia para ver las localidades que atendemos y dónde está el depósito más cercano.</p>
+      <div class="section__head section__head--center">
+        <h2 id="cob-titulo">¿Llegamos a tu localidad?</h2>
+        <p class="lead">Tocá tu provincia y mirá la lista.</p>
       </div>
-
       <div class="chips" id="chips" role="list" aria-label="Provincias"></div>
-
       <div class="cob">
-        <div class="cob__list">
-          <h3 class="cob__title" id="cob-prov-titulo">Localidades</h3>
-          <input class="input input--sm" id="filtro-localidad" type="search" placeholder="Filtrar localidades" aria-label="Filtrar localidades de la provincia elegida">
+        <div class="cob__list card">
+          <div class="cob__top">
+            <h3 class="cob__title" id="cob-prov-titulo">Localidades</h3>
+            <input class="input input--sm" id="filtro-localidad" type="search" placeholder="Buscar" aria-label="Filtrar localidades de la provincia elegida">
+          </div>
           <ul class="locs" id="locs" aria-live="polite"></ul>
-          <p class="help">¿No está tu localidad? <a href="#cotizar">Consultanos</a>, muchas veces coordinamos igual.</p>
+          <p class="help">¿No está la tuya? <a href="#cotizar">Preguntanos</a>, muchas veces coordinamos igual.</p>
         </div>
         <div class="cob__dep" id="dep"></div>
       </div>
     </div>
   </section>
 
-  <!-- 3. Servicios -->
+  <!-- 4. Servicios -->
   <section class="section section--alt" id="servicios" aria-labelledby="serv-titulo">
-    <div class="wrap serv">
-      <div class="section__head serv__head">
-        <h2 id="serv-titulo">Qué llevamos y cómo</h2>
-        <p class="lead">Carga general entre provincias, con el camión y el personal para cargar y descargar. Sin intermediarios.</p>
+    <div class="wrap">
+      <div class="section__head section__head--center">
+        <h2 id="serv-titulo">¿Qué necesitás enviar?</h2>
       </div>
-      <dl class="serv__list">
-        <div>
-          <dt>Carga general</dt>
-          <dd>Pallets, bultos, cajas, bobinas, maquinaria liviana. <span class="ph">Peso y medidas máximas por bulto a confirmar.</span></dd>
-        </div>
-        <div>
-          <dt>Carga y descarga incluidas</dt>
-          <dd>Nuestro personal carga en origen y descarga en destino. No hace falta que tengas gente ni autoelevador.</dd>
-        </div>
-        <div>
-          <dt>Retiro y entrega</dt>
-          <dd>Retiramos en tu domicilio o recibís en nuestro depósito. Entregamos puerta a puerta o en el depósito de destino, como prefieras.</dd>
-        </div>
-        <div>
-          <dt>Depósito y consolidado</dt>
-          <dd>Si tu carga es chica, la consolidamos con otras y sale en la próxima salida. <span class="ph">Frecuencia de salidas por ruta a confirmar.</span></dd>
-        </div>
-        <div>
-          <dt>Seguimiento online</dt>
-          <dd>Cada envío tiene un número. Lo cargás arriba y ves el estado sin llamar.</dd>
-        </div>
-        <div>
-          <dt>Lo que no llevamos</dt>
-          <dd><span class="ph">Cargas peligrosas, animales vivos, mudanzas particulares (a confirmar).</span></dd>
-        </div>
-      </dl>
+      <ul class="tiles">
+        <li class="tile"><svg class="ico ico--xl" aria-hidden="true"><use href="#i-box"/></svg><h3>Pallets y bultos</h3><p>Cajas, bobinas, maquinaria liviana. <span class="ph">Máximo por bulto a confirmar.</span></p></li>
+        <li class="tile"><svg class="ico ico--xl" aria-hidden="true"><use href="#i-forklift"/></svg><h3>Carga y descarga incluidas</h3><p>Nuestro personal carga y descarga. No necesitás gente ni autoelevador.</p></li>
+        <li class="tile"><svg class="ico ico--xl" aria-hidden="true"><use href="#i-home"/></svg><h3>Retiro y entrega a domicilio</h3><p>Pasamos a buscar la carga y la entregamos puerta a puerta.</p></li>
+        <li class="tile"><svg class="ico ico--xl" aria-hidden="true"><use href="#i-warehouse"/></svg><h3>Entrega en depósito</h3><p>Dejás o retirás en el depósito más cercano, en su horario.</p></li>
+        <li class="tile"><svg class="ico ico--xl" aria-hidden="true"><use href="#i-phone"/></svg><h3>Seguimiento online</h3><p>Cada envío tiene un número. Lo cargás arriba y ves dónde está.</p></li>
+        <li class="tile tile--muted"><svg class="ico ico--xl" aria-hidden="true"><use href="#i-ban"/></svg><h3>No llevamos</h3><p><span class="ph">Cargas peligrosas, animales vivos, mudanzas (a confirmar).</span></p></li>
+      </ul>
     </div>
   </section>
 
-  <!-- 4. Cómo trabajamos -->
+  <!-- 5. Cómo funciona -->
   <section class="section" id="como" aria-labelledby="como-titulo">
     <div class="wrap">
-      <div class="section__head">
-        <h2 id="como-titulo">Así funciona tu primer envío</h2>
+      <div class="section__head section__head--center">
+        <h2 id="como-titulo">Tu primer envío, en 4 pasos</h2>
       </div>
       <ol class="steps">
-        <li>
-          <h3>Cotizás por WhatsApp</h3>
-          <p>Nos decís origen, destino, qué es y cuánto pesa. Te respondemos con precio y fecha de salida.</p>
-        </li>
-        <li>
-          <h3>Retiramos o recibís en depósito</h3>
-          <p>Pasamos por tu domicilio o lo traés al depósito. Te damos el remito con el número de seguimiento.</p>
-        </li>
-        <li>
-          <h3>Seguís el envío online</h3>
-          <p>Cargás el número en esta página y ves en qué depósito o ruta está.</p>
-        </li>
-        <li>
-          <h3>Entregamos y descargamos</h3>
-          <p>Llega a destino con nuestro personal para descargar. Firmás el remito y listo.</p>
-        </li>
+        <li><span class="step__ico"><svg class="ico ico--lg" aria-hidden="true"><use href="#i-chat"/></svg></span><h3>Cotizás por WhatsApp</h3><p>Origen, destino, qué es y cuánto pesa.</p></li>
+        <li><span class="step__ico"><svg class="ico ico--lg" aria-hidden="true"><use href="#i-doc"/></svg></span><h3>Te damos el remito</h3><p>Con el número de seguimiento.</p></li>
+        <li><span class="step__ico"><svg class="ico ico--lg" aria-hidden="true"><use href="#i-truck"/></svg></span><h3>Viaja tu carga</h3><p>La seguís online desde acá.</p></li>
+        <li><span class="step__ico"><svg class="ico ico--lg" aria-hidden="true"><use href="#i-home"/></svg></span><h3>Llega y descargamos</h3><p>Firmás el remito. Listo.</p></li>
       </ol>
     </div>
   </section>
 
-  <!-- 5. Cotizar -->
-  <section class="section section--deep" id="cotizar" aria-labelledby="cot-titulo">
+  <!-- 6. Cotizar -->
+  <section class="section section--tint" id="cotizar" aria-labelledby="cot-titulo">
     <div class="wrap cot">
       <div class="cot__copy">
         <h2 id="cot-titulo">Pedí tu cotización</h2>
-        <p class="lead">Completá estos datos y te abrimos WhatsApp con el mensaje ya escrito. Respondemos en horario de atención: <span data-horario>Lunes a viernes de 8 a 18 h</span>.</p>
-        <ul class="cot__facts">
-          <li><strong data-n-provincias>6</strong> provincias con cobertura</li>
-          <li><strong data-n-depositos>3</strong> depósitos propios</li>
-          <li><strong class="ph" data-anios>XX</strong> años en el rubro</li>
+        <p class="lead">Te abrimos WhatsApp con el mensaje ya armado. Respondemos <span data-horario>lunes a viernes de 8 a 18 h</span>.</p>
+        <ul class="facts">
+          <li><strong data-n-provincias>6</strong><span>provincias</span></li>
+          <li><strong data-n-depositos>3</strong><span>depósitos propios</span></li>
+          <li><strong class="ph" data-anios>XX</strong><span>años en el rubro</span></li>
         </ul>
       </div>
-      <form class="cot__form" id="form-cotizar" novalidate>
+      <form class="cot__form card" id="form-cotizar" novalidate>
         <div class="grid-2">
           <div class="field">
             <label class="label" for="origen">Origen</label>
@@ -243,95 +245,56 @@
           </div>
         </div>
         <div class="field">
-          <label class="label" for="detalle">Algo más que debamos saber <span class="opt">(opcional)</span></label>
+          <label class="label" for="detalle">Algo más <span class="opt">(opcional)</span></label>
           <textarea class="input" id="detalle" name="detalle" rows="2" placeholder="Medidas, fecha límite, acceso con camión…"></textarea>
         </div>
-        <button class="btn btn--accent btn--lg" type="submit">
-          <svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2m0 2a8 8 0 1 1-4.1 14.9l-.3-.2-3 .8.8-2.9-.2-.3A8 8 0 0 1 12 4m-3 4.3c-.2 0-.5 0-.7.3-.3.3-1 1-1 2.4s1 2.8 1.2 3c.1.2 2 3.2 5 4.4 2.4 1 2.9.8 3.4.7.5 0 1.7-.7 1.9-1.4.3-.7.3-1.2.2-1.4l-.5-.3-1.9-.9c-.2-.1-.4-.2-.6.1l-.9 1.1c-.2.2-.3.2-.6.1a6.6 6.6 0 0 1-3.3-2.9c-.2-.4.2-.4.6-1.1.1-.2 0-.4 0-.5l-.9-2c-.2-.5-.4-.5-.6-.5z"/></svg>
-          Abrir WhatsApp con mi consulta
-        </button>
-        <p class="help help--light">No guardamos nada: el mensaje se arma en tu teléfono.</p>
-        <p class="msg msg--light" id="cot-msg" role="status" aria-live="polite"></p>
+        <button class="btn btn--wa btn--lg" type="submit"><svg class="ico" aria-hidden="true"><use href="#i-wa"/></svg>Enviar por WhatsApp</button>
+        <p class="msg" id="cot-msg" role="status" aria-live="polite"></p>
       </form>
     </div>
   </section>
 
-  <!-- 6. Preguntas -->
+  <!-- 7. Preguntas -->
   <section class="section" id="preguntas" aria-labelledby="faq-titulo">
     <div class="wrap faq">
-      <div class="section__head">
+      <div class="section__head section__head--center">
         <h2 id="faq-titulo">Preguntas frecuentes</h2>
       </div>
       <div class="faq__list">
-        <details>
-          <summary>¿Qué necesito para hacer un envío?</summary>
-          <p>Los datos de quien envía y quien recibe, la carga embalada y la factura o remito de la mercadería. <span class="ph">Confirmar si piden algo más.</span></p>
-        </details>
-        <details>
-          <summary>¿Cómo tengo que embalar la carga?</summary>
-          <p>En pallet con film o en cajas cerradas y rotuladas. Si no sabés cómo, te asesoramos por WhatsApp antes del retiro.</p>
-        </details>
-        <details>
-          <summary>¿La carga viaja asegurada?</summary>
-          <p><span class="ph">Respuesta pendiente: qué seguro incluye el flete y cómo se declara el valor.</span></p>
-        </details>
-        <details>
-          <summary>¿Cuánto tarda en llegar?</summary>
-          <p>Depende de la ruta y de la frecuencia de salidas. Cuando cotizás te decimos la fecha de salida y de entrega estimada.</p>
-        </details>
-        <details>
-          <summary>¿Cómo se paga?</summary>
-          <p><span class="ph">Respuesta pendiente: transferencia, efectivo, cuenta corriente, pago en destino.</span></p>
-        </details>
-        <details>
-          <summary>¿Puedo retirar la carga en el depósito?</summary>
-          <p>Sí. En cada depósito figura la dirección y el horario. Llevá el número de remito y tu documento.</p>
-        </details>
+        <details><summary>¿Qué necesito para enviar?</summary><p>Datos de quien envía y recibe, la carga embalada y la factura o remito. <span class="ph">Confirmar.</span></p></details>
+        <details><summary>¿Cómo embalo la carga?</summary><p>En pallet con film o en cajas cerradas y rotuladas. Si tenés dudas, te guiamos por WhatsApp.</p></details>
+        <details><summary>¿Viaja asegurada?</summary><p><span class="ph">Pendiente: qué cubre el seguro y cómo se declara el valor.</span></p></details>
+        <details><summary>¿Cuánto tarda?</summary><p>Depende de la ruta. Al cotizar te decimos fecha de salida y de entrega.</p></details>
+        <details><summary>¿Cómo se paga?</summary><p><span class="ph">Pendiente: transferencia, efectivo, cuenta corriente, pago en destino.</span></p></details>
       </div>
     </div>
   </section>
 
-  <!-- 7. Contacto -->
+  <!-- 8. Depósitos y contacto -->
   <section class="section section--alt" id="contacto" aria-labelledby="contacto-titulo">
-    <div class="wrap contacto">
-      <div class="section__head">
-        <h2 id="contacto-titulo">Hablemos</h2>
-        <p class="lead">Para cotizar, coordinar un retiro o consultar un envío.</p>
+    <div class="wrap">
+      <span id="depositos" class="anchor"></span>
+      <div class="section__head section__head--center">
+        <h2 id="contacto-titulo">Depósitos y contacto</h2>
       </div>
+      <ul class="deps" id="deps-contacto" aria-label="Depósitos"></ul>
       <div class="contacto__grid">
-        <div>
-          <h3>WhatsApp</h3>
-          <p><a class="link-lg" data-wa-link href="#cotizar"><span class="ph" data-wa-text>Número a confirmar</span></a></p>
-        </div>
-        <div>
-          <h3>Teléfono</h3>
-          <p><a class="link-lg" data-tel-link href="#contacto"><span class="ph" data-tel-text>Número a confirmar</span></a></p>
-        </div>
-        <div>
-          <h3>Correo</h3>
-          <p><a class="link-lg" data-mail-link href="#contacto"><span class="ph" data-mail-text>Correo a confirmar</span></a></p>
-        </div>
-        <div>
-          <h3>Horario</h3>
-          <p data-horario>Lunes a viernes de 8 a 18 h</p>
-        </div>
+        <a class="contact" data-wa-link href="#cotizar"><svg class="ico ico--lg" aria-hidden="true"><use href="#i-wa"/></svg><span><small>WhatsApp</small><strong class="ph" data-wa-text>A confirmar</strong></span></a>
+        <a class="contact" data-tel-link href="#contacto"><svg class="ico ico--lg" aria-hidden="true"><use href="#i-phone"/></svg><span><small>Teléfono</small><strong class="ph" data-tel-text>A confirmar</strong></span></a>
+        <a class="contact" data-mail-link href="#contacto"><svg class="ico ico--lg" aria-hidden="true"><use href="#i-doc"/></svg><span><small>Correo</small><strong class="ph" data-mail-text>A confirmar</strong></span></a>
       </div>
-      <h3 class="contacto__sub">Depósitos</h3>
-      <ul class="deps" id="deps-contacto"></ul>
     </div>
   </section>
 </main>
 
 <footer class="footer">
   <div class="wrap footer__in">
-    <p><strong data-empresa>Nombre de la empresa</strong> · Transporte de cargas · Argentina</p>
+    <p><strong data-empresa>Nombre de la empresa</strong> · Transporte de cargas · Argentina · <span data-horario>lunes a viernes de 8 a 18 h</span></p>
     <p class="footer__small">Mapa: Instituto Geográfico Nacional, datos.gob.ar. © <span id="anio"></span></p>
   </div>
 </footer>
 
-<a class="wa-float" data-wa-link href="#cotizar" aria-label="Escribinos por WhatsApp">
-  <svg width="28" height="28" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2m0 2a8 8 0 1 1-4.1 14.9l-.3-.2-3 .8.8-2.9-.2-.3A8 8 0 0 1 12 4m-3 4.3c-.2 0-.5 0-.7.3-.3.3-1 1-1 2.4s1 2.8 1.2 3c.1.2 2 3.2 5 4.4 2.4 1 2.9.8 3.4.7.5 0 1.7-.7 1.9-1.4.3-.7.3-1.2.2-1.4l-.5-.3-1.9-.9c-.2-.1-.4-.2-.6.1l-.9 1.1c-.2.2-.3.2-.6.1a6.6 6.6 0 0 1-3.3-2.9c-.2-.4.2-.4.6-1.1.1-.2 0-.4 0-.5l-.9-2c-.2-.5-.4-.5-.6-.5z"/></svg>
-</a>
+<a class="wa-float" data-wa-link href="#cotizar" aria-label="Escribinos por WhatsApp"><svg class="ico ico--lg" aria-hidden="true"><use href="#i-wa"/></svg></a>
 
 <script src="data.js"></script>
 <script src="app.js"></script>

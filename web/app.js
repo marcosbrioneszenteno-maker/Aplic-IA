@@ -16,6 +16,8 @@
   $$("[data-empresa]").forEach((el) => (el.textContent = E.nombre));
   $$("[data-n-provincias]").forEach((el) => (el.textContent = conCobertura.length));
   $$("[data-n-depositos]").forEach((el) => (el.textContent = conDeposito.length));
+  const nLoc = conCobertura.reduce((n, p) => n + COB[p.id].localidades.length, 0);
+  $$("[data-n-localidades]").forEach((el) => (el.textContent = nLoc));
   $$("[data-horario]").forEach((el) => (el.textContent = E.horario));
   $$("[data-seg-etiqueta]").forEach((el) => (el.textContent = E.seguimientoEtiqueta));
   if (E.aniosEnRubro) $$("[data-anios]").forEach((el) => { el.textContent = E.aniosEnRubro; el.classList.remove("ph"); });
@@ -190,7 +192,7 @@
   conDeposito.forEach((p) => {
     const d = COB[p.id].deposito, li = document.createElement("li");
     const ph = E.esEjemplo ? ' class="ph"' : "";
-    li.innerHTML = `<strong>${d.localidad}, ${p.nombre}</strong><span${ph}>${d.direccion}</span><br><span${ph}>${d.horario}</span>`;
+    li.innerHTML = `<svg class="ico" aria-hidden="true"><use href="#i-warehouse"/></svg><div><strong>${d.localidad}, ${p.nombre}</strong><span${ph}>${d.direccion}</span><br><span${ph}>${d.horario}</span></div>`;
     deps.appendChild(li);
   });
 
@@ -206,7 +208,7 @@
     });
     if (!ok) { f.querySelector('[aria-invalid="true"]').focus(); return; }
     const texto = `Hola, quiero cotizar un envío.\nOrigen: ${f.origen.value.trim()}\nDestino: ${f.destino.value.trim()}\nQué envío: ${f.tipo.value}\nPeso aprox.: ${f.peso.value.trim() || "a confirmar"}` + (f.detalle.value.trim() ? `\nDetalle: ${f.detalle.value.trim()}` : "");
-    msg.className = "msg msg--light";
+    msg.className = "msg";
     if (!waBase) { msg.textContent = "El número de WhatsApp se configura con los datos de la empresa. Mensaje listo: " + texto.replace(/\n/g, " · "); return; }
     window.open(waBase + "?text=" + encodeURIComponent(texto), "_blank", "noopener");
     msg.textContent = "Abrimos WhatsApp con tu consulta.";

@@ -11,7 +11,7 @@ window.EMPRESA = {
   whatsapp: "", // ejemplo: "5491122334455" (código de país + área + número, sin + ni espacios)
   telefono: "", // ejemplo: "0351 422-0000"
   email: "", // ejemplo: "ventas@empresa.com.ar"
-  horario: "Lunes a viernes de 8 a 18 h", // ejemplo
+  horario: "lunes a viernes de 8 a 18 h", // ejemplo
   // URL del seguimiento del sistema de gestión. {numero} se reemplaza por lo que
   // escribe el cliente. Vacío hasta que Victoria pase el link.
   seguimientoUrl: "",

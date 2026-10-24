@@ -1,9 +1,12 @@
 # DESIGN.md — Web de transporte de cargas (cliente: Victoria)
 
-Dirección: **"Hoja de ruta"**. Una web operativa y clara, como la planilla
-que un despachante tiene a mano: primero rastrear, después saber si llegan a
-tu localidad, después cotizar. Transmite seriedad y cercanía, no lujo ni
-tecnología abstracta.
+Dirección: **"Hoja de ruta, versión amigable"**. Una web clara y liviana,
+como la de los líderes del rubro por tráfico (Correo Argentino, Andreani, OCA,
+Via Cargo): fondo claro con tinte de marca, seguimiento arriba, accesos rápidos
+con ícono, servicios en fichas de una línea y pasos ilustrados. Poco texto,
+mucha acción. Transmite cercanía y confianza, no tecnología ni lujo.
+
+Referencias completas por tráfico en `docs/referencias-trafico.md`.
 
 ## En qué se basa
 
@@ -37,32 +40,31 @@ Un solo tema claro. No hay modo oscuro en el alcance.
 
 | Token | Valor | Rol |
 |---|---|---|
-| `--ink` | `#1A1D21` | Texto principal, títulos |
-| `--ink-2` | `#4A5560` | Texto secundario, ayudas |
-| `--line` | `#D9DEE3` | Bordes, divisores |
-| `--surface` | `#FFFFFF` | Fondo de tarjetas y paneles |
-| `--canvas` | `#F3F5F7` | Fondo de secciones alternas |
-| `--deep` | `#10212E` | Paneles oscuros, pie de página, mapa |
-| `--primary` | `#0E5A72` | Botones principales, enlaces, foco |
-| `--primary-hover` | `#0B4759` | Hover y active del primario |
-| `--primary-soft` | `#E3F0F4` | Fondos suaves asociados al primario |
-| `--accent` | `#F5A524` | Marcadores de depósito en el mapa, resaltado del seguimiento |
-| `--accent-ink` | `#7A4B00` | Texto sobre fondos de acento |
-| `--success` | `#1E8E5A` | Estado "llegamos" en el buscador |
-| `--warning` | `#B7791F` | Avisos |
-| `--error` | `#C53030` | Errores de formulario |
+| `--ink` | `#1B2430` | Texto principal, títulos |
+| `--ink-2` | `#536070` | Texto secundario |
+| `--line` | `#DDE3E9` | Bordes, divisores |
+| `--surface` | `#FFFFFF` | Tarjetas y paneles |
+| `--canvas` | `#F4F7F9` | Secciones alternas |
+| `--tint` | `#E6F3F6` | Fondo del hero y de la sección de cotización (tinte de marca) |
+| `--deep` | `#12303D` | Solo el pie de página |
+| `--primary` | `#0F6F82` | Botones, enlaces, íconos, provincia activa |
+| `--primary-hover` | `#0B5968` | Hover del primario |
+| `--primary-soft` | `#D9EEF2` | Fondo de íconos de pasos, foco de campos |
+| `--accent` | `#F5A524` | Provincias con depósito en el mapa |
+| `--accent-soft` | `#FFF1D6` | Chips de cifras, localidad con depósito |
+| `--accent-ink` | `#7A4B00` | Texto sobre `--accent-soft` |
+| `--success` / `--warning` / `--error` | `#1E8E5A` / `#B7791F` / `#C53030` | Estados |
+| WhatsApp | `#25D366` | Solo el botón de WhatsApp, por reconocimiento |
 
-Contraste: `--ink` sobre `--surface` 15.6:1; `--ink-2` sobre `--surface`
-7.3:1; blanco sobre `--primary` 7.4:1; `--accent` sobre `--deep` 9.1:1
-(solo para elementos grandes y marcadores; nunca texto pequeño en amarillo
-sobre blanco).
+Contraste: `--ink` sobre blanco 14.9:1; `--ink-2` sobre blanco 6.4:1; blanco
+sobre `--primary` 5.6:1; `--accent-ink` sobre `--accent-soft` 7.8:1.
 
 ## Tipografía
 
-Una sola familia: **Archivo** (variable, ejes de peso y ancho, Google
-Fonts). Los títulos usan ancho 112 y peso 700; el cuerpo ancho 100 y peso
-400. Un número de seguimiento o un dato se muestra con `font-variant-numeric:
-tabular-nums`.
+Una sola familia: **Nunito** (Google Fonts), redondeada y amigable. Ningún
+competidor local la usa (Andreani: Rubik; Via Cargo: Cairo; OCA: Fira;
+Correo: Gilroy; Urbano: Montserrat). Títulos en peso 800, subtítulos 700,
+cuerpo 400 y 600 para datos. Números con `tabular-nums`.
 
 | Token | Tamaño / interlineado | Uso |
 |---|---|---|
@@ -70,13 +72,13 @@ tabular-nums`.
 | `--t-sm` | 15px / 1.5 | Texto compacto, chips |
 | `--t-md` | 17px / 1.6 | Cuerpo |
 | `--t-lg` | 20px / 1.5 | Intro de sección |
-| `--t-xl` | 26px / 1.25 | Título de tarjeta |
-| `--t-2xl` | 34px / 1.15 | Título de sección (móvil) |
-| `--t-3xl` | 44px / 1.1 | Título de sección (escritorio) |
-| `--t-4xl` | 60px / 1.02 | Título del hero (escritorio) |
+| `--t-xl` | 24px / 1.3 | Título de tarjeta |
+| `--t-2xl` | 32px / 1.15 | Título de sección (móvil) |
+| `--t-3xl` | 40px / 1.15 | Título de sección (escritorio) |
+| `--t-4xl` | 52px / 1.1 | Título del hero (escritorio) |
 
-Líneas de texto de 60 a 72 caracteres (`--measure: 66ch`). Sin versalitas
-ni etiquetas en mayúsculas sobre los títulos.
+Líneas de texto de hasta 62 caracteres (`--measure: 62ch`). Ningún bloque de
+texto supera dos líneas salvo las respuestas de preguntas frecuentes.
 
 ## Espaciado y ancho
 
@@ -86,14 +88,14 @@ aire vertical en móvil y 96px en escritorio. Contenido a 1200px máximo con
 
 ## Forma y profundidad
 
-Radios: `6px` campos y botones, `12px` tarjetas y paneles, `999px` chips.
-Una sola sombra, reservada al panel flotante de seguimiento del hero:
-`0 12px 32px rgba(16, 33, 46, .14)`. Todo lo demás se separa con `--line` o
-con el cambio `--surface` / `--canvas`.
+Radios generosos: `10px` campos, `16px` tarjetas, `24px` tarjeta del mapa,
+píldora para botones, chips y cifras. Dos sombras: `--shadow` para el panel
+de seguimiento y el formulario de cotización, `--shadow-sm` para fichas y
+tarjetas sobre fondo gris.
 
 ## Componentes
 
-- **Botón primario**: fondo `--primary`, texto blanco, 48px de alto,
+- **Botón primario**: píldora, fondo `--primary`, texto blanco, 50px de alto,
   hover `--primary-hover`, foco con anillo de 3px `--accent`, disabled al
   50% sin hover.
 - **Botón secundario**: fondo blanco, borde 1.5px `--ink`, texto `--ink`.
@@ -104,8 +106,13 @@ con el cambio `--surface` / `--canvas`.
   texto explicativo debajo.
 - **Panel de seguimiento**: tarjeta blanca con la sombra única, sobre el
   hero oscuro.
-- **Chip de provincia**: borde `--line`, activo con fondo `--primary` y
-  texto blanco; con depósito lleva un punto `--accent`.
+- **Accesos rápidos**: 4 tiles con ícono y una etiqueta, debajo del hero.
+- **Ficha de servicio**: ícono de 36px, título y una línea. Nunca párrafos.
+- **Chip de provincia**: píldora con borde, activa con fondo `--primary` y
+  texto blanco; con depósito lleva un punto `--accent`. Sin cobertura, gris
+  y deshabilitada.
+- **Chips de cifras**: píldoras `--accent-soft` sobre el mapa (provincias,
+  depósitos, localidades).
 - **Tarjeta de depósito**: fondo `--surface`, borde `--line`, radio 12,
   dirección, horario y teléfono con enlaces reales.
 - **Acordeón de preguntas**: `details/summary` nativo, divisor `--line`.
