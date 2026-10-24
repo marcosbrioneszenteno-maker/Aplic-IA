@@ -1,0 +1,62 @@
+/* Opción 3: un solo buscador, título centrado, bloques alternos de color y foto. */
+
+/* Banda y buscador */
+.banda { background: var(--primary); color: #fff; padding-block: var(--s-7) var(--s-9); text-align: center; }
+.banda h1 { color: #fff; margin-inline: auto; max-width: 22ch; text-wrap: balance; }
+.banda__sub { margin-top: var(--s-3); color: rgba(255, 255, 255, .85); font-size: var(--t-lg); }
+
+.buscador { margin-top: calc(-1 * var(--s-8)); }
+.buscador__card { background: var(--surface); border-radius: var(--r-md); box-shadow: var(--shadow); padding: var(--s-5) var(--s-4); display: grid; gap: var(--s-5); }
+.buscador__label { display: block; font-weight: 800; font-size: var(--t-md); margin-bottom: var(--s-2); }
+.buscador__row { display: flex; flex-direction: column; gap: var(--s-2); }
+.buscador__row .input { min-height: 56px; font-size: var(--t-lg); }
+.buscador__row .btn { min-height: 56px; }
+.buscador__help { font-size: var(--t-sm); color: var(--ink-2); margin-top: var(--s-2); }
+.utiles { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--s-2); }
+.utiles a { display: block; padding: var(--s-3) 0; font-weight: 700; text-decoration: none; color: var(--ink); border-top: 1px solid var(--line); }
+.utiles a:hover { color: var(--primary); }
+.utiles small { display: block; font-weight: 400; color: var(--ink-2); font-size: var(--t-sm); }
+
+/* Cobertura */
+.cob3 { padding-block: var(--section); }
+.cob3__in { display: grid; gap: var(--s-6); }
+.cob3 .result, .cob3 .hero__map { grid-area: auto; }
+.cob3 .result { border-top: 0; padding-top: 0; }
+.cob3 .result__title { font-size: var(--t-xl); margin: 0; }
+.cob3__title { margin-bottom: var(--s-4); }
+.cob3 .hero__map { justify-self: center; max-width: 360px; }
+.cob3 .mapa path { stroke: var(--surface); }
+.cob3 .mapa .lbl { stroke: var(--surface); }
+
+/* Bloque oscuro con foto */
+.oscuro { background: var(--deep); color: var(--on-deep); padding-block: var(--section); }
+.oscuro h2 { color: #fff; }
+.oscuro__in { display: grid; gap: var(--s-6); align-items: center; }
+.oscuro__img { width: 100%; max-height: 480px; object-fit: cover; border-radius: var(--r-md); }
+.oscuro p { margin-top: var(--s-4); color: var(--on-deep-2); max-width: var(--measure); }
+.oscuro .pasos { margin-top: var(--s-5); }
+.oscuro .pasos li::before { background: var(--accent); color: var(--ink); }
+.oscuro .pasos strong { color: #fff; }
+.oscuro .como__no { color: var(--on-deep-2); }
+.oscuro .ph { outline-color: var(--accent); }
+
+@media (min-width: 640px) {
+  .buscador__row { flex-direction: row; }
+  .buscador__row .input { flex: 1; }
+}
+
+@media (min-width: 768px) {
+  .banda h1 { font-size: var(--t-4xl); }
+  .buscador__card { grid-template-columns: minmax(0, 7fr) minmax(0, 4fr); gap: var(--s-7); padding: var(--s-6); }
+  .utiles { gap: 0; }
+  .utiles a:first-child { border-top: 0; padding-top: 0; }
+  .oscuro__in { grid-template-columns: 5fr 7fr; gap: var(--s-8); }
+}
+
+@media (min-width: 1024px) {
+  .banda { padding-block: var(--s-8) 128px; }
+  .buscador { margin-top: -96px; }
+  .cob3__in { grid-template-columns: minmax(0, 6fr) minmax(0, 6fr); column-gap: var(--s-8); align-items: center; }
+  .cob3 .hero__map { max-width: none; width: auto; }
+  .cob3 .hero__map svg { max-height: 600px; }
+}

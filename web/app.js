@@ -40,16 +40,20 @@
   menu.addEventListener("click", (e) => { if (e.target.tagName === "A") { toggle.setAttribute("aria-expanded", "false"); menu.classList.remove("is-open"); } });
 
   /* ---------- Seguimiento ---------- */
-  $("#form-seguir").addEventListener("submit", (e) => {
-    e.preventDefault();
-    const input = $("#nro-seguimiento"), msg = $("#seg-msg");
-    const n = input.value.trim();
+  function seguir(n, msg) {
     msg.className = "msg";
-    if (!n) { input.setAttribute("aria-invalid", "true"); msg.textContent = "Escribí el número para consultarlo."; input.focus(); return; }
-    input.removeAttribute("aria-invalid");
     if (!E.seguimientoUrl) { msg.textContent = "El seguimiento se conecta con el sistema de gestión de la empresa (pendiente)."; return; }
     window.open(E.seguimientoUrl.replace("{numero}", encodeURIComponent(n)), "_blank", "noopener");
     msg.textContent = "Abrimos el estado del envío en otra pestaña.";
+  }
+  const formSeguir = $("#form-seguir");
+  if (formSeguir) formSeguir.addEventListener("submit", (e) => {
+    e.preventDefault();
+    const input = $("#nro-seguimiento"), msg = $("#seg-msg");
+    const n = input.value.trim();
+    if (!n) { input.setAttribute("aria-invalid", "true"); msg.className = "msg"; msg.textContent = "Escribí el número para consultarlo."; input.focus(); return; }
+    input.removeAttribute("aria-invalid");
+    seguir(n, msg);
   });
 
   /* ---------- Índice de localidades ---------- */
@@ -107,24 +111,32 @@
     if (scroll && window.innerWidth < 1024) $("#result").scrollIntoView({ behavior: "smooth", block: "start" });
   }
 
-  $("#form-llegamos").addEventListener("submit", (e) => {
-    e.preventDefault();
-    const q = norm($("#buscar-localidad").value.split(",")[0]);
-    if (!q) { $("#buscar-localidad").focus(); return; }
+  function buscar(valor) {
+    const q = norm(valor.split(",")[0]);
+    if (!q) return null;
     const hit = indice.find((i) => norm(i.texto) === q) || indice.find((i) => norm(i.texto).startsWith(q)) || indice.find((i) => norm(i.texto).includes(q));
     const title = $("#result-titulo");
     if (hit) {
       activar(hit.provId, true, hit.tipo === "localidad" ? hit.texto : null);
       if (hit.tipo === "localidad") title.textContent = "Sí, llegamos a " + hit.texto;
-    } else {
-      if (svg) $$("path", svg).forEach((el) => el.classList.remove("is-active"));
-      sel.value = "";
-      title.textContent = "No figura en nuestra lista";
-      $("#result-dep").textContent = "Escribinos por WhatsApp: muchas veces coordinamos igual.";
-      $("#result-locs").textContent = "";
-      if (window.innerWidth < 1024) $("#result").scrollIntoView({ behavior: "smooth", block: "start" });
+      return hit;
     }
+    if (svg) $$("path", svg).forEach((el) => el.classList.remove("is-active"));
+    sel.value = "";
+    title.textContent = "No figura en nuestra lista";
+    $("#result-dep").textContent = "Escribinos por WhatsApp: muchas veces coordinamos igual.";
+    $("#result-locs").textContent = "";
+    if (window.innerWidth < 1024) $("#result").scrollIntoView({ behavior: "smooth", block: "start" });
+    return null;
+  }
+  const formLlegamos = $("#form-llegamos");
+  if (formLlegamos) formLlegamos.addEventListener("submit", (e) => {
+    e.preventDefault();
+    const input = $("#buscar-localidad");
+    if (!input.value.trim()) { input.focus(); return; }
+    buscar(input.value);
   });
+  window.SITIO = { seguir, buscar };
 
   if (conDeposito.length) activar(conDeposito[0].id, false);
 
