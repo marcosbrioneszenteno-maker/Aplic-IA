@@ -47,8 +47,8 @@
   --content: 1160px;
 
   /* Forma y profundidad */
-  --r-sm: 10px;
-  --r-md: 16px;
+  --r-sm: 8px;
+  --r-md: 12px;
   --r-lg: 24px;
   --r-pill: 999px;
   --shadow: 0 10px 30px rgba(18, 48, 61, 0.12);

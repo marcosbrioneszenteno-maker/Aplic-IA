@@ -1,10 +1,15 @@
 # DESIGN.md — Web de transporte de cargas (cliente: Victoria)
 
-Dirección: **"Hoja de ruta, versión amigable"**. Una web clara y liviana,
-como la de los líderes del rubro por tráfico (Correo Argentino, Andreani, OCA,
-Via Cargo): fondo claro con tinte de marca, seguimiento arriba, accesos rápidos
-con ícono, servicios en fichas de una línea y pasos ilustrados. Poco texto,
-mucha acción. Transmite cercanía y confianza, no tecnología ni lujo.
+Dirección: **"Un mapa y dos preguntas"**. Una página corta de cuatro
+bloques que responde lo que los clientes preguntan por chat: dónde está mi
+envío, si llegan a mi localidad, cuánto cuesta. El mapa de Argentina con las
+provincias y depósitos es la imagen; lo demás es texto corto y formularios.
+Sin tarjetas, sin chips de cifras, sin fichas con ícono: layout, tipografía
+y espacio en blanco hacen el trabajo. Transmite cercanía y confianza.
+
+Bloques: (1) hero con búsqueda de envío, búsqueda de localidad, mapa y
+resultado de cobertura; (2) cómo trabajamos, con cuatro pasos; (3) pedí tu
+cotización; (4) pie con depósitos y contacto.
 
 Referencias completas por tráfico en `docs/referencias-trafico.md`.
 
@@ -95,46 +100,32 @@ tarjetas sobre fondo gris.
 
 ## Componentes
 
-- **Botón primario**: píldora, fondo `--primary`, texto blanco, 50px de alto,
-  hover `--primary-hover`, foco con anillo de 3px `--accent`, disabled al
-  50% sin hover.
-- **Botón secundario**: fondo blanco, borde 1.5px `--ink`, texto `--ink`.
-- **Botón silencioso**: solo texto `--primary` subrayado al hover.
-- **Enlace**: `--primary`, subrayado siempre, grosor 1.5px.
-- **Campo**: 48px de alto, borde 1.5px `--line`, foco borde `--primary` y
-  anillo `--primary-soft`; etiqueta visible encima; error en `--error` con
-  texto explicativo debajo.
-- **Panel de seguimiento**: tarjeta blanca con la sombra única, sobre el
-  hero oscuro.
-- **Accesos rápidos**: 4 tiles con ícono y una etiqueta, debajo del hero.
-- **Ficha de servicio**: ícono de 36px, título y una línea. Nunca párrafos.
-- **Chip de provincia**: píldora con borde, activa con fondo `--primary` y
-  texto blanco; con depósito lleva un punto `--accent`. Sin cobertura, gris
-  y deshabilitada.
-- **Chips de cifras**: píldoras `--accent-soft` sobre el mapa (provincias,
-  depósitos, localidades).
-- **Tarjeta de depósito**: fondo `--surface`, borde `--line`, radio 12,
-  dirección, horario y teléfono con enlaces reales.
-- **Acordeón de preguntas**: `details/summary` nativo, divisor `--line`.
-- **Navegación**: barra blanca fija, logo a la izquierda, 4 enlaces,
-  botón "Cotizar por WhatsApp" a la derecha; en móvil, menú desplegable con
-  botón accesible.
-- **WhatsApp flotante**: solo en móvil, 56px, abajo a la derecha.
-- **Pie**: fondo `--deep`, texto claro, datos de contacto, depósitos, legal.
+- **Botón primario**: fondo `--primary`, texto blanco, 50px de alto, radio
+  8px. **Secundario**: borde `--primary`, fondo transparente. **WhatsApp**:
+  verde de WhatsApp, solo para el envío de la cotización y el flotante.
+- **Campo**: 50px, borde 2px `--line`, foco `--primary`; etiqueta visible
+  encima en peso 800. Error en `--error` debajo.
+- **Búsquedas del hero**: dos filas (envío y localidad), sin pestañas, sin
+  panel. La etiqueta es la pregunta.
+- **Mapa**: provincias sin cobertura en gris azulado, con cobertura en
+  `#9FCAD5`, con depósito en `#4EA0B4`, activa en `--primary`. Etiquetas con
+  el nombre de la provincia en Nunito 800 con halo del color de fondo; punto
+  `--accent` sobre las que tienen depósito.
+- **Resultado de cobertura**: bajo las búsquedas, separado por una línea
+  `--primary`. Título "Llegamos a X", un `select` para cambiar de provincia,
+  una línea de depósito y las localidades como texto corrido separadas por
+  comas. La localidad buscada va en negrita.
+- **Pasos**: lista numerada con círculo `--primary`, una línea por paso.
+- **Pie**: fondo `--deep`, depósitos y contacto como listas de texto.
 
 ## Imágenes e íconos
 
-- El elemento memorable es el **mapa de Argentina por provincias** en el
-  hero y en la sección de cobertura: las provincias con depósito se
-  iluminan en `--accent`, las atendidas en `--primary-soft`.
-- Fotos: solo reales (camiones, depósitos, equipo) cuando Victoria las
-  envíe. Hasta entonces, el mapa y el panel de seguimiento sostienen el
-  hero, sin fotos de stock.
-- Íconos: un set propio en SVG inline, trazo 1.75px, 24px, color del texto.
-  Nunca emoji.
+- El único elemento visual es el **mapa de Argentina por provincias**,
+  generado desde el GeoJSON oficial del IGN. Sin tarjeta alrededor.
+- Fotos: solo reales cuando Victoria las envíe. Sin stock.
+- Íconos: solo dos, el camión del logo provisorio y el de WhatsApp.
 
 ## Movimiento
 
-Una sola animación de entrada en el hero (el mapa ilumina los depósitos al
-cargar). El resto responde solo a acciones del usuario (abrir acordeón,
-filtrar localidades). Todo se desactiva con `prefers-reduced-motion`.
+Ninguna animación de entrada. Solo transiciones de color al pasar o tocar
+una provincia. Todo se desactiva con `prefers-reduced-motion`.
