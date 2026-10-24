@@ -23,3 +23,9 @@ guardan en este repositorio.
 ## Lo que falta (pedir el lunes)
 
 Ver `docs/preguntas-victoria.md`.
+
+## Fotos provisorias (opción 2)
+
+`web/assets/foto-ruta.jpg` y `web/assets/foto-deposito.jpg` son fotos de
+Unsplash (licencia libre) usadas solo para mostrar el diseño. Se reemplazan
+por fotos reales de la empresa antes de publicar.
