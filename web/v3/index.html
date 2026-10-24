@@ -27,7 +27,7 @@
 <a class="skip" href="#principal">Ir al contenido</a>
 
 <div class="borrador" id="aviso-borrador" hidden>
-  Vista previa con datos de ejemplo. Lo marcado con <span class="ph">borde punteado</span> se completa con la información de la empresa. La foto es provisoria.
+  Vista previa con datos de ejemplo. Lo marcado con <span class="ph">borde punteado</span> se completa con la información de la empresa. Las fotos son provisorias.
 </div>
 
 <header class="nav" id="arriba">
@@ -41,8 +41,9 @@
       <span class="sr-only">Menú</span>
     </button>
     <nav class="nav__menu" id="menu" aria-label="Principal">
+      <a href="#servicios">Qué llevamos</a>
       <a href="#cobertura">Cobertura</a>
-      <a href="#como">Cómo trabajamos</a>
+      <a href="#como">Cómo funciona</a>
       <a href="#depositos">Depósitos</a>
       <a class="btn btn--primary btn--sm" href="#cotizar">Cotizar</a>
     </nav>
@@ -51,15 +52,15 @@
 
 <main id="principal">
 
-  <!-- Banda con título -->
-  <section class="banda" aria-labelledby="hero-titulo">
-    <div class="wrap">
+  <!-- Hero con foto y un solo buscador -->
+  <section class="foto-hero foto-hero--centro" id="seguimiento" aria-labelledby="hero-titulo">
+    <img class="foto-hero__img" src="../assets/foto-ruta.jpg" alt="" width="1800" height="1195" fetchpriority="high">
+    <div class="wrap foto-hero__in">
       <h1 id="hero-titulo">Tu carga, a todo el país.</h1>
-      <p class="banda__sub">Depósitos propios, retiro y entrega, y seguimiento online.</p>
+      <p class="foto-hero__sub">Depósitos propios, retiro y entrega, y seguimiento online de cada envío.</p>
     </div>
   </section>
 
-  <!-- Un solo buscador -->
   <section class="buscador" aria-label="Buscar">
     <div class="wrap">
       <div class="buscador__card">
@@ -75,10 +76,50 @@
         </form>
         <ul class="utiles">
           <li><a href="#depositos">Depósitos y horarios <small>Dónde dejar o retirar tu carga.</small></a></li>
-          <li><a href="#como">Cómo trabajamos <small>Qué llevamos y cómo se envía.</small></a></li>
+          <li><a href="#como">Cómo funciona <small>Del WhatsApp a la entrega, en 4 pasos.</small></a></li>
           <li><a href="#cotizar">Pedir cotización <small>Por WhatsApp, con el mensaje armado.</small></a></li>
         </ul>
       </div>
+    </div>
+  </section>
+
+  <!-- Confianza -->
+  <section class="trust" aria-label="Confianza">
+    <div class="wrap trust__in">
+      <p class="trust__since">Transportando desde <span class="ph">XXXX</span> · <span class="ph">XX</span> unidades propias</p>
+      <ul class="logos" aria-label="Empresas que trabajan con nosotros">
+        <li class="logo ph">Logo cliente</li>
+        <li class="logo ph">Logo cliente</li>
+        <li class="logo ph">Logo cliente</li>
+        <li class="logo ph">Logo cliente</li>
+        <li class="logo ph">Logo cliente</li>
+      </ul>
+      <p class="trust__aviso">Solo cobramos por los medios que figuran en esta página. Ante cualquier duda, llamanos antes de pagar.</p>
+    </div>
+  </section>
+
+  <!-- Qué necesitás enviar -->
+  <section class="section" id="servicios" aria-labelledby="serv-titulo">
+    <div class="wrap">
+      <h2 id="serv-titulo" class="centro">¿Qué necesitás enviar?</h2>
+      <ul class="fotos3">
+        <li>
+          <img src="../assets/foto-pallets.jpg" alt="Pallets con mercadería en estanterías de depósito" width="1000" height="667" loading="lazy">
+          <h3>Pallets</h3>
+          <p>Mercadería paletizada y con film. <span class="ph">Peso máximo por pallet a confirmar.</span></p>
+        </li>
+        <li>
+          <img src="../assets/foto-bultos.jpg" alt="Cajas y bultos apilados listos para despachar" width="1000" height="667" loading="lazy">
+          <h3>Bultos y cajas</h3>
+          <p>Cajas, bobinas y bultos sueltos. Los consolidamos y salen en la próxima salida.</p>
+        </li>
+        <li>
+          <img src="../assets/foto-descarga.jpg" alt="Autoelevador moviendo mercadería dentro de un depósito" width="1000" height="667" loading="lazy">
+          <h3>Carga y descarga incluidas</h3>
+          <p>Nuestro personal carga en origen y descarga en destino. No necesitás gente ni autoelevador.</p>
+        </li>
+      </ul>
+      <p class="centro como__no">No llevamos <span class="ph">cargas peligrosas, animales vivos ni mudanzas particulares (a confirmar)</span>.</p>
     </div>
   </section>
 
@@ -129,21 +170,32 @@
     </div>
   </section>
 
-  <!-- Cómo trabajamos, bloque oscuro con foto -->
-  <section class="oscuro" id="como" aria-labelledby="como-titulo">
-    <div class="wrap oscuro__in">
-      <img class="oscuro__img" src="../assets/foto-deposito.jpg" alt="Depósito con mercadería en estanterías" width="1200" height="800" loading="lazy">
-      <div>
-        <h2 id="como-titulo">Cargamos y descargamos nosotros</h2>
-        <p>Carga general entre provincias: pallets, bultos, bobinas, maquinaria liviana. No necesitás gente ni autoelevador. Retiramos en tu domicilio o recibís la carga en el depósito más cercano.</p>
-        <ol class="pasos">
-          <li><strong>Cotizás por WhatsApp.</strong> Origen, destino, qué es y cuánto pesa.</li>
-          <li><strong>Te damos el remito</strong> con el número de seguimiento.</li>
-          <li><strong>Viaja tu carga</strong> y la seguís online desde esta página.</li>
-          <li><strong>Llega y descargamos.</strong> Firmás el remito y listo.</li>
-        </ol>
-        <p class="como__no">No llevamos <span class="ph">cargas peligrosas, animales vivos ni mudanzas particulares (a confirmar)</span>.</p>
-      </div>
+  <!-- Cómo funciona, con fotos -->
+  <section class="section" id="como" aria-labelledby="como-titulo">
+    <div class="wrap">
+      <h2 id="como-titulo" class="centro">Así viaja tu carga</h2>
+      <ol class="pasos-foto">
+        <li>
+          <img src="../assets/foto-whatsapp.jpg" alt="Persona escribiendo en el celular" width="1000" height="667" loading="lazy">
+          <h3><span class="n">1</span>Cotizás por WhatsApp</h3>
+          <p>Origen, destino, qué es y cuánto pesa. Te respondemos con precio y fecha de salida.</p>
+        </li>
+        <li>
+          <img src="../assets/foto-pasillo.jpg" alt="Pasillo de depósito con estanterías cargadas" width="1000" height="667" loading="lazy">
+          <h3><span class="n">2</span>Retiramos o la recibís en depósito</h3>
+          <p>Te damos el remito con el número de seguimiento.</p>
+        </li>
+        <li>
+          <img src="../assets/foto-camion.jpg" alt="Camión en ruta al atardecer" width="1400" height="933" loading="lazy">
+          <h3><span class="n">3</span>Viaja tu carga</h3>
+          <p>Cargás el número arriba y ves en qué depósito o ruta está.</p>
+        </li>
+        <li>
+          <img src="../assets/foto-entrega.jpg" alt="Entrega de una caja en mano" width="1000" height="667" loading="lazy">
+          <h3><span class="n">4</span>Llega y descargamos</h3>
+          <p>Nuestro personal descarga. Firmás el remito y listo.</p>
+        </li>
+      </ol>
     </div>
   </section>
 
@@ -185,6 +237,19 @@
         </div>
         <p class="msg field--wide" id="cot-msg" role="status" aria-live="polite"></p>
       </form>
+    </div>
+  </section>
+
+  <!-- Preguntas -->
+  <section class="section" id="preguntas" aria-labelledby="faq-titulo">
+    <div class="wrap faq3">
+      <h2 id="faq-titulo">Antes de enviar</h2>
+      <dl class="faq3__list">
+        <div><dt>¿Qué necesito?</dt><dd>Datos de quien envía y recibe, la carga embalada y la factura o remito. <span class="ph">Confirmar.</span></dd></div>
+        <div><dt>¿Cómo embalo?</dt><dd>En pallet con film o en cajas cerradas y rotuladas. Si tenés dudas, te guiamos por WhatsApp.</dd></div>
+        <div><dt>¿Viaja asegurada?</dt><dd><span class="ph">Pendiente: qué cubre el seguro y cómo se declara el valor.</span></dd></div>
+        <div><dt>¿Cómo se paga?</dt><dd><span class="ph">Pendiente: transferencia, efectivo, cuenta corriente, pago en destino.</span></dd></div>
+      </dl>
     </div>
   </section>
 </main>

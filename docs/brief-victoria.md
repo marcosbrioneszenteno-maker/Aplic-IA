@@ -29,3 +29,6 @@ Ver `docs/preguntas-victoria.md`.
 `web/assets/foto-ruta.jpg` y `web/assets/foto-deposito.jpg` son fotos de
 Unsplash (licencia libre) usadas solo para mostrar el diseño. Se reemplazan
 por fotos reales de la empresa antes de publicar.
+La opción 3 suma `foto-pallets`, `foto-bultos`, `foto-descarga`,
+`foto-whatsapp`, `foto-pasillo`, `foto-camion` y `foto-entrega`, también de
+Unsplash y también provisorias.

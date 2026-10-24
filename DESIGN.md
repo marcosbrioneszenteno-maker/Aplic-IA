@@ -129,3 +129,23 @@ tarjetas sobre fondo gris.
 
 Ninguna animación de entrada. Solo transiciones de color al pasar o tocar
 una provincia. Todo se desactiva con `prefers-reduced-motion`.
+
+## Las tres opciones
+
+Las tres comparten tokens, `site.css`, `data.js` y `app.js`. Cambia solo la
+composición:
+
+- **Opción 1 (`web/index.html`)**: la descripta arriba. Mapa y dos búsquedas
+  en la portada, sin fotos.
+- **Opción 2 (`web/v2/`)**: foto de operación detrás de las búsquedas,
+  franja de confianza (antigüedad, flota, logos de clientes, aviso de
+  canales oficiales) y foto de depósito junto al proceso.
+- **Opción 3 (`web/v3/`)**: foto en la portada con título centrado y un
+  único buscador que distingue número de envío de localidad; franja de
+  confianza; tipos de carga en tres fichas con foto; mapa de cobertura; el
+  proceso en cuatro pasos con foto; cotización; cuatro preguntas; pie.
+  Es la que reúne todo lo que los sitios de mayor tráfico del rubro tienen
+  en común (ver `docs/referencias-trafico.md`).
+
+Las fotos de las opciones 2 y 3 son provisorias (Unsplash) y se reemplazan
+por fotos reales de la empresa.

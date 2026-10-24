@@ -1,62 +1,90 @@
-/* Opción 3: un solo buscador, título centrado, bloques alternos de color y foto. */
+/* Opción 3: foto en la portada, un solo buscador y explicación visual con fotos. */
 
-/* Banda y buscador */
-.banda { background: var(--primary); color: #fff; padding-block: var(--s-7) var(--s-9); text-align: center; }
-.banda h1 { color: #fff; margin-inline: auto; max-width: 22ch; text-wrap: balance; }
-.banda__sub { margin-top: var(--s-3); color: rgba(255, 255, 255, .85); font-size: var(--t-lg); }
+.centro { text-align: center; }
+h2.centro { margin-bottom: var(--s-6); }
 
-.buscador { margin-top: calc(-1 * var(--s-8)); }
+/* Hero con foto, título centrado */
+.foto-hero { position: relative; color: #fff; background: var(--deep); overflow: hidden; }
+.foto-hero__img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 60% 55%; }
+.foto-hero::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(10, 32, 42, .55) 0%, rgba(10, 32, 42, .7) 100%); }
+.foto-hero__in { position: relative; z-index: 1; padding-block: var(--s-8) 112px; text-align: center; }
+.foto-hero h1 { color: #fff; margin-inline: auto; max-width: 22ch; text-wrap: balance; }
+.foto-hero__sub { margin-top: var(--s-3); font-size: var(--t-lg); color: rgba(255, 255, 255, .88); margin-inline: auto; max-width: 44ch; }
+
+/* Buscador único */
+.buscador { margin-top: -80px; position: relative; z-index: 2; }
 .buscador__card { background: var(--surface); border-radius: var(--r-md); box-shadow: var(--shadow); padding: var(--s-5) var(--s-4); display: grid; gap: var(--s-5); }
 .buscador__label { display: block; font-weight: 800; font-size: var(--t-md); margin-bottom: var(--s-2); }
 .buscador__row { display: flex; flex-direction: column; gap: var(--s-2); }
 .buscador__row .input { min-height: 56px; font-size: var(--t-lg); }
 .buscador__row .btn { min-height: 56px; }
 .buscador__help { font-size: var(--t-sm); color: var(--ink-2); margin-top: var(--s-2); }
-.utiles { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--s-2); }
+.utiles { list-style: none; margin: 0; padding: 0; display: grid; gap: 0; }
 .utiles a { display: block; padding: var(--s-3) 0; font-weight: 700; text-decoration: none; color: var(--ink); border-top: 1px solid var(--line); }
 .utiles a:hover { color: var(--primary); }
 .utiles small { display: block; font-weight: 400; color: var(--ink-2); font-size: var(--t-sm); }
 
+/* Franja de confianza */
+.trust { background: var(--surface); border-bottom: 1px solid var(--line); margin-top: var(--s-6); }
+.trust__in { display: grid; gap: var(--s-4); padding-block: var(--s-5); align-items: center; }
+.trust__since { font-weight: 700; }
+.logos { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: var(--s-3) var(--s-4); min-width: 0; }
+.logo { color: #98a3ae; font-weight: 700; font-size: var(--t-sm); padding: var(--s-2) var(--s-3); white-space: nowrap; }
+.trust__aviso { font-size: var(--t-sm); color: var(--ink-2); grid-column: 1 / -1; padding-top: var(--s-3); border-top: 1px solid var(--line); }
+.trust__aviso::before { content: ""; display: inline-block; width: 10px; height: 10px; border-radius: 50%; background: var(--accent); margin-right: 8px; vertical-align: 1px; }
+
+/* Tres fichas con foto */
+.fotos3 { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--s-6); }
+.fotos3 img { width: 100%; height: auto; aspect-ratio: 3 / 2; object-fit: cover; border-radius: var(--r-md); }
+.fotos3 h3 { margin-top: var(--s-4); font-size: var(--t-xl); }
+.fotos3 p { margin-top: var(--s-2); color: var(--ink-2); }
+#servicios .como__no { margin-top: var(--s-6); }
+
 /* Cobertura */
-.cob3 { padding-block: var(--section); }
+.cob3 { background: var(--tint); padding-block: var(--section); }
 .cob3__in { display: grid; gap: var(--s-6); }
 .cob3 .result, .cob3 .hero__map { grid-area: auto; }
 .cob3 .result { border-top: 0; padding-top: 0; }
 .cob3 .result__title { font-size: var(--t-xl); margin: 0; }
 .cob3__title { margin-bottom: var(--s-4); }
 .cob3 .hero__map { justify-self: center; max-width: 360px; }
-.cob3 .mapa path { stroke: var(--surface); }
-.cob3 .mapa .lbl { stroke: var(--surface); }
 
-/* Bloque oscuro con foto */
-.oscuro { background: var(--deep); color: var(--on-deep); padding-block: var(--section); }
-.oscuro h2 { color: #fff; }
-.oscuro__in { display: grid; gap: var(--s-6); align-items: center; }
-.oscuro__img { width: 100%; max-height: 480px; object-fit: cover; border-radius: var(--r-md); }
-.oscuro p { margin-top: var(--s-4); color: var(--on-deep-2); max-width: var(--measure); }
-.oscuro .pasos { margin-top: var(--s-5); }
-.oscuro .pasos li::before { background: var(--accent); color: var(--ink); }
-.oscuro .pasos strong { color: #fff; }
-.oscuro .como__no { color: var(--on-deep-2); }
-.oscuro .ph { outline-color: var(--accent); }
+/* Pasos con foto */
+.pasos-foto { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--s-6); }
+.pasos-foto img { width: 100%; height: auto; aspect-ratio: 4 / 3; object-fit: cover; border-radius: var(--r-md); }
+.pasos-foto h3 { margin-top: var(--s-4); font-size: var(--t-lg); display: flex; align-items: center; gap: var(--s-3); }
+.pasos-foto .n { flex: none; width: 32px; height: 32px; display: grid; place-items: center; border-radius: 50%; background: var(--primary); color: #fff; font-size: var(--t-sm); font-weight: 800; }
+.pasos-foto p { margin-top: var(--s-2); color: var(--ink-2); font-size: var(--t-sm); }
+
+/* Preguntas */
+.faq3 h2 { margin-bottom: var(--s-5); }
+.faq3__list { margin: 0; display: grid; gap: var(--s-5); }
+.faq3__list > div { padding-top: var(--s-4); border-top: 1px solid var(--line); }
+.faq3__list dt { font-weight: 800; font-size: var(--t-lg); }
+.faq3__list dd { margin: var(--s-2) 0 0; color: var(--ink-2); }
 
 @media (min-width: 640px) {
   .buscador__row { flex-direction: row; }
   .buscador__row .input { flex: 1; }
+  .fotos3 { grid-template-columns: repeat(3, 1fr); gap: var(--s-5); }
+  .pasos-foto { grid-template-columns: 1fr 1fr; }
+  .faq3__list { grid-template-columns: 1fr 1fr; gap: var(--s-6); }
 }
 
 @media (min-width: 768px) {
-  .banda h1 { font-size: var(--t-4xl); }
+  .foto-hero h1 { font-size: var(--t-4xl); }
   .buscador__card { grid-template-columns: minmax(0, 7fr) minmax(0, 4fr); gap: var(--s-7); padding: var(--s-6); }
-  .utiles { gap: 0; }
   .utiles a:first-child { border-top: 0; padding-top: 0; }
-  .oscuro__in { grid-template-columns: 5fr 7fr; gap: var(--s-8); }
+  .trust__in { grid-template-columns: auto minmax(0, 1fr); column-gap: var(--s-6); }
+  .trust__since { white-space: nowrap; }
+  .logos { justify-content: flex-end; }
 }
 
 @media (min-width: 1024px) {
-  .banda { padding-block: var(--s-8) 128px; }
+  .foto-hero__in { padding-block: 112px 144px; }
   .buscador { margin-top: -96px; }
   .cob3__in { grid-template-columns: minmax(0, 6fr) minmax(0, 6fr); column-gap: var(--s-8); align-items: center; }
   .cob3 .hero__map { max-width: none; width: auto; }
   .cob3 .hero__map svg { max-height: 600px; }
+  .pasos-foto { grid-template-columns: repeat(4, 1fr); gap: var(--s-5); }
 }
