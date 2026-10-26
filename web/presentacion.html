@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="es-AR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tu web, tres opciones</title>
+  <meta name="robots" content="noindex">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/tokens.css">
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: var(--font); color: var(--ink); background: var(--canvas); line-height: 1.5; }
+    .wrap { max-width: 1160px; margin: 0 auto; padding: 48px 24px 96px; }
+    h1 { font-size: 2.25rem; font-weight: 800; margin: 0 0 8px; letter-spacing: -0.01em; }
+    .intro { margin: 0 0 40px; color: var(--ink-2); font-size: 1.125rem; max-width: 60ch; }
+    .op { display: grid; gap: 24px; background: var(--surface); border-radius: 16px; padding: 24px; margin-bottom: 24px; }
+    .op__head { display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; }
+    .n { display: inline-grid; place-items: center; width: 40px; height: 40px; border-radius: 50%; background: var(--primary); color: #fff; font-weight: 800; font-size: 1.25rem; }
+    h2 { margin: 0; font-size: 1.5rem; font-weight: 800; }
+    .op p { margin: 0; color: var(--ink-2); }
+    .op ul { margin: 8px 0 0; padding-left: 20px; color: var(--ink-2); }
+    .shots { display: grid; grid-template-columns: minmax(0, 1fr); gap: 16px; align-items: start; }
+    .shots img { width: 100%; height: auto; border-radius: 10px; border: 1px solid var(--line); background: #fff; }
+    .shots figure { margin: 0; }
+    .shots figcaption { font-size: .875rem; color: var(--ink-2); margin-top: 6px; }
+    .movil { max-width: 220px; justify-self: center; }
+    .acciones { display: flex; gap: 12px; flex-wrap: wrap; }
+    .btn { display: inline-flex; align-items: center; min-height: 46px; padding: 0 22px; border-radius: 8px; background: var(--primary); color: #fff; font-weight: 700; text-decoration: none; }
+    .btn:hover { background: var(--primary-hover); }
+    .comun { background: var(--tint); border-radius: 16px; padding: 24px; margin-bottom: 32px; }
+    .comun h2 { font-size: 1.25rem; margin-bottom: 8px; }
+    .comun ul { margin: 0; padding-left: 20px; color: var(--ink-2); columns: 2; column-gap: 32px; }
+    .comun li { break-inside: avoid; margin-bottom: 4px; }
+    @media (min-width: 768px) {
+      .op { grid-template-columns: minmax(0, 1fr) minmax(0, 1.4fr); }
+      .shots { grid-template-columns: minmax(0, 3fr) minmax(0, 1fr); }
+      .movil { justify-self: end; }
+    }
+    @media (max-width: 640px) { .comun ul { columns: 1; } }
+  </style>
+</head>
+<body>
+<main class="wrap">
+  <h1>Tu web, tres opciones</h1>
+  <p class="intro">Las tres responden lo que tus clientes te preguntan por chat: dónde está mi envío, si llegan a mi localidad y cuánto cuesta. Cambia la forma, no el fondo.</p>
+
+  <section class="comun">
+    <h2>Lo que tienen las tres</h2>
+    <ul>
+      <li>Seguimiento de envíos conectado a tu sistema</li>
+      <li>Buscador "¿llegamos a tu localidad?"</li>
+      <li>Mapa de Argentina con depósitos marcados</li>
+      <li>Lista de localidades por provincia</li>
+      <li>Cotización por WhatsApp con el mensaje armado</li>
+      <li>Depósitos con dirección y horario</li>
+      <li>Botón de WhatsApp siempre a mano en el celular</li>
+      <li>Se ve bien en celular, tablet y computadora</li>
+    </ul>
+  </section>
+
+  <article class="op">
+    <div>
+      <div class="op__head"><span class="n">1</span><h2>Compacta</h2></div>
+      <p>Todo en una pantalla: mapa y búsquedas en la portada. La más corta y la más rápida de cargar.</p>
+      <ul><li>Sin fotos: el mapa es la imagen</li><li>Cuatro bloques en total</li><li>La más fácil de mantener</li></ul>
+      <p style="margin-top:16px" class="acciones"><a class="btn" href="index.html">Ver opción 1</a></p>
+    </div>
+    <div class="shots">
+      <figure><img src="assets/preview/v1-desktop.jpg" alt="Opción 1 en computadora" width="960" height="1000" loading="lazy"><figcaption>Computadora</figcaption></figure>
+      <figure class="movil"><img src="assets/preview/v1-movil.jpg" alt="Opción 1 en celular" width="390" height="844" loading="lazy"><figcaption>Celular</figcaption></figure>
+    </div>
+  </article>
+
+  <article class="op">
+    <div>
+      <div class="op__head"><span class="n">2</span><h2>Con foto y confianza</h2></div>
+      <p>La misma estructura, con una foto de la operación en la portada y una franja que muestra antigüedad, flota y clientes.</p>
+      <ul><li>Foto del camión detrás de las búsquedas</li><li>Antigüedad, unidades y logos de clientes</li><li>Aviso de canales oficiales de cobro</li></ul>
+      <p style="margin-top:16px" class="acciones"><a class="btn" href="v2/index.html">Ver opción 2</a></p>
+    </div>
+    <div class="shots">
+      <figure><img src="assets/preview/v2-desktop.jpg" alt="Opción 2 en computadora" width="960" height="1000" loading="lazy"><figcaption>Computadora</figcaption></figure>
+      <figure class="movil"><img src="assets/preview/v2-movil.jpg" alt="Opción 2 en celular" width="390" height="844" loading="lazy"><figcaption>Celular</figcaption></figure>
+    </div>
+  </article>
+
+  <article class="op">
+    <div>
+      <div class="op__head"><span class="n">3</span><h2>Con fotos y un solo buscador</h2></div>
+      <p>Un único campo que entiende número de envío o localidad, y cada servicio explicado con una foto.</p>
+      <ul><li>Un solo buscador, sin pensar dónde escribir</li><li>Tipos de carga con foto</li><li>El viaje de la carga en cuatro pasos con foto</li><li>Preguntas frecuentes</li></ul>
+      <p style="margin-top:16px" class="acciones"><a class="btn" href="v3/index.html">Ver opción 3</a></p>
+    </div>
+    <div class="shots">
+      <figure><img src="assets/preview/v3-desktop.jpg" alt="Opción 3 en computadora" width="960" height="1000" loading="lazy"><figcaption>Computadora</figcaption></figure>
+      <figure class="movil"><img src="assets/preview/v3-movil.jpg" alt="Opción 3 en celular" width="390" height="844" loading="lazy"><figcaption>Celular</figcaption></figure>
+    </div>
+  </article>
+</main>
+</body>
+</html>

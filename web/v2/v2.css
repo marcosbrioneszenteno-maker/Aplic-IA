@@ -5,7 +5,7 @@
 
 /* Hero con foto */
 .foto-hero { position: relative; color: #fff; background: var(--deep); overflow: hidden; }
-.foto-hero__img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 70% 55%; }
+.foto-hero__img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 72% 60%; }
 .foto-hero::after { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, rgba(10, 32, 42, .86) 0%, rgba(10, 32, 42, .7) 45%, rgba(10, 32, 42, .25) 100%); }
 .foto-hero__in { position: relative; z-index: 1; padding-block: var(--s-7) var(--s-8); }
 .foto-hero h1 { max-width: 14ch; color: #fff; }

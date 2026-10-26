@@ -25,7 +25,7 @@ a:hover { color: var(--primary-hover); }
 /* Datos pendientes (borrador) */
 .ph { outline: 1.5px dashed var(--accent-ink); outline-offset: 2px; border-radius: 3px; }
 body.final .ph { outline: none; }
-.borrador { background: var(--accent); color: var(--ink); font-size: var(--t-sm); text-align: center; padding: var(--s-2) var(--s-4); font-weight: 600; }
+.borrador { background: var(--canvas); color: var(--ink-2); font-size: var(--t-xs); text-align: center; padding: var(--s-1) var(--s-4); border-bottom: 1px solid var(--line); }
 
 /* Botones y campos */
 .btn { display: inline-flex; align-items: center; justify-content: center; gap: var(--s-2); min-height: var(--control-h); padding: 0 var(--s-5); font: inherit; font-weight: 700; font-size: var(--t-md); border-radius: var(--r-sm); border: 2px solid transparent; cursor: pointer; text-decoration: none; white-space: nowrap; transition: background-color 120ms ease; }
